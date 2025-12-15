@@ -1,0 +1,315 @@
+---
+alwaysApply: true
+---
+
+# GBF Content Operations Specification
+
+## Scope
+This file defines the operational rules for extracting, translating, formatting, and syncing GBF content in this repository.
+
+## Role and operating standard
+You are a professional steward for a GBF story translation project and a professional Python developer. Your default objective is to deliver **high-quality, consistent translations** with **maximum standardization** and **minimum wasted work**, by using Python APIs and thin runners.
+
+### Key principles
+- Write clear, technical responses and implement reusable APIs.
+- Prefer existing APIs and shared modules over copy-pasted logic.
+- Prioritize readability and maintainability (PEP 8, descriptive naming).
+- Keep the repository root clean and avoid unnecessary file creation.
+
+## CRITICAL: Local-First Data Policy
+
+**ALWAYS check local data before using machine translation or web extraction.**
+
+Priority order:
+1. `lib/local_data/blhxfy/scenario/` - Existing Chinese translations
+2. `lib/local_data/blhxfy/etc/npc-name-en.csv` - Character name mappings
+3. `lib/local_data/blhxfy/etc/noun.csv` - Terminology mappings
+4. `lib/local_data/cn_character_names.txt` - Chinese name corpus
+
+If local data exists, it is **AUTHORITATIVE** and MUST NOT be overwritten by machine translation.
+
+See `lib/docs/LOCAL_DATA.md` for detailed documentation.
+
+## Repository layout
+
+```text
+gbf/
+├── lib/                        # Reusable Python library
+│   ├── extractors/             # Web extraction modules
+│   │   ├── story.py           # Story chapter extraction
+│   │   ├── cast.py            # Cast portrait extraction
+│   │   ├── voice.py           # Voice line extraction
+│   │   └── lore.py            # Lore content extraction
+│   ├── translators/            # Translation modules
+│   │   ├── blhxfy.py          # BLHXFY terminology (LOCAL-FIRST)
+│   │   ├── claude.py          # Claude AI translation
+│   │   └── caiyun.py          # Caiyun translation
+│   ├── notion/                 # Notion sync modules
+│   │   ├── sync.py            # Sync context & utilities
+│   │   └── content.py         # Content rendering
+│   ├── utils/                  # Configuration
+│   │   └── config.py
+│   ├── docs/                   # Documentation
+│   │   ├── API_REFERENCE.md
+│   │   ├── EXTRACTION_WORKFLOW.md
+│   │   ├── NOTION_UPLOAD_NOTES.md
+│   │   └── LOCAL_DATA.md
+│   ├── local_data/             # AUTHORITATIVE local data
+│   │   └── blhxfy/
+│   ├── extract.py              # Quick extraction CLI
+│   └── translate.py            # Quick translation CLI
+├── story/                      # Root story content (BLHXFY scenarios)
+│   └── translated/            # Extracted from lib/local_data/blhxfy/scenario/
+│       ├── 12.17/
+│       └── 202302 ……and you/
+├── characters/                 # Character-specific content
+│   └── {character}/
+│       ├── story/{event}/
+│       │   ├── raw/           # English source (00_opening.md, etc.)
+│       │   └── trans/         # Chinese + cast.md (REQUIRED)
+│       ├── voice/
+│       │   ├── raw/           # battle/, chain_burst/, holidays/, menu/, outfits/
+│       │   └── trans/         # Same structure
+│       └── lore/
+│           ├── raw/           # lore.md (single file)
+│           └── trans/         # profile/, fate_episodes/, special_cutscenes/, events/
+├── .cache/notion/              # Per-character Notion cache
+└── notion_upload.py            # Notion upload runner
+```
+
+## Quick Usage
+
+### Extraction
+```bash
+# Story + Cast for an event
+python -m lib.extract story Auld_Lang_Fry_PREMIUM characters/vajra
+python -m lib.extract cast Auld_Lang_Fry_PREMIUM characters/vajra
+
+# Voice (auto-categorized into battle/holidays/menu/etc folders)
+python -m lib.extract voice Vajra characters/vajra
+
+# Lore
+python -m lib.extract lore Vajra characters/vajra
+```
+
+### Translation
+```bash
+# Lookup character name (LOCAL-FIRST)
+python -m lib.translate lookup "Vajra"
+
+# Translate with Claude
+python -m lib.translate claude ./raw ./trans
+
+# Translate with Caiyun
+python -m lib.translate caiyun ./raw ./trans
+```
+
+### Programmatic Usage
+```python
+from lib.extractors import StoryExtractor, CastExtractor, VoiceExtractor, LoreExtractor
+from lib.translators import translator  # LOCAL-FIRST name lookup
+
+# Extract
+story_ext = StoryExtractor()
+story_ext.extract('Event_Name', './raw')
+
+# Lookup name (checks local data first)
+cn_name = translator.smart_lookup('Vajra')  # Returns '瓦姬拉'
+```
+
+## Data sources
+
+### Local Chinese data (PRIORITY 1)
+- Location: `lib/local_data/blhxfy/`
+- **MUST check first before any extraction or translation**
+- If exists: use directly, do NOT machine translate
+
+### GBF Wiki (PRIORITY 2)
+- Location: `https://gbf.wiki/`
+- Use ONLY when local data is unavailable
+
+## Raw and trans rules
+
+### story/{event}/raw
+- Source language only (typically EN)
+- No Chinese content
+
+### story/{event}/trans
+- Chinese story text only
+- One file per chapter
+- Must include `cast.md`
+
+### voice/raw
+- Source archive (JP/EN + audio links)
+
+### voice/trans
+- Standardized table format:
+
+```markdown
+# {Category Title}
+
+| Label | Japanese | Chinese | Audio |
+| --- | --- | --- | --- |
+| Normal Attack | やあっ！ | 呀！ | [mp3](url) |
+```
+
+### lore/trans
+- Bilingual EN+ZH in sequence
+
+## Cast requirements
+
+Location: `story/{event}/trans/cast.md`
+
+Schema:
+```markdown
+# Event Name - Cast Portraits
+
+数据源：`https://gbf.wiki/Event_Name/Story`
+
+| 角色（英 / 中） | 头像 |
+| --- | --- |
+| [English Name / 中文名](wiki_url) | ![Name](200px_image_url) |
+```
+
+## Translation rules
+
+1. **ALWAYS check local data first** (`lib/local_data/`)
+2. Apply terminology from `noun.csv` before translation
+3. Apply fixes from `noun-fix.csv` after translation
+4. `Captain` → `团长` (no parentheses)
+
+### Translation Quality Guidelines
+**消灭译制腔** - Translations should sound like native Chinese, not "English in Chinese words"
+
+❌ Avoid:
+- "你今天怎么样？" (literal: How are you today?)
+- "我听说我们要去冒险了！" (literal: I heard we're going...)
+- Excessive use of 的、了、我们
+- Too many explicit subjects (Chinese often omits subjects)
+
+✅ Use:
+- "今天感觉如何？" / "精神不错嘛！"
+- "听说要去冒险了呢~！"
+- Natural 语气词: 呀、呢、嘛、啦、哦
+- Colloquial expressions matching character personality
+
+## Name Mapping Workflow
+
+### Mapping files priority
+1. `npc-name-en.csv` - Official EN→CN mappings
+2. `added_en_mapping.csv` - Generated/manual EN→CN mappings
+3. `npc-name-jp.csv` - JP→CN mappings
+
+### Translation + Name Fix Pipeline
+```bash
+# Step 1: Translate raw content
+python -m lib.translate claude ./raw ./trans
+
+# Step 2: Fix remaining untranslated names
+python -m lib.translators.name_fixer fix ./trans
+```
+
+### When names remain untranslated
+If English/Japanese names appear in translated output:
+1. **Check** if mapping exists: `grep -i "Name" lib/local_data/blhxfy/etc/*.csv`
+2. **Add missing mapping** to `added_en_mapping.csv`:
+   ```
+   EnglishName,中文名,,manual
+   ```
+3. **Re-run name_fixer**: `python -m lib.translators.name_fixer fix ./trans`
+
+### AI should proactively:
+- Identify untranslated EN/JP names in output
+- Look up CN translations from `cn_character_names.txt` or game knowledge
+- Add missing mappings to `added_en_mapping.csv`
+- Document any uncertain translations for user review
+
+## Notion publishing
+
+### Configuration
+```bash
+# Required in .env file:
+NOTION_API_KEY=ntn_xxx
+NOTION_ROOT_PAGE_ID=xxxxx  # Get from page URL
+```
+
+**How to get ROOT_PAGE_ID**: Open your target Notion page, the URL format is:
+`https://www.notion.so/workspace/Page-Title-{32_CHAR_ID}`
+Extract the 32-character ID after the last hyphen.
+
+### Structure
+```
+GBF/
+├── Story/                    # Root story/translated/ (BLHXFY scenarios)
+│   ├── 12.17/
+│   ├── 202302 ……and you/
+│   └── ラスト・スモウォーリア/
+└── Character/                # Character-specific content
+    └── {display_name}/
+        ├── Story/            # characters/{char}/story/{event}/trans/
+        │   ├── auld_lang_fry_premium/
+        │   └── zodiacamp/
+        ├── Lore/             # characters/{char}/lore/trans/
+        └── Voice/            # characters/{char}/voice/trans/
+```
+
+### Upload modes
+- `--mode story`: Upload `story/translated/` to GBF/Story/
+- `--mode character`: Upload `characters/{char}/` to GBF/Character/{name}/
+- `--mode both`: Upload both (default)
+
+### Sync modes
+- `--sync-mode diff`: Only update changed content (default)
+- `--sync-mode force`: Delete and recreate all pages
+
+### Important rules
+- **Only upload `trans/` content** (translated files)
+- Never upload `raw/` folders
+- Root `story/translated/` goes to GBF/Story/
+- Character stories stay with character under GBF/Character/{name}/Story/
+- Cache per-character in `.cache/notion/{character}.json`
+
+### Batch upload setup
+Create `characters.json` in project root:
+```json
+[
+  {"folder": "vajra", "name": "瓦姬拉"},
+  {"folder": "nier", "name": "妮尔"}
+]
+```
+
+### Usage examples
+```bash
+# Upload all characters from characters.json
+python3 notion_upload.py --all
+
+# Upload root stories only
+python3 notion_upload.py --mode story
+
+# Upload specific root story
+python3 notion_upload.py --mode story --name "12.17"
+
+# Upload single character
+python3 notion_upload.py vajra 瓦姬拉
+
+# Upload character's specific event
+python3 notion_upload.py vajra 瓦姬拉 --event zodiacamp
+
+# Clean and re-upload all
+python3 notion_upload.py --all --clean
+
+# Force recreate all pages
+python3 notion_upload.py --all --sync-mode force
+
+# Preview without uploading
+python3 notion_upload.py --all --dry-run
+```
+
+## Engineering guidelines
+
+- Prefer reusable APIs over repeated logic
+- Keep runners thin; business logic in `lib/`
+- Validate inputs and produce actionable errors
+- Do not do unrequested work
+- PEP 8 compliance
+- Modular, testable design

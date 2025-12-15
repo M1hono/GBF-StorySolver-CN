@@ -1,0 +1,37 @@
+# GBF Story Extractor - Behavior Configuration
+# Copy to config.yaml to customize (optional)
+# API keys go in .env file, not here
+
+# Translation settings
+translation:
+  # prompt: Include name mappings in AI prompt (recommended, more accurate)
+  # replace: Pre-replace names before translation (faster, may miss some)
+  mode: prompt
+  
+  # Lines per chunk when translating long files
+  chunk_size: 120
+  
+  # Maximum tokens per API request
+  max_tokens: 8192
+  
+  # Claude model for translation
+  # Options: claude-sonnet-4-20250514, claude-3-5-sonnet-20241022
+  claude_model: claude-sonnet-4-20250514
+
+# Extraction settings (Playwright)
+extraction:
+  # true: No browser window (faster, for automation)
+  # false: Show browser window (for debugging)
+  headless: true
+  
+  # Page load timeout in milliseconds
+  timeout: 30000
+  
+  # Character portrait image size in pixels
+  image_size: 200
+
+# Notion sync settings
+notion:
+  # true: Always recreate pages (slower but ensures consistency)
+  # false: Only update changed content (faster, default)
+  force_mode: false

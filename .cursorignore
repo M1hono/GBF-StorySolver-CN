@@ -1,0 +1,15 @@
+# External repositories (large, frequently updated)
+BLHXFY/
+AI-Translation/
+
+# Local data (large CSV files)
+lib/local_data/blhxfy/scenario/
+
+# Cache
+.cache/
+__pycache__/
+.pytest_cache/
+
+# Generated/temporary
+*.log
+logs/

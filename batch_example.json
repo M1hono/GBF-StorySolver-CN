@@ -1,0 +1,26 @@
+{
+    "characters": [
+        {
+            "name": "vajra",
+            "wiki_name": "Vajra",
+            "events": [
+                "Auld_Lang_Fry_PREMIUM",
+                "Auld_Lang_Syne_2018",
+                "ZodiaCamp"
+            ],
+            "output_dir": "characters/vajra"
+        },
+        {
+            "name": "kumbhira",
+            "wiki_name": "Kumbhira",
+            "events": ["Auld_Lanxiety", "ZodiaCamp"],
+            "output_dir": "characters/kumbhira"
+        },
+        {
+            "name": "vikala",
+            "wiki_name": "Vikala",
+            "events": ["The_Divine_Generals_Assembly", "ZodiaCamp"],
+            "output_dir": "characters/vikala"
+        }
+    ]
+}

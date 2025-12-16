@@ -168,15 +168,111 @@ class StoryExtractor:
         
         print(f"Found {len(content_data)} content panels")
         
+        # Group episodes by chapter
+        merged_chapters = self._merge_episodes_by_chapter(content_data)
+        
         chapters = []
-        for i, data in enumerate(content_data, 1):
-            filename = f"{i:02d}_{self._slugify(data['title'])}.md"
+        for i, (chapter_name, merged_content) in enumerate(merged_chapters.items(), 1):
+            filename = f"{i:02d}_{self._slugify(chapter_name)}.md"
             filepath = output_dir / filename
-            filepath.write_text(data['content'], encoding='utf-8')
+            
+            # Add main title for the chapter
+            full_content = f"# {chapter_name}\n\n{merged_content}"
+            filepath.write_text(full_content, encoding='utf-8')
             chapters.append(filename)
-            print(f"  -> {filename} ({len(data['content'])} chars)")
+            print(f"  -> {filename} ({len(full_content)} chars)")
         
         return chapters
+    
+    def _merge_episodes_by_chapter(self, content_data: List[Dict]) -> Dict[str, str]:
+        """
+        Merge episodes by chapter to reduce file count and API costs.
+        
+        Logic:
+        - "Opening" → standalone file
+        - "Chapter X: Subtitle - Episode Y" → merge all episodes of Chapter X
+        - "Ending - Episode Y" → merge all ending episodes
+        
+        Args:
+            content_data: List of {id, title, content} dicts
+        
+        Returns:
+            Dict mapping chapter_name → merged_content (ordered)
+        """
+        from collections import defaultdict
+        import re
+        
+        chapter_episodes = defaultdict(list)
+        order_map = {}  # Track original order
+        
+        for idx, data in enumerate(content_data):
+            title = data['title']
+            content = data['content']
+            
+            # Remove the main title line from content (first # line)
+            content_lines = content.split('\n')
+            clean_content_lines = []
+            skip_first_title = True
+            
+            for line in content_lines:
+                if skip_first_title and line.strip().startswith('# '):
+                    skip_first_title = False
+                    continue
+                clean_content_lines.append(line)
+            
+            clean_content = '\n'.join(clean_content_lines).strip()
+            
+            # Extract episode number if present
+            episode_match = re.search(r'Episode (\d+)', title, re.IGNORECASE)
+            episode_num = episode_match.group(1) if episode_match else None
+            
+            # Determine grouping key
+            if 'Opening' in title:
+                key = title  # Keep as-is
+                group_content = clean_content
+            elif 'Ending' in title:
+                key = "Ending"
+                if episode_num:
+                    group_content = f"## Episode {episode_num}\n\n{clean_content}"
+                else:
+                    group_content = clean_content
+            elif 'Transit' in title or 'Observation' in title:
+                # Keep Transit/Observation separate by episode
+                key = title
+                group_content = clean_content
+            else:
+                # Try to extract chapter info
+                chapter_match = re.search(r'Chapter (\d+)[:\s]*([^-]+)', title, re.IGNORECASE)
+                if chapter_match:
+                    chapter_num = chapter_match.group(1)
+                    chapter_subtitle = chapter_match.group(2).strip()
+                    key = f"Chapter {chapter_num} - {chapter_subtitle}"
+                    
+                    if episode_num:
+                        group_content = f"## Episode {episode_num}\n\n{clean_content}"
+                    else:
+                        group_content = clean_content
+                else:
+                    # Fallback: keep as-is
+                    key = title
+                    group_content = clean_content
+            
+            # Track order
+            if key not in order_map:
+                order_map[key] = idx
+            
+            chapter_episodes[key].append(group_content)
+        
+        # Merge and sort
+        merged = {}
+        for key in sorted(order_map.keys(), key=lambda x: order_map[x]):
+            episodes = chapter_episodes[key]
+            if len(episodes) > 1:
+                merged[key] = '\n\n'.join(episodes)
+            else:
+                merged[key] = episodes[0]
+        
+        return merged
     
     def _slugify(self, text: str) -> str:
         """Convert text to safe filename."""

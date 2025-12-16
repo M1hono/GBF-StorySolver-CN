@@ -93,9 +93,10 @@ def resolve_name(name: str, mappings: Dict[str, str]) -> List[str]:
 
 def search_scenarios(search_names: List[str], scenario_dir: str) -> Dict[str, List[str]]:
     """
-    Search all scenario files for character mentions.
+    Search scenario files for character mentions.
     
-    Handles nested structure: scenario/活动剧情/金月3/files...
+    IMPORTANT: Only searches story-related activities (活动剧情, SIDE-STORY, 主线剧情, 支线剧情).
+    Skips character-specific fate episodes (角色剧情/SSR, 角色剧情/SR).
     
     Returns:
         Dict mapping activity folder name -> list of files containing the character
@@ -107,13 +108,29 @@ def search_scenarios(search_names: List[str], scenario_dir: str) -> Dict[str, Li
         print(f"Warning: Scenario directory not found: {scenario_dir}")
         return results
     
-    # Search all text files recursively
-    for file_path in scenario_path.rglob('*'):
+    # Allowed categories (story-related only)
+    allowed_categories = {'活动剧情', 'SIDE-STORY', 'SIDE_STORY', '主线剧情', '支线剧情', '新手教程'}
+    
+    # Search all CSV files recursively
+    for file_path in scenario_path.rglob('*.csv'):
         if not file_path.is_file():
             continue
         
-        # Only search text files
-        if file_path.suffix.lower() not in ['.csv', '.json', '.txt', '.md']:
+        # Get category from path
+        rel_to_scenario = file_path.relative_to(scenario_path)
+        parts = rel_to_scenario.parts
+        
+        if len(parts) < 2:
+            continue
+        
+        category = parts[0]
+        
+        # Skip character fate episodes (角色剧情)
+        if '角色剧情' in category or category in ['SSR', 'SR']:
+            continue
+        
+        # Only process allowed categories
+        if category not in allowed_categories:
             continue
         
         try:
@@ -122,23 +139,11 @@ def search_scenarios(search_names: List[str], scenario_dir: str) -> Dict[str, Li
             # Check if any search name is in the content
             for name in search_names:
                 if name in content:
-                    # Get the activity name from path
-                    # Structure: scenario/category/activity_name/file.csv
-                    rel_to_scenario = file_path.relative_to(scenario_path)
-                    parts = rel_to_scenario.parts
-                    
-                    if len(parts) >= 2:
-                        # category/activity/file -> activity is the key
-                        category = parts[0]
-                        activity = parts[1] if len(parts) > 2 else parts[0]
-                        activity_key = f"{category}/{activity}"
-                        file_rel = '/'.join(parts[2:]) if len(parts) > 2 else parts[-1]
-                    else:
-                        activity_key = str(rel_to_scenario.parent) or "root"
-                        file_rel = rel_to_scenario.name
-                    
+                    activity = parts[1] if len(parts) > 2 else parts[0]
+                    activity_key = f"{category}/{activity}"
+                    file_rel = '/'.join(parts[2:]) if len(parts) > 2 else parts[-1]
                     results[activity_key].append(file_rel)
-                    break  # Found, no need to check other names
+                    break
                     
         except (UnicodeDecodeError, IOError):
             continue
@@ -153,7 +158,7 @@ def extract_activity(
     copy_to_story_translated: bool = True
 ) -> bool:
     """
-    Extract an activity's translated files to output directory.
+    Extract an activity's CSV files using ScenarioExtractor.
     
     Args:
         activity_key: Activity path like "活动剧情/金月3"
@@ -169,39 +174,36 @@ def extract_activity(
         print(f"Error: Activity not found: {source}")
         return False
     
+    # Import scenario extractor
+    sys.path.insert(0, str(Path(__file__).parent.parent))
+    from lib.extractors.scenario import ScenarioExtractor
+    
     # Get just the activity name (last part of key)
     activity_name = Path(activity_key).name
     
+    # Use ScenarioExtractor to convert CSV to markdown
+    extractor = ScenarioExtractor()
+    
     # Extract to character story folder
-    target = Path(output_dir) / activity_name / "trans"
-    target.mkdir(parents=True, exist_ok=True)
+    char_target = Path(output_dir) / activity_name / "trans"
+    result = extractor.extract(str(source), str(char_target))
     
-    # Copy all files
-    count = 0
-    for src_file in source.rglob('*'):
-        if src_file.is_file():
-            rel_path = src_file.relative_to(source)
-            dst_file = target / rel_path
-            dst_file.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(src_file, dst_file)
-            count += 1
+    if not result.get('success'):
+        print(f"Failed to extract {activity_key}: {result.get('error', 'Unknown error')}")
+        return False
     
-    print(f"Extracted {count} files to {target}")
+    print(f"Extracted to {char_target}")
     
     # Also copy to story/translated/
     if copy_to_story_translated:
-        repo_root = Path(scenario_dir).parent.parent.parent
+        repo_root = Path(scenario_dir).parent.parent.parent.parent
         story_target = repo_root / "story" / "translated" / activity_name
-        story_target.mkdir(parents=True, exist_ok=True)
         
-        for src_file in source.rglob('*'):
-            if src_file.is_file():
-                rel_path = src_file.relative_to(source)
-                dst_file = story_target / rel_path
-                dst_file.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(src_file, dst_file)
+        # Extract again to story/translated
+        result2 = extractor.extract(str(source), str(story_target))
         
-        print(f"Also copied to {story_target}")
+        if result2.get('success'):
+            print(f"Also copied to {story_target}")
     
     return True
 

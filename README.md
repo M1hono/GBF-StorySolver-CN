@@ -259,7 +259,7 @@ python -m lib.translate claude \
 
 #### 剧情提取 (story)
 
-从活动剧情页面提取章节对话。
+从活动剧情页面提取章节对话。**新版本会自动合并同一章节的所有 episode**，大幅减少文件数量和翻译成本。
 
 ```bash
 python -m lib.extract story {活动代号} {输出目录}
@@ -268,22 +268,28 @@ python -m lib.extract story {活动代号} {输出目录}
 **参数说明**：
 - `活动代号`：Wiki URL 中的活动标识符
   - 来源：`https://gbf.wiki/{活动代号}/Story`
-  - 例如：`Auld_Lang_Fry_PREMIUM`、`ZodiaCamp:_The_2nd_Divine_Generals_Assembly`
+  - 例如：`Auld_Lang_Fry_PREMIUM`、`A_Ballad_of_Unbending_Chivalry`
 - `输出目录`：角色目录路径
   - 推荐：`characters/{角色名}`
 
-**输出结构**：
+**输出结构（自动合并）**：
 ```
-characters/vajra/story/auld_lang_fry_premium/
+characters/yuisis/story/a_ballad_of_unbending_chivalry/
 └── raw/
-    ├── 00_opening.md
-    ├── 01_chapter_1_episode_1.md
-    └── ...
+    ├── 01_opening.md                        # 单独文件
+    ├── 02_chapter_1_family_reunion.md       # 合并了 4 个 episodes
+    ├── 03_chapter_2_means_and_ends.md       # 合并了 4 个 episodes
+    └── 08_ending.md                         # 合并了 2 个 episodes
 ```
+
+**合并效果**：
+- 原始：28 个小文件 → 翻译需要 28 次 API 调用
+- 合并：8 个文件 → 翻译需要约 8-12 次 API 调用
+- **节省成本：约 60-70%**
 
 **示例**：
 ```bash
-# 提取十二神将活动剧情
+# 提取十二神将活动剧情（自动合并）
 python -m lib.extract story ZodiaCamp:_The_2nd_Divine_Generals_Assembly characters/vajra
 
 # 提取新年活动
@@ -416,6 +422,26 @@ Found 2 activities containing '缇可':
 | `-v, --verbose` | 显示匹配的文件列表 |
 | `--extract DIR` | 提取到指定目录 |
 | `--no-story-translated` | 不同时复制到 `story/translated/` |
+
+#### 合并章节文件（降低成本）
+
+将每个chapter的多个episode合并成一个文件，减少API调用次数。
+
+```bash
+# 合并单个活动的章节
+python -m lib.tools.merge_chapters characters/tikoh/story/marionette_stars/raw
+
+# 预览模式（不实际执行）
+python -m lib.tools.merge_chapters characters/tikoh/story/marionette_stars/raw --dry-run
+
+# 批量合并多个活动
+python -m lib.tools.merge_chapters characters/tikoh/story/*/raw --all
+```
+
+**效果**：
+- 30个小文件 → 11个合并文件（减少63%）
+- API调用次数减少约50%
+- 输出到 `raw_merged/` 目录
 
 ### 翻译
 

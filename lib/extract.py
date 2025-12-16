@@ -25,9 +25,9 @@ import argparse
 from pathlib import Path
 
 try:
-    from .extractors import StoryExtractor, CastExtractor, VoiceExtractor, LoreExtractor
+    from .extractors import StoryExtractor, CastExtractor, VoiceExtractor, LoreExtractor, PortraitExtractor
 except ImportError:
-    from extractors import StoryExtractor, CastExtractor, VoiceExtractor, LoreExtractor
+    from extractors import StoryExtractor, CastExtractor, VoiceExtractor, LoreExtractor, PortraitExtractor
 
 
 def cmd_story(args):
@@ -77,6 +77,23 @@ def cmd_lore(args):
     return result
 
 
+def cmd_portraits(args):
+    """Download character expression portraits."""
+    ext = PortraitExtractor()
+    stats = ext.download_portraits(
+        args.name, 
+        args.output_dir,
+        include_skycompass=args.skycompass,
+        prefer_up=args.prefer_up
+    )
+    
+    if stats['total'] == 0:
+        print("\nFailed to download portraits. Check character name.")
+        sys.exit(1)
+    
+    return stats
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="GBF Wiki content extractor",
@@ -121,7 +138,20 @@ Examples:
     lore_parser.add_argument("--headless", action="store_true")
     lore_parser.set_defaults(func=cmd_lore)
     
+    # Portraits command
+    portraits_parser = subparsers.add_parser("portraits", help="Download character expression portraits")
+    portraits_parser.add_argument("name", help="Character name (e.g., Yuisis, Vajra)")
+    portraits_parser.add_argument("output_dir", nargs="?", help="Output directory (default: portraits/{name})")
+    portraits_parser.add_argument("--skycompass", action="store_true", help="Also download Skycompass high-res portraits")
+    portraits_parser.add_argument("--prefer-up", action="store_true", help="Only download '_up' variants (best quality)")
+    portraits_parser.set_defaults(func=cmd_portraits)
+    
     args = parser.parse_args()
+    
+    # Set default output_dir for portraits
+    if args.command == "portraits" and not args.output_dir:
+        args.output_dir = f"portraits/{args.name.lower()}"
+    
     args.func(args)
 
 

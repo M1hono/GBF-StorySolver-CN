@@ -90,7 +90,7 @@ gbf/
 
 ### Extraction
 ```bash
-# Story + Cast for an event
+# Story + Cast for an event (NEW: auto-merges episodes by chapter)
 python -m lib.extract story Auld_Lang_Fry_PREMIUM characters/vajra
 python -m lib.extract cast Auld_Lang_Fry_PREMIUM characters/vajra
 
@@ -99,6 +99,10 @@ python -m lib.extract voice Vajra characters/vajra
 
 # Lore
 python -m lib.extract lore Vajra characters/vajra
+
+# Note: Story extraction now auto-merges episodes:
+# - 28 panels → 8 files (Opening + 6 Chapters + Ending)
+# - Reduces translation cost by ~60-70%
 ```
 
 ### Translation

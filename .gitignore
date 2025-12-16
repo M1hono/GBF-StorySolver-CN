@@ -78,6 +78,9 @@ characters/
 test_output/
 story/
 
+# Downloaded portraits (can be regenerated)
+portraits/
+
 # Playwright MCP screenshots
 .playwright-mcp/
 

@@ -25,6 +25,7 @@ from .cast import CastExtractor
 from .voice import VoiceExtractor
 from .lore import LoreExtractor
 from .scenario import ScenarioExtractor
+from .portraits import PortraitExtractor, download_portraits
 
 __all__ = [
     'StoryExtractor', 
@@ -32,4 +33,6 @@ __all__ = [
     'VoiceExtractor', 
     'LoreExtractor',
     'ScenarioExtractor',  # LOCAL-FIRST
+    'PortraitExtractor',
+    'download_portraits',
 ]

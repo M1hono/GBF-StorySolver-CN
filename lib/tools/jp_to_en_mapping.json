@@ -1,0 +1,9590 @@
+{
+  "グラン": {
+    "en": "Grand",
+    "cn": "古兰",
+    "cn_original": "古兰",
+    "source": "scenario_unverified"
+  },
+  "ジータ": {
+    "en": "Gita",
+    "cn": "姬塔",
+    "cn_original": "姬塔",
+    "source": "scenario_unverified"
+  },
+  "黒騎士": {
+    "en": "black knight",
+    "cn": "黑骑士",
+    "cn_original": "黑骑士",
+    "source": "valid"
+  },
+  "ロゼッタ": {
+    "en": "rosetta",
+    "cn": "萝赛塔",
+    "cn_original": "萝赛塔",
+    "source": "valid"
+  },
+  "ルリア": {
+    "en": "Luria",
+    "cn": "露莉亚",
+    "cn_original": "露莉亚",
+    "source": "valid"
+  },
+  "リーシャ": {
+    "en": "Leesha",
+    "cn": "莉夏",
+    "cn_original": "莉夏",
+    "source": "valid"
+  },
+  "モニカ": {
+    "en": "Monica",
+    "cn": "莫妮卡",
+    "cn_original": "莫妮卡",
+    "source": "valid"
+  },
+  "ラカム": {
+    "en": "Rakam",
+    "cn": "拉卡姆",
+    "cn_original": "拉卡姆",
+    "source": "valid"
+  },
+  "ビィ": {
+    "en": "Bee",
+    "cn": "露利亚和碧",
+    "cn_original": "碧",
+    "source": "scenario_unverified"
+  },
+  "ビィとルリア": {
+    "en": "Bee and Lyria",
+    "cn": "露莉亚",
+    "cn_original": "碧与露莉亚",
+    "source": "scenario"
+  },
+  "カタリナ": {
+    "en": "catalina",
+    "cn": "卡塔莉娜",
+    "cn_original": "卡塔莉娜",
+    "source": "valid"
+  },
+  "オルキス": {
+    "en": "Orchis",
+    "cn": "欧尔姬丝",
+    "cn_original": "欧尔姬丝",
+    "source": "scenario_unverified"
+  },
+  "オーキス": {
+    "en": "Orchis",
+    "cn": "欧姬丝",
+    "cn_original": "欧姬丝",
+    "source": "valid"
+  },
+  "オイゲン": {
+    "en": "Eugen",
+    "cn": "欧根",
+    "cn_original": "欧根",
+    "source": "valid"
+  },
+  "イオ": {
+    "en": "Io",
+    "cn": "伊欧",
+    "cn_original": "伊欧",
+    "source": "valid"
+  },
+  "ニオ": {
+    "en": "Nio",
+    "cn": "妮欧",
+    "cn_original": "妮欧",
+    "source": "valid"
+  },
+  "ポンメルン": {
+    "en": "Pommern",
+    "cn": "伯梅伦",
+    "cn_original": "伯梅伦",
+    "source": "scenario_unverified"
+  },
+  "ヒドラ": {
+    "en": "hydra",
+    "cn": "海德拉",
+    "cn_original": "海德拉",
+    "source": "scenario_unverified"
+  },
+  "シェロカルテ": {
+    "en": "Shero medical record",
+    "cn": "榭洛科特",
+    "cn_original": "榭洛科特",
+    "source": "scenario_unverified"
+  },
+  "ドランク": {
+    "en": "Drunk",
+    "cn": "德朗克",
+    "cn_original": "德朗克",
+    "source": "valid"
+  },
+  "スツルム": {
+    "en": "Sturm",
+    "cn": "斯特姆",
+    "cn_original": "斯特姆",
+    "source": "valid"
+  },
+  "ゼタ": {
+    "en": "Zeta",
+    "cn": "泽塔",
+    "cn_original": "泽塔",
+    "source": "valid"
+  },
+  "マギサ": {
+    "en": "Magisa",
+    "cn": "玛姬莎",
+    "cn_original": "玛姬莎",
+    "source": "valid"
+  },
+  "ハレゼナ": {
+    "en": "Halesena",
+    "cn": "哈雷泽娜",
+    "cn_original": "哈雷泽娜",
+    "source": "scenario_unverified"
+  },
+  "バザラガ": {
+    "en": "Bazaraga",
+    "cn": "巴萨拉卡",
+    "cn_original": "巴萨拉卡",
+    "source": "valid"
+  },
+  "ヴィーラ": {
+    "en": "Villa",
+    "cn": "维拉",
+    "cn_original": "维拉",
+    "source": "valid"
+  },
+  "ヘルエス": {
+    "en": "HELS",
+    "cn": "赫尔艾斯",
+    "cn_original": "赫尔艾斯",
+    "source": "valid"
+  },
+  "セルエル": {
+    "en": "Seruel",
+    "cn": "塞鲁艾尔",
+    "cn_original": "塞鲁艾尔",
+    "source": "valid"
+  },
+  "シャルロッテ": {
+    "en": "charlotte",
+    "cn": "夏洛特",
+    "cn_original": "夏洛特",
+    "source": "valid"
+  },
+  "メリッサベル": {
+    "en": "melissa bell",
+    "cn": "梅丽莎贝尔",
+    "cn_original": "梅丽莎贝尔",
+    "source": "valid"
+  },
+  "ジャンヌダルク": {
+    "en": "Joan of Arc",
+    "cn": "贞德",
+    "cn_original": "贞德",
+    "source": "valid"
+  },
+  "メーテラ": {
+    "en": "Metera",
+    "cn": "美黛拉",
+    "cn_original": "美黛拉",
+    "source": "valid"
+  },
+  "ヴァイト": {
+    "en": "Veidt",
+    "cn": "斑特",
+    "cn_original": "斑特",
+    "source": "valid"
+  },
+  "イシュミール": {
+    "en": "Ishmir",
+    "cn": "伊休米尔",
+    "cn_original": "伊休米尔",
+    "source": "valid"
+  },
+  "ゾーイ": {
+    "en": "zoe",
+    "cn": "佐伊",
+    "cn_original": "佐伊",
+    "source": "valid"
+  },
+  "フィーナ": {
+    "en": "Fina",
+    "cn": "菲娜",
+    "cn_original": "菲娜",
+    "source": "valid"
+  },
+  "ルシオ": {
+    "en": "Lucio",
+    "cn": "路西欧",
+    "cn_original": "路西欧",
+    "source": "valid"
+  },
+  "ソリッズ": {
+    "en": "solids",
+    "cn": "索利茲",
+    "cn_original": "索利茲",
+    "source": "valid"
+  },
+  "ヤイア": {
+    "en": "Yaia",
+    "cn": "丫丫",
+    "cn_original": "丫丫",
+    "source": "scenario_unverified"
+  },
+  "アリサ": {
+    "en": "Arisa",
+    "cn": "亚里莎",
+    "cn_original": "亚里莎",
+    "source": "scenario_unverified"
+  },
+  "ヴェイン": {
+    "en": "Vain",
+    "cn": "维恩",
+    "cn_original": "维恩",
+    "source": "valid"
+  },
+  "サラ": {
+    "en": "sarah",
+    "cn": "莎拉",
+    "cn_original": "莎拉",
+    "source": "valid"
+  },
+  "ミリン": {
+    "en": "Milin",
+    "cn": "米林",
+    "cn_original": "米林",
+    "source": "scenario_unverified"
+  },
+  "ネモネ": {
+    "en": "Nemone",
+    "cn": "涅莫涅",
+    "cn_original": "涅莫涅",
+    "source": "valid"
+  },
+  "ケルベロス": {
+    "en": "cerberus",
+    "cn": "刻耳柏洛斯",
+    "cn_original": "刻耳柏洛斯",
+    "source": "valid"
+  },
+  "ソシエ": {
+    "en": "socie",
+    "cn": "苏丝雅",
+    "cn_original": "苏丝雅",
+    "source": "valid"
+  },
+  "アルベール": {
+    "en": "albert",
+    "cn": "阿尔贝尔",
+    "cn_original": "阿尔贝尔",
+    "source": "valid"
+  },
+  "フェリ": {
+    "en": "Ferri",
+    "cn": "菲莉",
+    "cn_original": "菲莉",
+    "source": "valid"
+  },
+  "ヨダルラーハ": {
+    "en": "Yodarraha",
+    "cn": "尤达拉哈",
+    "cn_original": "尤达拉哈",
+    "source": "valid"
+  },
+  "サルナーン": {
+    "en": "Sarnaan",
+    "cn": "萨鲁纳恩",
+    "cn_original": "萨鲁南",
+    "source": "scenario_unverified"
+  },
+  "イングヴェイ": {
+    "en": "Yngwie",
+    "cn": "英格威",
+    "cn_original": "英格威",
+    "source": "valid"
+  },
+  "シャノワール": {
+    "en": "Cat Noir",
+    "cn": "夏诺瓦",
+    "cn_original": "夏诺瓦",
+    "source": "valid"
+  },
+  "アザゼル": {
+    "en": "Azazel",
+    "cn": "阿萨谢尔",
+    "cn_original": "阿萨谢尔",
+    "source": "valid"
+  },
+  "ユグドラシル": {
+    "en": "Yggdrasil",
+    "cn": "尤格多拉希尔",
+    "cn_original": "尤格多拉希尔",
+    "source": "valid"
+  },
+  "レ・フィーエ": {
+    "en": "Les Feet",
+    "cn": "蕾・芬耶",
+    "cn_original": "蕾・芬耶",
+    "source": "scenario_unverified"
+  },
+  "セレフィラ": {
+    "en": "Serephila",
+    "cn": "瑟蕾菲拉",
+    "cn_original": "塞尔菲拉",
+    "source": "scenario"
+  },
+  "ヴァンピィ": {
+    "en": "Vampy",
+    "cn": "斑比",
+    "cn_original": "斑比",
+    "source": "valid"
+  },
+  "ユイシス": {
+    "en": "Yuisis",
+    "cn": "优希斯",
+    "cn_original": "优希斯",
+    "source": "valid"
+  },
+  "ディアンサ": {
+    "en": "Diantha",
+    "cn": "戴安萨",
+    "cn_original": "戴安萨",
+    "source": "valid"
+  },
+  "ザルハメリナ": {
+    "en": "Zarhamelina",
+    "cn": "扎哈梅丽娜",
+    "cn_original": "扎哈梅丽娜",
+    "source": "valid"
+  },
+  "ガンダゴウザ": {
+    "en": "Gundagoza",
+    "cn": "冈达葛萨",
+    "cn_original": "冈达葛萨",
+    "source": "valid"
+  },
+  "ベアトリクス": {
+    "en": "beatrix",
+    "cn": "贝阿朵丽丝",
+    "cn_original": "贝阿朵丽丝",
+    "source": "valid"
+  },
+  "カリオストロ": {
+    "en": "Cagliostro",
+    "cn": "卡莉奥斯特萝",
+    "cn_original": "卡莉奥斯特萝",
+    "source": "valid"
+  },
+  "クラリス": {
+    "en": "clarice",
+    "cn": "克拉莉丝",
+    "cn_original": "克拉莉丝",
+    "source": "valid"
+  },
+  "ティアマト": {
+    "en": "Tiamat",
+    "cn": "提亚玛特",
+    "cn_original": "提亚玛特",
+    "source": "valid"
+  },
+  "ソーン": {
+    "en": "Thorn",
+    "cn": "索恩",
+    "cn_original": "索恩",
+    "source": "valid"
+  },
+  "エッセル": {
+    "en": "Essel",
+    "cn": "艾瑟尔",
+    "cn_original": "艾瑟尔",
+    "source": "valid"
+  },
+  "江戸川コナン": {
+    "en": "Conan Edogawa",
+    "cn": "江户川柯南",
+    "cn_original": "江户川柯南",
+    "source": "valid"
+  },
+  "毛利蘭": {
+    "en": "Mouri Ran",
+    "cn": "",
+    "cn_original": "毛利兰",
+    "source": "invalid"
+  },
+  "安室": {
+    "en": "Amuro",
+    "cn": "",
+    "cn_original": "安室",
+    "source": "invalid"
+  },
+  "探偵": {
+    "en": "detective",
+    "cn": "",
+    "cn_original": "侦探",
+    "source": "invalid"
+  },
+  "バロワ": {
+    "en": "Valois",
+    "cn": "巴洛瓦",
+    "cn_original": "巴洛瓦",
+    "source": "valid"
+  },
+  "サーヤ": {
+    "en": "Saaya",
+    "cn": "萨雅",
+    "cn_original": "萨雅",
+    "source": "scenario_unverified"
+  },
+  "高飛車な女": {
+    "en": "high-handed woman",
+    "cn": "",
+    "cn_original": "傲慢的女人",
+    "source": "invalid"
+  },
+  "カロリーナ": {
+    "en": "carolina",
+    "cn": "卡洛",
+    "cn_original": "卡罗丽娜",
+    "source": "scenario"
+  },
+  "ダニエラ": {
+    "en": "Daniela",
+    "cn": "",
+    "cn_original": "达涅拉",
+    "source": "invalid"
+  },
+  "レイラ": {
+    "en": "Layla",
+    "cn": "",
+    "cn_original": "蕾拉",
+    "source": "invalid"
+  },
+  "ネリル": {
+    "en": "Neril",
+    "cn": "",
+    "cn_original": "涅莉露",
+    "source": "invalid"
+  },
+  "機械人形": {
+    "en": "mechanical doll",
+    "cn": "",
+    "cn_original": "机械人偶",
+    "source": "invalid"
+  },
+  "農夫": {
+    "en": "farmer",
+    "cn": "",
+    "cn_original": "农夫",
+    "source": "invalid"
+  },
+  "衛兵１＆衛兵２": {
+    "en": "Guard 1 & Guard 2",
+    "cn": "",
+    "cn_original": "卫兵1&卫兵2",
+    "source": "invalid"
+  },
+  "衛兵": {
+    "en": "guard",
+    "cn": "",
+    "cn_original": "卫兵",
+    "source": "invalid"
+  },
+  "自警団団長": {
+    "en": "vigilante group leader",
+    "cn": "",
+    "cn_original": "民兵团团长",
+    "source": "invalid"
+  },
+  "自警団団員": {
+    "en": "vigilante group member",
+    "cn": "",
+    "cn_original": "民兵团团员",
+    "source": "invalid"
+  },
+  "ルリアとビィ": {
+    "en": "Lyria and Bee",
+    "cn": "露莉亚",
+    "cn_original": "露利亚和碧",
+    "source": "scenario"
+  },
+  "ルシフェル": {
+    "en": "lucifer",
+    "cn": "路西菲尔",
+    "cn_original": "路西菲尔",
+    "source": "scenario_unverified"
+  },
+  "ランスロット": {
+    "en": "lancelot",
+    "cn": "兰斯洛特",
+    "cn_original": "兰斯洛特",
+    "source": "valid"
+  },
+  "サンダルフォン": {
+    "en": "Sandalphon",
+    "cn": "圣德芬",
+    "cn_original": "圣德芬",
+    "source": "valid"
+  },
+  "カール": {
+    "en": "curl",
+    "cn": "卡尔",
+    "cn_original": "卡尔",
+    "source": "scenario_unverified"
+  },
+  "シロウ": {
+    "en": "Shirou",
+    "cn": "士郎",
+    "cn_original": "士郎",
+    "source": "valid"
+  },
+  "ファラ": {
+    "en": "Farrah",
+    "cn": "法拉",
+    "cn_original": "法拉",
+    "source": "valid"
+  },
+  "ユーリ": {
+    "en": "Yuri",
+    "cn": "尤利",
+    "cn_original": "尤利",
+    "source": "valid"
+  },
+  "ポセイドン": {
+    "en": "poseidon",
+    "cn": "",
+    "cn_original": "波塞顿",
+    "source": "invalid"
+  },
+  "ジック": {
+    "en": "jic",
+    "cn": "",
+    "cn_original": "吉克",
+    "source": "invalid"
+  },
+  "ハーパー": {
+    "en": "harper",
+    "cn": "",
+    "cn_original": "哈波",
+    "source": "invalid"
+  },
+  "マキラ": {
+    "en": "maquila",
+    "cn": "玛琪拉",
+    "cn_original": "玛琪拉",
+    "source": "valid"
+  },
+  "ルナール": {
+    "en": "Renard",
+    "cn": "露娜露",
+    "cn_original": "露娜露",
+    "source": "valid"
+  },
+  "悪夢の欠片": {
+    "en": "fragment of nightmare",
+    "cn": "",
+    "cn_original": "恶梦的碎片",
+    "source": "invalid"
+  },
+  "帝国兵": {
+    "en": "imperial soldier",
+    "cn": "",
+    "cn_original": "帝国士兵",
+    "source": "invalid"
+  },
+  "ヴェトル": {
+    "en": "Vettle",
+    "cn": "薇特尔",
+    "cn_original": "薇特尔",
+    "source": "scenario_unverified"
+  },
+  "モルペウス達": {
+    "en": "Morpheus and others",
+    "cn": "",
+    "cn_original": "莫尔佩乌斯们",
+    "source": "invalid"
+  },
+  "モルペウス": {
+    "en": "Morpheus",
+    "cn": "",
+    "cn_original": "莫尔佩乌斯",
+    "source": "invalid"
+  },
+  "モルフェ": {
+    "en": "morphe",
+    "cn": "莫尔菲",
+    "cn_original": "莫尔菲",
+    "source": "scenario_unverified"
+  },
+  "オネイロス": {
+    "en": "Oneiros",
+    "cn": "路西欧",
+    "cn_original": "奥涅伊洛斯",
+    "source": "scenario"
+  },
+  "イケロス": {
+    "en": "Ikelos",
+    "cn": "伊卡洛斯",
+    "cn_original": "伊卡洛斯",
+    "source": "valid"
+  },
+  "アルビオン兵": {
+    "en": "Albion soldier",
+    "cn": "路西欧",
+    "cn_original": "阿尔比昂士兵",
+    "source": "scenario"
+  },
+  "お母さん": {
+    "en": "mother",
+    "cn": "",
+    "cn_original": "妈妈",
+    "source": "invalid"
+  },
+  "カレン": {
+    "en": "Karen",
+    "cn": "卡莲",
+    "cn_original": "卡莲",
+    "source": "valid"
+  },
+  "アイル": {
+    "en": "isle",
+    "cn": "艾鲁",
+    "cn_original": "艾鲁",
+    "source": "valid"
+  },
+  "ならず者": {
+    "en": "rogue",
+    "cn": "",
+    "cn_original": "暴徒",
+    "source": "invalid"
+  },
+  "ならず者達": {
+    "en": "thugs",
+    "cn": "",
+    "cn_original": "暴徒们",
+    "source": "invalid"
+  },
+  "ジークフリート": {
+    "en": "Siegfried",
+    "cn": "齐格飞",
+    "cn_original": "齐格飞",
+    "source": "valid"
+  },
+  "漁師": {
+    "en": "fisherman",
+    "cn": "",
+    "cn_original": "渔师",
+    "source": "invalid"
+  },
+  "善子・花丸・ルビィ": {
+    "en": "Yoshiko, Hanamaru, Ruby",
+    "cn": "露利亚和碧",
+    "cn_original": "善子・花丸・露比",
+    "source": "scenario_unverified"
+  },
+  "ダイヤ": {
+    "en": "diamond",
+    "cn": "黛雅",
+    "cn_original": "黛雅",
+    "source": "scenario_unverified"
+  },
+  "ルビィ": {
+    "en": "Ruby",
+    "cn": "露比",
+    "cn_original": "露比",
+    "source": "scenario_unverified"
+  },
+  "マナリア教連の人々": {
+    "en": "People of Manaria Church",
+    "cn": "露莉亚",
+    "cn_original": "马纳利亚教联的人们",
+    "source": "scenario"
+  },
+  "マナリア教連の女": {
+    "en": "Manaria Church Woman",
+    "cn": "露莉亚",
+    "cn_original": "马纳利亚教联的女人",
+    "source": "scenario"
+  },
+  "マナリア教連の男": {
+    "en": "man of manaria church",
+    "cn": "露莉亚",
+    "cn_original": "马纳利亚教联的男人",
+    "source": "scenario"
+  },
+  "宿命夜想曲の男達": {
+    "en": "Men of Fate Nocturne",
+    "cn": "",
+    "cn_original": "宿命夜想曲的男人们",
+    "source": "invalid"
+  },
+  "宿命夜想曲の男": {
+    "en": "Man of Fate Nocturne",
+    "cn": "",
+    "cn_original": "宿命夜想曲的男人",
+    "source": "invalid"
+  },
+  "烈弩宇威愚の仲間達": {
+    "en": "Friends of Retsuya Uweigu",
+    "cn": "",
+    "cn_original": "烈弩宇威愚的伙伴们",
+    "source": "invalid"
+  },
+  "烈弩宇威愚の仲間": {
+    "en": "Companion of Retsuya Uweigu",
+    "cn": "",
+    "cn_original": "烈弩宇威愚的伙伴",
+    "source": "invalid"
+  },
+  "じいさん": {
+    "en": "old man",
+    "cn": "",
+    "cn_original": "爷爷",
+    "source": "invalid"
+  },
+  "ばあちゃん": {
+    "en": "grandma",
+    "cn": "",
+    "cn_original": "奶奶",
+    "source": "invalid"
+  },
+  "アキナ": {
+    "en": "Akina",
+    "cn": "明菜",
+    "cn_original": "明菜",
+    "source": "scenario_unverified"
+  },
+  "アン": {
+    "en": "Ann",
+    "cn": "安",
+    "cn_original": "安",
+    "source": "valid"
+  },
+  "エルモート": {
+    "en": "Elmort",
+    "cn": "艾尔莫特",
+    "cn_original": "艾尔莫特",
+    "source": "valid"
+  },
+  "オーウェン": {
+    "en": "owen",
+    "cn": "欧文",
+    "cn_original": "欧文",
+    "source": "valid"
+  },
+  "グレア": {
+    "en": "glare",
+    "cn": "古蕾雅",
+    "cn_original": "古蕾雅",
+    "source": "scenario_unverified"
+  },
+  "ショウ": {
+    "en": "show",
+    "cn": "翔",
+    "cn_original": "翔",
+    "source": "valid"
+  },
+  "ジル": {
+    "en": "Jill",
+    "cn": "席尔",
+    "cn_original": "席尔",
+    "source": "scenario_unverified"
+  },
+  "スフラマール": {
+    "en": "Suhramar",
+    "cn": "瑟芙拉玛尔",
+    "cn_original": "瑟芙拉玛尔",
+    "source": "scenario_unverified"
+  },
+  "ツバサ": {
+    "en": "Tsubasa",
+    "cn": "翼",
+    "cn_original": "翼",
+    "source": "valid"
+  },
+  "ツバサの母": {
+    "en": "Tsubasa的mother",
+    "cn": "",
+    "cn_original": "翼的母亲",
+    "source": "invalid"
+  },
+  "ツバサの父": {
+    "en": "Tsubasa的father",
+    "cn": "",
+    "cn_original": "翼的父亲",
+    "source": "invalid"
+  },
+  "ハンナ": {
+    "en": "hannah",
+    "cn": "汉娜",
+    "cn_original": "汉娜",
+    "source": "scenario_unverified"
+  },
+  "パーシヴァル": {
+    "en": "percival",
+    "cn": "帕西瓦尔",
+    "cn_original": "帕西瓦尔",
+    "source": "valid"
+  },
+  "ミランダ": {
+    "en": "miranda",
+    "cn": "米兰达",
+    "cn_original": "米兰达",
+    "source": "valid"
+  },
+  "不良生徒達": {
+    "en": "bad students",
+    "cn": "",
+    "cn_original": "不良学生们",
+    "source": "invalid"
+  },
+  "不良生徒": {
+    "en": "bad student",
+    "cn": "",
+    "cn_original": "不良学生",
+    "source": "invalid"
+  },
+  "人々": {
+    "en": "people",
+    "cn": "",
+    "cn_original": "人们",
+    "source": "invalid"
+  },
+  "商会のボス": {
+    "en": "boss of the company",
+    "cn": "暴徒的首领",
+    "cn_original": "商会的老大",
+    "source": "scenario_unverified"
+  },
+  "子供": {
+    "en": "child",
+    "cn": "",
+    "cn_original": "孩子",
+    "source": "invalid"
+  },
+  "用心棒": {
+    "en": "Bodyguard",
+    "cn": "",
+    "cn_original": "保镖",
+    "source": "invalid"
+  },
+  "老婆": {
+    "en": "old woman",
+    "cn": "",
+    "cn_original": "老婆婆",
+    "source": "invalid"
+  },
+  "舎弟のリンタロウ": {
+    "en": "My younger brother Rintaro",
+    "cn": "小弟伦太郎",
+    "cn_original": "小弟伦太郎",
+    "source": "scenario_unverified"
+  },
+  "荒くれ者": {
+    "en": "roughneck",
+    "cn": "",
+    "cn_original": "小混混",
+    "source": "invalid"
+  },
+  "親父": {
+    "en": "father",
+    "cn": "",
+    "cn_original": "先生",
+    "source": "invalid"
+  },
+  "鬼ゾリのタイガ": {
+    "en": "Onizori no Taiga",
+    "cn": "鬼角大河",
+    "cn_original": "鬼角大河",
+    "source": "scenario_unverified"
+  },
+  "男の声": {
+    "en": "man的voice",
+    "cn": "",
+    "cn_original": "男人的声音",
+    "source": "invalid"
+  },
+  "謎の少女": {
+    "en": "mysterious girl",
+    "cn": "",
+    "cn_original": "神秘少女",
+    "source": "invalid"
+  },
+  "女騎士": {
+    "en": "female knight",
+    "cn": "",
+    "cn_original": "女骑士",
+    "source": "invalid"
+  },
+  "バハムート": {
+    "en": "Bahamut",
+    "cn": "巴哈姆特",
+    "cn_original": "巴哈姆特",
+    "source": "scenario_unverified"
+  },
+  "町人": {
+    "en": "townspeople",
+    "cn": "",
+    "cn_original": "镇民",
+    "source": "invalid"
+  },
+  "ゴーレム好きの青年": {
+    "en": "A young man who loves golems",
+    "cn": "魔偶",
+    "cn_original": "热爱魔偶的青年",
+    "source": "scenario_unverified"
+  },
+  "ユグドラシル・マリス": {
+    "en": "Yggdrasil Maris",
+    "cn": "尤格多拉希尔·恶意",
+    "cn_original": "尤格多拉希尔·恶意",
+    "source": "scenario_unverified"
+  },
+  "ヴァンパイアの女性": {
+    "en": "vampire woman",
+    "cn": "",
+    "cn_original": "女性吸血鬼",
+    "source": "invalid"
+  },
+  "アダム": {
+    "en": "Adam",
+    "cn": "亚当",
+    "cn_original": "亚当",
+    "source": "valid"
+  },
+  "アーカーシャ": {
+    "en": "Akasha",
+    "cn": "阿露夏",
+    "cn_original": "阿卡夏",
+    "source": "scenario_unverified"
+  },
+  "ウェルダー": {
+    "en": "welder",
+    "cn": "维尔达",
+    "cn_original": "维尔达",
+    "source": "scenario_unverified"
+  },
+  "エスカラスの残党": {
+    "en": "Remnants of Escalus",
+    "cn": "",
+    "cn_original": "埃斯卡勒斯残党",
+    "source": "invalid"
+  },
+  "エージェント": {
+    "en": "agent",
+    "cn": "特工",
+    "cn_original": "特工",
+    "source": "scenario_unverified"
+  },
+  "オルレアンの青年": {
+    "en": "young man of orléans",
+    "cn": "路西欧",
+    "cn_original": "奥尔良青年",
+    "source": "scenario"
+  },
+  "カルメリーナ": {
+    "en": "carmelina",
+    "cn": "卡露梅莉娜",
+    "cn_original": "卡露梅莉娜",
+    "source": "valid"
+  },
+  "ガラの悪い男": {
+    "en": "rude man",
+    "cn": "",
+    "cn_original": "痞气的男人",
+    "source": "invalid"
+  },
+  "シェロ": {
+    "en": "shero",
+    "cn": "榭洛科特",
+    "cn_original": "榭洛",
+    "source": "scenario_unverified"
+  },
+  "ジュリエット": {
+    "en": "juliet",
+    "cn": "朱丽叶",
+    "cn_original": "朱丽叶",
+    "source": "valid"
+  },
+  "チンピラ": {
+    "en": "thug",
+    "cn": "塞莱斯特",
+    "cn_original": "塞莱斯特",
+    "source": "scenario_unverified"
+  },
+  "ノア": {
+    "en": "Noah",
+    "cn": "诺亚",
+    "cn_original": "诺亚",
+    "source": "valid"
+  },
+  "バウタオーダ": {
+    "en": "Bauta order",
+    "cn": "鲍特欧达",
+    "cn_original": "鲍特欧达",
+    "source": "scenario_unverified"
+  },
+  "バラゴナ": {
+    "en": "Baragona",
+    "cn": "",
+    "cn_original": "巴拉格纳",
+    "source": "invalid"
+  },
+  "パリス": {
+    "en": "paris",
+    "cn": "帕里斯",
+    "cn_original": "帕里斯",
+    "source": "valid"
+  },
+  "フェンリル": {
+    "en": "Fenrir",
+    "cn": "芬里尔",
+    "cn_original": "芬里尔",
+    "source": "scenario_unverified"
+  },
+  "フュリアス": {
+    "en": "Furious",
+    "cn": "弗里亚斯",
+    "cn_original": "弗里亚斯",
+    "source": "scenario_unverified"
+  },
+  "フリーシア": {
+    "en": "freesia",
+    "cn": "芙莉西雅",
+    "cn_original": "芙莉西雅",
+    "source": "scenario_unverified"
+  },
+  "マリエ": {
+    "en": "marie",
+    "cn": "玛丽艾",
+    "cn_original": "玛丽艾",
+    "source": "scenario_unverified"
+  },
+  "ミスラ": {
+    "en": "Mithra",
+    "cn": "密斯拉",
+    "cn_original": "密斯拉",
+    "source": "scenario_unverified"
+  },
+  "ラインハルザ": {
+    "en": "Reinharza",
+    "cn": "莱茵哈萨",
+    "cn_original": "莱茵哈萨",
+    "source": "scenario_unverified"
+  },
+  "リアクター": {
+    "en": "reactor",
+    "cn": "露莉亚",
+    "cn_original": "反应器",
+    "source": "scenario"
+  },
+  "リヴァイアサン": {
+    "en": "leviathan",
+    "cn": "利维坦",
+    "cn_original": "利维坦",
+    "source": "scenario_unverified"
+  },
+  "ルシウス": {
+    "en": "Lucius",
+    "cn": "卢修斯",
+    "cn_original": "卢修斯",
+    "source": "valid"
+  },
+  "ルリアとイオ": {
+    "en": "Lyria and Io",
+    "cn": "露莉亚",
+    "cn_original": "露莉亚和伊欧",
+    "source": "scenario"
+  },
+  "ロキ": {
+    "en": "loki",
+    "cn": "洛基",
+    "cn_original": "洛基",
+    "source": "scenario_unverified"
+  },
+  "ロミオ": {
+    "en": "romeo",
+    "cn": "罗密欧",
+    "cn_original": "罗密欧",
+    "source": "valid"
+  },
+  "ローズクイーン": {
+    "en": "rose queen",
+    "cn": "特蕾兹",
+    "cn_original": "玫瑰女王",
+    "source": "scenario_unverified"
+  },
+  "ヴァジラ": {
+    "en": "Vajra",
+    "cn": "瓦姬拉",
+    "cn_original": "瓦姬拉",
+    "source": "valid"
+  },
+  "一同": {
+    "en": "All together",
+    "cn": "",
+    "cn_original": "众人",
+    "source": "invalid"
+  },
+  "不気味な物音": {
+    "en": "creepy noises",
+    "cn": "",
+    "cn_original": "诡异的声响",
+    "source": "invalid"
+  },
+  "他劇場の座長": {
+    "en": "Chair of another theater",
+    "cn": "",
+    "cn_original": "其他剧场的团长",
+    "source": "invalid"
+  },
+  "住民": {
+    "en": "residents",
+    "cn": "",
+    "cn_original": "居民",
+    "source": "invalid"
+  },
+  "傭兵": {
+    "en": "mercenary",
+    "cn": "",
+    "cn_original": "佣兵",
+    "source": "invalid"
+  },
+  "劇場の客": {
+    "en": "theater audience",
+    "cn": "",
+    "cn_original": "剧场的客人",
+    "source": "invalid"
+  },
+  "劇場の座長": {
+    "en": "theater director",
+    "cn": "",
+    "cn_original": "剧场的团长",
+    "source": "invalid"
+  },
+  "劇場の道化": {
+    "en": "theater clown",
+    "cn": "",
+    "cn_original": "剧场的小丑",
+    "source": "invalid"
+  },
+  "受付のおじさん": {
+    "en": "Old man at the reception",
+    "cn": "",
+    "cn_original": "接待的大叔",
+    "source": "invalid"
+  },
+  "地味な少女": {
+    "en": "plain girl",
+    "cn": "",
+    "cn_original": "朴素的少女",
+    "source": "invalid"
+  },
+  "大会の司会者": {
+    "en": "conference moderator",
+    "cn": "",
+    "cn_original": "大赛主持人",
+    "source": "invalid"
+  },
+  "女の声": {
+    "en": "woman的voice",
+    "cn": "",
+    "cn_original": "女性的声音",
+    "source": "invalid"
+  },
+  "女の子": {
+    "en": "girl",
+    "cn": "",
+    "cn_original": "女孩",
+    "source": "invalid"
+  },
+  "女子生徒": {
+    "en": "female student",
+    "cn": "",
+    "cn_original": "女学生",
+    "source": "invalid"
+  },
+  "女性の声": {
+    "en": "female voice",
+    "cn": "",
+    "cn_original": "女性的声音",
+    "source": "invalid"
+  },
+  "娘たち": {
+    "en": "daughters",
+    "cn": "",
+    "cn_original": "女孩们",
+    "source": "invalid"
+  },
+  "巨大カニ": {
+    "en": "giant crab",
+    "cn": "巨蟹",
+    "cn_original": "巨蟹",
+    "source": "scenario_unverified"
+  },
+  "帝国の街人": {
+    "en": "imperial townspeople",
+    "cn": "",
+    "cn_original": "帝国的居民",
+    "source": "invalid"
+  },
+  "帝国兵達": {
+    "en": "imperial soldiers",
+    "cn": "",
+    "cn_original": "帝国兵",
+    "source": "invalid"
+  },
+  "年配の騎空士": {
+    "en": "old cavalryman",
+    "cn": "",
+    "cn_original": "年长的骑空士",
+    "source": "invalid"
+  },
+  "店員": {
+    "en": "clerk",
+    "cn": "",
+    "cn_original": "店员",
+    "source": "invalid"
+  },
+  "座長たち": {
+    "en": "Chairpersons",
+    "cn": "",
+    "cn_original": "剧团团长们",
+    "source": "invalid"
+  },
+  "必死な青年": {
+    "en": "desperate young man",
+    "cn": "",
+    "cn_original": "惊慌的青年",
+    "source": "invalid"
+  },
+  "楽しげな女性": {
+    "en": "cheerful woman",
+    "cn": "",
+    "cn_original": "开朗的女性",
+    "source": "invalid"
+  },
+  "自慢げな青年": {
+    "en": "proud young man",
+    "cn": "",
+    "cn_original": "自信的青年",
+    "source": "invalid"
+  },
+  "村の若者": {
+    "en": "village youth",
+    "cn": "",
+    "cn_original": "年轻的村民",
+    "source": "invalid"
+  },
+  "村人": {
+    "en": "villager",
+    "cn": "",
+    "cn_original": "村民",
+    "source": "invalid"
+  },
+  "村娘": {
+    "en": "village girl",
+    "cn": "",
+    "cn_original": "村民",
+    "source": "invalid"
+  },
+  "村長": {
+    "en": "village chief",
+    "cn": "",
+    "cn_original": "村长",
+    "source": "invalid"
+  },
+  "街人": {
+    "en": "townspeople",
+    "cn": "",
+    "cn_original": "居民",
+    "source": "invalid"
+  },
+  "波乗りの青年": {
+    "en": "young man surfing",
+    "cn": "",
+    "cn_original": "冲浪的青年",
+    "source": "invalid"
+  },
+  "海の男": {
+    "en": "sea ​​man",
+    "cn": "",
+    "cn_original": "海上男儿",
+    "source": "invalid"
+  },
+  "病弱な依頼者": {
+    "en": "sickly client",
+    "cn": "",
+    "cn_original": "体弱的委托人",
+    "source": "invalid"
+  },
+  "神王モンタギュー": {
+    "en": "god king montague",
+    "cn": "神王蒙太古",
+    "cn_original": "神王蒙太古",
+    "source": "scenario_unverified"
+  },
+  "秩序の騎空団員": {
+    "en": "cavalry member of order",
+    "cn": "",
+    "cn_original": "秩序骑空团员",
+    "source": "invalid"
+  },
+  "秩序の騎空団員達": {
+    "en": "Cavalry members of order",
+    "cn": "",
+    "cn_original": "秩序骑空团员",
+    "source": "invalid"
+  },
+  "観劇に来た令嬢": {
+    "en": "A young lady who came to the theater",
+    "cn": "",
+    "cn_original": "前来观剧的大小姐",
+    "source": "invalid"
+  },
+  "観劇に来た娘": {
+    "en": "The girl who went to the theater",
+    "cn": "",
+    "cn_original": "前来观剧的女孩",
+    "source": "invalid"
+  },
+  "訓練官": {
+    "en": "training officer",
+    "cn": "",
+    "cn_original": "训练官",
+    "source": "invalid"
+  },
+  "調停の翼": {
+    "en": "wings of mediation",
+    "cn": "",
+    "cn_original": "调停之翼",
+    "source": "invalid"
+  },
+  "警備兵": {
+    "en": "security guard",
+    "cn": "",
+    "cn_original": "警卫兵",
+    "source": "invalid"
+  },
+  "酒場の店主": {
+    "en": "bar owner",
+    "cn": "",
+    "cn_original": "酒馆的店主",
+    "source": "invalid"
+  },
+  "酔っ払い": {
+    "en": "drunk",
+    "cn": "",
+    "cn_original": "醉鬼",
+    "source": "invalid"
+  },
+  "銀髪の少女": {
+    "en": "silver haired girl",
+    "cn": "",
+    "cn_original": "银发少女",
+    "source": "invalid"
+  },
+  "青年のゴーレム": {
+    "en": "youth golem",
+    "cn": "魔偶",
+    "cn_original": "青年的戈仑",
+    "source": "scenario_unverified"
+  },
+  "騎士見習い": {
+    "en": "knight apprentice",
+    "cn": "",
+    "cn_original": "见习骑空士",
+    "source": "invalid"
+  },
+  "騎空士": {
+    "en": "cavalryman",
+    "cn": "",
+    "cn_original": "骑空士",
+    "source": "invalid"
+  },
+  "ソーンの幼馴染": {
+    "en": "Thorn的childhood friend",
+    "cn": "索恩",
+    "cn_original": "索恩的青梅竹马",
+    "source": "scenario"
+  },
+  "ソーンの祖母": {
+    "en": "Thorne的grandmother",
+    "cn": "索恩",
+    "cn_original": "索恩的奶奶",
+    "source": "scenario"
+  },
+  "魔物の群れ": {
+    "en": "swarm of monsters",
+    "cn": "",
+    "cn_original": "魔物群",
+    "source": "invalid"
+  },
+  "魔物達": {
+    "en": "monsters",
+    "cn": "",
+    "cn_original": "魔物们",
+    "source": "invalid"
+  },
+  "カイン": {
+    "en": "cain",
+    "cn": "该隐",
+    "cn_original": "该隐",
+    "source": "valid"
+  },
+  "アベル": {
+    "en": "abel",
+    "cn": "亚伯",
+    "cn_original": "亚伯",
+    "source": "scenario_unverified"
+  },
+  "黄金の騎士": {
+    "en": "golden knight",
+    "cn": "",
+    "cn_original": "黄金骑士",
+    "source": "invalid"
+  },
+  "レオナ": {
+    "en": "Leona",
+    "cn": "蕾欧娜",
+    "cn_original": "蕾欧娜",
+    "source": "valid"
+  },
+  "ハクタク": {
+    "en": "Hakutaku",
+    "cn": "白泽",
+    "cn_original": "白泽",
+    "source": "scenario_unverified"
+  },
+  "ハル": {
+    "en": "Hull",
+    "cn": "哈尔",
+    "cn_original": "哈尔",
+    "source": "scenario_unverified"
+  },
+  "フォリア": {
+    "en": "Folia",
+    "cn": "芙莉亚",
+    "cn_original": "芙莉亚",
+    "source": "valid"
+  },
+  "アリア": {
+    "en": "Aria",
+    "cn": "阿莉亚",
+    "cn_original": "阿莉亚",
+    "source": "valid"
+  },
+  "ジャスミン": {
+    "en": "jasmine",
+    "cn": "茉莉",
+    "cn_original": "茉莉",
+    "source": "valid"
+  },
+  "ククル": {
+    "en": "Kukuru",
+    "cn": "库库鲁",
+    "cn_original": "库库鲁",
+    "source": "valid"
+  },
+  "クムユ": {
+    "en": "Kumuyu",
+    "cn": "库姆优",
+    "cn_original": "库姆优",
+    "source": "scenario_unverified"
+  },
+  "シルヴァ": {
+    "en": "Silva",
+    "cn": "席尔瓦",
+    "cn_original": "席尔瓦",
+    "source": "valid"
+  },
+  "ガラドア": {
+    "en": "Galadore",
+    "cn": "加拉德亚",
+    "cn_original": "加拉德亚",
+    "source": "scenario_unverified"
+  },
+  "おかみさん": {
+    "en": "Wife",
+    "cn": "",
+    "cn_original": "老板娘",
+    "source": "invalid"
+  },
+  "銃工房の親方": {
+    "en": "Gun workshop master",
+    "cn": "",
+    "cn_original": "火枪工坊的老板",
+    "source": "invalid"
+  },
+  "銃工房のおかみさん": {
+    "en": "Gun workshop的wife",
+    "cn": "",
+    "cn_original": "火枪工坊的老板娘",
+    "source": "invalid"
+  },
+  "ダン伯父さん": {
+    "en": "uncle dan",
+    "cn": "",
+    "cn_original": "丹舅舅",
+    "source": "invalid"
+  },
+  "イルザ": {
+    "en": "Ilsa",
+    "cn": "伊尔莎",
+    "cn_original": "伊尔莎",
+    "source": "valid"
+  },
+  "なぎさ": {
+    "en": "Nagisa",
+    "cn": "",
+    "cn_original": "渚",
+    "source": "invalid"
+  },
+  "ほのか": {
+    "en": "Honoka",
+    "cn": "",
+    "cn_original": "穗乃香",
+    "source": "invalid"
+  },
+  "メップル": {
+    "en": "mepple",
+    "cn": "",
+    "cn_original": "梅普鲁",
+    "source": "invalid"
+  },
+  "ミップル": {
+    "en": "Mipple",
+    "cn": "",
+    "cn_original": "米普鲁",
+    "source": "invalid"
+  },
+  "ポルン": {
+    "en": "Porun",
+    "cn": "",
+    "cn_original": "保伦",
+    "source": "invalid"
+  },
+  "ザケンナー": {
+    "en": "The Kenner",
+    "cn": "",
+    "cn_original": "萨凯那",
+    "source": "invalid"
+  },
+  "ピーサード": {
+    "en": "Peasard",
+    "cn": "萨拉萨",
+    "cn_original": "皮萨德",
+    "source": "scenario"
+  },
+  "キュアブラック": {
+    "en": "cure black",
+    "cn": "",
+    "cn_original": "黑天使",
+    "source": "invalid"
+  },
+  "キュアホワイト": {
+    "en": "Cure white",
+    "cn": "",
+    "cn_original": "白天使",
+    "source": "invalid"
+  },
+  "トネリロ": {
+    "en": "Tonerillo",
+    "cn": "托涅利罗",
+    "cn_original": "托涅利罗",
+    "source": "scenario_unverified"
+  },
+  "クルス": {
+    "en": "Cruz",
+    "cn": "库鲁斯",
+    "cn_original": "库鲁斯",
+    "source": "scenario_unverified"
+  },
+  "マスター": {
+    "en": "master",
+    "cn": "修女",
+    "cn_original": "Master",
+    "source": "scenario_unverified"
+  },
+  "モルドレッド": {
+    "en": "mordred",
+    "cn": "莫德雷德",
+    "cn_original": "莫德雷德",
+    "source": "scenario_unverified"
+  },
+  "アーサー": {
+    "en": "arthur",
+    "cn": "亚瑟",
+    "cn_original": "亚瑟",
+    "source": "valid"
+  },
+  "街のゴロツキ": {
+    "en": "street thug",
+    "cn": "小混混",
+    "cn_original": "街头流氓",
+    "source": "scenario_unverified"
+  },
+  "ボーンドラゴン": {
+    "en": "bone dragon",
+    "cn": "骨龙",
+    "cn_original": "骨龙",
+    "source": "scenario_unverified"
+  },
+  "フュンフ": {
+    "en": "Funfu",
+    "cn": "芬芙",
+    "cn_original": "芬芙",
+    "source": "valid"
+  },
+  "ヘンリー": {
+    "en": "henry",
+    "cn": "亨利",
+    "cn_original": "亨利",
+    "source": "scenario_unverified"
+  },
+  "トネリロとヘンリー": {
+    "en": "Tonerillo and Henry",
+    "cn": "托涅利罗",
+    "cn_original": "托涅利罗和亨利",
+    "source": "scenario_unverified"
+  },
+  "班長の騎士": {
+    "en": "Squad Leader Knight",
+    "cn": "",
+    "cn_original": "班长骑士",
+    "source": "invalid"
+  },
+  "試験官の騎士": {
+    "en": "Examiner的Knight",
+    "cn": "",
+    "cn_original": "考官骑士",
+    "source": "invalid"
+  },
+  "負傷した騎士": {
+    "en": "wounded knight",
+    "cn": "",
+    "cn_original": "负伤的骑士",
+    "source": "invalid"
+  },
+  "骸の騎士": {
+    "en": "skeleton knight",
+    "cn": "",
+    "cn_original": "骑士骸骨",
+    "source": "invalid"
+  },
+  "ルナ": {
+    "en": "luna",
+    "cn": "露娜",
+    "cn_original": "露娜",
+    "source": "valid"
+  },
+  "ルナの父母": {
+    "en": "Luna的parents",
+    "cn": "露娜",
+    "cn_original": "露娜的父母",
+    "source": "scenario"
+  },
+  "若者": {
+    "en": "youth",
+    "cn": "",
+    "cn_original": "年轻人",
+    "source": "invalid"
+  },
+  "モルディカイ": {
+    "en": "Mordecai",
+    "cn": "莫迪凯",
+    "cn_original": "莫迪凯",
+    "source": "scenario_unverified"
+  },
+  "サヴァラン": {
+    "en": "Savarin",
+    "cn": "萨瓦兰",
+    "cn_original": "萨瓦兰",
+    "source": "scenario_unverified"
+  },
+  "ジャック": {
+    "en": "jack",
+    "cn": "杰克",
+    "cn_original": "杰克",
+    "source": "scenario_unverified"
+  },
+  "魔鯛": {
+    "en": "Magic sea bream",
+    "cn": "",
+    "cn_original": "魔鲷",
+    "source": "invalid"
+  },
+  "人気店の店長": {
+    "en": "Manager of a popular store",
+    "cn": "",
+    "cn_original": "人气店店长",
+    "source": "invalid"
+  },
+  "給仕スタッフの男": {
+    "en": "wait staff man",
+    "cn": "",
+    "cn_original": "男服务员",
+    "source": "invalid"
+  },
+  "厨房スタッフの男": {
+    "en": "kitchen staff man",
+    "cn": "",
+    "cn_original": "男厨师",
+    "source": "invalid"
+  },
+  "厨房スタッフの女": {
+    "en": "female kitchen staff",
+    "cn": "",
+    "cn_original": "女厨师",
+    "source": "invalid"
+  },
+  "給仕スタッフの女": {
+    "en": "wait staff woman",
+    "cn": "",
+    "cn_original": "女服务员",
+    "source": "invalid"
+  },
+  "エヴィ": {
+    "en": "Evie",
+    "cn": "",
+    "cn_original": "虾",
+    "source": "invalid"
+  },
+  "足早に帰る客": {
+    "en": "Customers returning quickly",
+    "cn": "",
+    "cn_original": "早早回去的客人",
+    "source": "invalid"
+  },
+  "恰幅の良い客": {
+    "en": "a good-looking customer",
+    "cn": "",
+    "cn_original": "体面的客人",
+    "source": "invalid"
+  },
+  "若い女性": {
+    "en": "young woman",
+    "cn": "",
+    "cn_original": "年轻女性",
+    "source": "invalid"
+  },
+  "若い男": {
+    "en": "young man",
+    "cn": "",
+    "cn_original": "年轻人",
+    "source": "invalid"
+  },
+  "土下座する男": {
+    "en": "man kneeling down",
+    "cn": "",
+    "cn_original": "下跪的男人",
+    "source": "invalid"
+  },
+  "ガラルドーザ": {
+    "en": "galal dozer",
+    "cn": "",
+    "cn_original": "加拉尔德扎",
+    "source": "invalid"
+  },
+  "客": {
+    "en": "customer",
+    "cn": "",
+    "cn_original": "客人",
+    "source": "invalid"
+  },
+  "風の精霊": {
+    "en": "spirit of the wind",
+    "cn": "",
+    "cn_original": "风精灵",
+    "source": "invalid"
+  },
+  "ふたり": {
+    "en": "two people",
+    "cn": "",
+    "cn_original": "两人",
+    "source": "invalid"
+  },
+  "ドラッヘンボア": {
+    "en": "drachenboer",
+    "cn": "",
+    "cn_original": "德拉狠野猪",
+    "source": "invalid"
+  },
+  "バジリスク": {
+    "en": "basilisk",
+    "cn": "巴吉里斯克",
+    "cn_original": "巴吉里斯克",
+    "source": "scenario_unverified"
+  },
+  "ガラの悪い客": {
+    "en": "rude customer",
+    "cn": "",
+    "cn_original": "痞气的客人",
+    "source": "invalid"
+  },
+  "常連客の老人": {
+    "en": "old regular customer",
+    "cn": "",
+    "cn_original": "常客老人",
+    "source": "invalid"
+  },
+  "珈琲農園の経営者": {
+    "en": "coffee farm manager",
+    "cn": "",
+    "cn_original": "咖啡园的经营者",
+    "source": "invalid"
+  },
+  "レオル": {
+    "en": "Leolu",
+    "cn": "路西欧",
+    "cn_original": "雷奥卢",
+    "source": "scenario"
+  },
+  "シス": {
+    "en": "Sith",
+    "cn": "希斯",
+    "cn_original": "希斯",
+    "source": "valid"
+  },
+  "シエテ": {
+    "en": "Siete",
+    "cn": "希耶提",
+    "cn_original": "希耶提",
+    "source": "valid"
+  },
+  "フェザー": {
+    "en": "feather",
+    "cn": "菲扎",
+    "cn_original": "菲扎",
+    "source": "scenario_unverified"
+  },
+  "スタン": {
+    "en": "Stan",
+    "cn": "斯坦",
+    "cn_original": "斯坦",
+    "source": "valid"
+  },
+  "シャオ": {
+    "en": "Xiao",
+    "cn": "阿露夏",
+    "cn_original": "箫",
+    "source": "scenario_unverified"
+  },
+  "ジャミル": {
+    "en": "jamil",
+    "cn": "贾米尔",
+    "cn_original": "贾米尔",
+    "source": "valid"
+  },
+  "ミュオン": {
+    "en": "Muon",
+    "cn": "缪恩",
+    "cn_original": "缪恩",
+    "source": "valid"
+  },
+  "ウーノ": {
+    "en": "Uno",
+    "cn": "乌诺",
+    "cn_original": "乌诺",
+    "source": "valid"
+  },
+  "マイム": {
+    "en": "mime",
+    "cn": "麦姆",
+    "cn_original": "麦姆",
+    "source": "valid"
+  },
+  "メイム": {
+    "en": "Mame",
+    "cn": "梅姆",
+    "cn_original": "梅姆",
+    "source": "scenario_unverified"
+  },
+  "ミイム": {
+    "en": "miim",
+    "cn": "米姆",
+    "cn_original": "米姆",
+    "source": "scenario_unverified"
+  },
+  "ユリウス": {
+    "en": "julius",
+    "cn": "尤里乌斯",
+    "cn_original": "尤里乌斯",
+    "source": "valid"
+  },
+  "レヴィオン王": {
+    "en": "King Levion",
+    "cn": "路西欧",
+    "cn_original": "雷维翁王",
+    "source": "scenario"
+  },
+  "イデルバ国王": {
+    "en": "King Idelba",
+    "cn": "",
+    "cn_original": "伊迪尔瓦国王",
+    "source": "invalid"
+  },
+  "イデルバ王国兵": {
+    "en": "Idelba Kingdom Soldier",
+    "cn": "",
+    "cn_original": "伊迪尔瓦王国兵",
+    "source": "invalid"
+  },
+  "カラクラキル": {
+    "en": "Karakura Kill",
+    "cn": "卡拉库拉奇尔",
+    "cn_original": "卡拉库拉奇尔",
+    "source": "scenario_unverified"
+  },
+  "クラーバラ": {
+    "en": "Clairborough",
+    "cn": "库拉芭拉",
+    "cn_original": "库拉芭拉",
+    "source": "scenario_unverified"
+  },
+  "おサダ": {
+    "en": "Osada",
+    "cn": "阿贞",
+    "cn_original": "阿贞",
+    "source": "scenario_unverified"
+  },
+  "ガロウザ": {
+    "en": "Garousa",
+    "cn": "加罗萨",
+    "cn_original": "加罗萨",
+    "source": "scenario_unverified"
+  },
+  "サビルバラ": {
+    "en": "Savilburgh",
+    "cn": "萨比尔巴拉",
+    "cn_original": "萨比尔巴拉",
+    "source": "valid"
+  },
+  "痩せっぽちの夜盗": {
+    "en": "skinny night thief",
+    "cn": "",
+    "cn_original": "瘦削的盗贼",
+    "source": "invalid"
+  },
+  "ガタイのいい夜盗": {
+    "en": "A strong night thief",
+    "cn": "",
+    "cn_original": "壮实的盗贼",
+    "source": "invalid"
+  },
+  "コルウェル": {
+    "en": "colwell",
+    "cn": "克洛威尔",
+    "cn_original": "克洛威尔",
+    "source": "scenario_unverified"
+  },
+  "村の老人": {
+    "en": "old man in the village",
+    "cn": "",
+    "cn_original": "村里的老人",
+    "source": "invalid"
+  },
+  "リュミエール聖騎士団員": {
+    "en": "Lumiere Holy Knights Member",
+    "cn": "",
+    "cn_original": "卢米埃尔圣骑士团员",
+    "source": "invalid"
+  },
+  "人相の悪い夜盗": {
+    "en": "ugly night thief",
+    "cn": "",
+    "cn_original": "凶恶的盗贼",
+    "source": "invalid"
+  },
+  "村の女性": {
+    "en": "village woman",
+    "cn": "",
+    "cn_original": "村里的女性",
+    "source": "invalid"
+  },
+  "村の子供": {
+    "en": "village child",
+    "cn": "",
+    "cn_original": "村里的孩子",
+    "source": "invalid"
+  },
+  "コッコロ": {
+    "en": "Kokkoro",
+    "cn": "可可萝",
+    "cn_original": "可可萝",
+    "source": "valid"
+  },
+  "キャル": {
+    "en": "Cal",
+    "cn": "凯露",
+    "cn_original": "凯露",
+    "source": "valid"
+  },
+  "ペコリーヌ": {
+    "en": "Pecorine",
+    "cn": "佩可莉姆",
+    "cn_original": "佩可莉姆",
+    "source": "scenario_unverified"
+  },
+  "【美食殿】": {
+    "en": "[Gourmet restaurant]",
+    "cn": "",
+    "cn_original": "美食殿堂",
+    "source": "invalid"
+  },
+  "キャル・コッコロ": {
+    "en": "Cal Coccolo",
+    "cn": "凯露・可可萝",
+    "cn_original": "凯露・可可萝",
+    "source": "scenario_unverified"
+  },
+  "ゴロツキ": {
+    "en": "Ruffian",
+    "cn": "小混混",
+    "cn_original": "小混混",
+    "source": "scenario_unverified"
+  },
+  "気楽な青年": {
+    "en": "easygoing young man",
+    "cn": "",
+    "cn_original": "愉快的青年",
+    "source": "invalid"
+  },
+  "オクトー": {
+    "en": "Octo",
+    "cn": "奥克托",
+    "cn_original": "奥克托",
+    "source": "valid"
+  },
+  "シュヴァリエ": {
+    "en": "Chevalier",
+    "cn": "修瓦利耶",
+    "cn_original": "修瓦利耶",
+    "source": "scenario_unverified"
+  },
+  "モノリス": {
+    "en": "monolith",
+    "cn": "",
+    "cn_original": "独石柱",
+    "source": "invalid"
+  },
+  "異形の者達": {
+    "en": "strange people",
+    "cn": "",
+    "cn_original": "异形们",
+    "source": "invalid"
+  },
+  "コア・モノリス": {
+    "en": "core monolith",
+    "cn": "",
+    "cn_original": "核心·独石柱",
+    "source": "invalid"
+  },
+  "ウィリアム": {
+    "en": "william",
+    "cn": "威廉姆",
+    "cn_original": "威廉姆",
+    "source": "scenario_unverified"
+  },
+  "カトル": {
+    "en": "Quatre",
+    "cn": "卡托尔",
+    "cn_original": "卡托尔",
+    "source": "valid"
+  },
+  "ユーステス": {
+    "en": "Eustace",
+    "cn": "尤斯缇斯",
+    "cn_original": "尤斯缇斯",
+    "source": "valid"
+  },
+  "ガウェイン": {
+    "en": "gawain",
+    "cn": "高文",
+    "cn_original": "高文",
+    "source": "valid"
+  },
+  "ジョヤ": {
+    "en": "Joya",
+    "cn": "除夜",
+    "cn_original": "除夜",
+    "source": "scenario_unverified"
+  },
+  "アンチラ": {
+    "en": "Antira",
+    "cn": "安琪拉",
+    "cn_original": "安琪拉",
+    "source": "valid"
+  },
+  "アニラ": {
+    "en": "Anila",
+    "cn": "阿妮拉",
+    "cn_original": "阿妮拉",
+    "source": "valid"
+  },
+  "サラーサ": {
+    "en": "Salasa",
+    "cn": "萨拉萨",
+    "cn_original": "萨拉萨",
+    "source": "valid"
+  },
+  "アリーザ": {
+    "en": "Ariza",
+    "cn": "阿丽莎",
+    "cn_original": "阿丽莎",
+    "source": "scenario_unverified"
+  },
+  "ナルメア": {
+    "en": "Narmaya",
+    "cn": "娜尔梅亚",
+    "cn_original": "娜尔梅亚",
+    "source": "valid"
+  },
+  "ウーフ": {
+    "en": "Woof",
+    "cn": "沃夫",
+    "cn_original": "沃夫",
+    "source": "scenario_unverified"
+  },
+  "レニー": {
+    "en": "Lenny",
+    "cn": "蕾妮",
+    "cn_original": "蕾妮",
+    "source": "scenario_unverified"
+  },
+  "シヴァ": {
+    "en": "shiva",
+    "cn": "湿婆",
+    "cn_original": "湿婆",
+    "source": "valid"
+  },
+  "ナーガラージャ": {
+    "en": "Nagaraja",
+    "cn": "阿露夏",
+    "cn_original": "娜迦拉嘉",
+    "source": "scenario_unverified"
+  },
+  "アランドゥーズ": {
+    "en": "Alain Deuz",
+    "cn": "阿兰多斯",
+    "cn_original": "阿兰多斯",
+    "source": "scenario_unverified"
+  },
+  "グルザレッザ": {
+    "en": "Gulzarezza",
+    "cn": "古扎雷萨",
+    "cn_original": "古扎雷萨",
+    "source": "scenario_unverified"
+  },
+  "魔導人形": {
+    "en": "magic doll",
+    "cn": "",
+    "cn_original": "魔导人偶",
+    "source": "invalid"
+  },
+  "ゼタ・ベアトリクス": {
+    "en": "Zeta Beatrix",
+    "cn": "泽塔·贝阿朵丽丝",
+    "cn_original": "泽塔·贝阿朵丽丝",
+    "source": "scenario_unverified"
+  },
+  "カシウス": {
+    "en": "Cassius",
+    "cn": "卡西乌斯",
+    "cn_original": "卡西乌斯",
+    "source": "valid"
+  },
+  "錆声の老人": {
+    "en": "rusty old man",
+    "cn": "",
+    "cn_original": "声音低沉的老人",
+    "source": "invalid"
+  },
+  "イルザの部下": {
+    "en": "Ilsa的subordinate",
+    "cn": "伊尔莎",
+    "cn_original": "伊尔莎的部下",
+    "source": "scenario"
+  },
+  "操縦士": {
+    "en": "pilot",
+    "cn": "",
+    "cn_original": "操作员",
+    "source": "invalid"
+  },
+  "ブローディア": {
+    "en": "Brodia",
+    "cn": "布罗蒂娅",
+    "cn_original": "布罗蒂娅",
+    "source": "scenario_unverified"
+  },
+  "クビラ": {
+    "en": "Kuvira",
+    "cn": "库碧拉",
+    "cn_original": "库碧拉",
+    "source": "valid"
+  },
+  "ラムレッダ": {
+    "en": "Ramredha",
+    "cn": "拉姆蕾塔",
+    "cn_original": "拉姆蕾塔",
+    "source": "scenario_unverified"
+  },
+  "ローアイン": {
+    "en": "lowain",
+    "cn": "罗艾因",
+    "cn_original": "罗艾因",
+    "source": "valid"
+  },
+  "エルセム": {
+    "en": "Ersem",
+    "cn": "艾尔塞姆",
+    "cn_original": "艾尔塞姆",
+    "source": "scenario_unverified"
+  },
+  "トモイ": {
+    "en": "tomoi",
+    "cn": "托莫伊",
+    "cn_original": "托莫伊",
+    "source": "scenario_unverified"
+  },
+  "スーテラ": {
+    "en": "Sutera",
+    "cn": "斯黛拉",
+    "cn_original": "斯黛拉",
+    "source": "valid"
+  },
+  "コルワ": {
+    "en": "Korwa",
+    "cn": "可露瓦",
+    "cn_original": "可露瓦",
+    "source": "valid"
+  },
+  "アルシャ": {
+    "en": "Arsha",
+    "cn": "阿露夏",
+    "cn_original": "阿露夏",
+    "source": "scenario_unverified"
+  },
+  "ヨハン": {
+    "en": "Johan",
+    "cn": "约翰",
+    "cn_original": "约翰",
+    "source": "valid"
+  },
+  "農家の男性": {
+    "en": "farmer man",
+    "cn": "",
+    "cn_original": "农家男",
+    "source": "invalid"
+  },
+  "農家の女性": {
+    "en": "farmer woman",
+    "cn": "",
+    "cn_original": "农家女",
+    "source": "invalid"
+  },
+  "作業員": {
+    "en": "worker",
+    "cn": "",
+    "cn_original": "工人",
+    "source": "invalid"
+  },
+  "区長": {
+    "en": "Ward mayor",
+    "cn": "",
+    "cn_original": "区长",
+    "source": "invalid"
+  },
+  "武器屋": {
+    "en": "weapon shop",
+    "cn": "",
+    "cn_original": "武器店",
+    "source": "invalid"
+  },
+  "道具屋": {
+    "en": "tool shop",
+    "cn": "",
+    "cn_original": "旧货店",
+    "source": "invalid"
+  },
+  "雑貨屋": {
+    "en": "General store",
+    "cn": "",
+    "cn_original": "杂货店",
+    "source": "invalid"
+  },
+  "謎の物体": {
+    "en": "mysterious object",
+    "cn": "",
+    "cn_original": "迷之物体",
+    "source": "invalid"
+  },
+  "全員": {
+    "en": "Everyone",
+    "cn": "",
+    "cn_original": "全员",
+    "source": "invalid"
+  },
+  "ラファエル": {
+    "en": "Raphael",
+    "cn": "拉斐尔",
+    "cn_original": "拉斐尔",
+    "source": "valid"
+  },
+  "悪党": {
+    "en": "villain",
+    "cn": "",
+    "cn_original": "恶党",
+    "source": "invalid"
+  },
+  "リチャード": {
+    "en": "richard",
+    "cn": "理查德",
+    "cn_original": "理查德",
+    "source": "valid"
+  },
+  "テレーズ": {
+    "en": "Therese",
+    "cn": "特蕾兹",
+    "cn_original": "特蕾兹",
+    "source": "scenario_unverified"
+  },
+  "ミカエル": {
+    "en": "michael",
+    "cn": "米迦勒",
+    "cn_original": "米迦勒",
+    "source": "valid"
+  },
+  "ガブリエル": {
+    "en": "Gabriel",
+    "cn": "加百列",
+    "cn_original": "加百列",
+    "source": "valid"
+  },
+  "ウリエル": {
+    "en": "Uriel",
+    "cn": "乌列尔",
+    "cn_original": "乌列尔",
+    "source": "valid"
+  },
+  "ハールート": {
+    "en": "haruto",
+    "cn": "哈露特",
+    "cn_original": "哈露特",
+    "source": "scenario_unverified"
+  },
+  "マールート": {
+    "en": "Marut",
+    "cn": "玛露特",
+    "cn_original": "玛露特",
+    "source": "scenario_unverified"
+  },
+  "ベリアル": {
+    "en": "Belial",
+    "cn": "贝利尔",
+    "cn_original": "贝利尔",
+    "source": "scenario_unverified"
+  },
+  "ルシファー": {
+    "en": "lucifer",
+    "cn": "路西法",
+    "cn_original": "路西法",
+    "source": "scenario_unverified"
+  },
+  "ドゥルジ": {
+    "en": "Duruji",
+    "cn": "多尔吉",
+    "cn_original": "多尔吉",
+    "source": "scenario_unverified"
+  },
+  "サイコヴィーラ": {
+    "en": "psychovillain",
+    "cn": "维拉",
+    "cn_original": "精神力维拉",
+    "source": "scenario"
+  },
+  "鋼の巨人": {
+    "en": "steel giant",
+    "cn": "",
+    "cn_original": "钢之巨人",
+    "source": "invalid"
+  },
+  "ジン": {
+    "en": "gin",
+    "cn": "仁",
+    "cn_original": "仁",
+    "source": "valid"
+  },
+  "イザベラ": {
+    "en": "isabella",
+    "cn": "伊莎贝拉",
+    "cn_original": "伊莎贝拉",
+    "source": "scenario_unverified"
+  },
+  "タイアー": {
+    "en": "Tyer",
+    "cn": "泰亚",
+    "cn_original": "泰亚",
+    "source": "scenario_unverified"
+  },
+  "子マッチョ": {
+    "en": "child macho",
+    "cn": "",
+    "cn_original": "小猛汉",
+    "source": "invalid"
+  },
+  "看護師": {
+    "en": "nurse",
+    "cn": "",
+    "cn_original": "护士",
+    "source": "invalid"
+  },
+  "避難中の男性": {
+    "en": "man evacuating",
+    "cn": "",
+    "cn_original": "避难中的男性",
+    "source": "invalid"
+  },
+  "避難中の女性": {
+    "en": "woman evacuating",
+    "cn": "",
+    "cn_original": "避难中的女性",
+    "source": "invalid"
+  },
+  "ガルストン隊長": {
+    "en": "Captain Galston",
+    "cn": "",
+    "cn_original": "加尔斯通队长",
+    "source": "invalid"
+  },
+  "大いなる存在": {
+    "en": "great being",
+    "cn": "",
+    "cn_original": "巨大存在",
+    "source": "invalid"
+  },
+  "訓練兵": {
+    "en": "training sergeant",
+    "cn": "",
+    "cn_original": "受训士兵",
+    "source": "invalid"
+  },
+  "警備隊長": {
+    "en": "guard chief",
+    "cn": "",
+    "cn_original": "警备队长",
+    "source": "invalid"
+  },
+  "魔導士": {
+    "en": "magician",
+    "cn": "",
+    "cn_original": "魔导士",
+    "source": "invalid"
+  },
+  "元悪党": {
+    "en": "Former villain",
+    "cn": "",
+    "cn_original": "原恶党",
+    "source": "invalid"
+  },
+  "黒衣の男": {
+    "en": "man in black",
+    "cn": "",
+    "cn_original": "黑衣男",
+    "source": "invalid"
+  },
+  "闇の星晶獣": {
+    "en": "dark star beast",
+    "cn": "",
+    "cn_original": "暗之星晶兽",
+    "source": "invalid"
+  },
+  "光の星晶獣": {
+    "en": "star beast of light",
+    "cn": "",
+    "cn_original": "光之星晶兽",
+    "source": "invalid"
+  },
+  "観光客": {
+    "en": "tourist",
+    "cn": "",
+    "cn_original": "游客",
+    "source": "invalid"
+  },
+  "元悪党達": {
+    "en": "Former villains",
+    "cn": "",
+    "cn_original": "原恶党们",
+    "source": "invalid"
+  },
+  "空の民": {
+    "en": "people of the sky",
+    "cn": "",
+    "cn_original": "空之民",
+    "source": "invalid"
+  },
+  "等身大フィギュア": {
+    "en": "life size figure",
+    "cn": "",
+    "cn_original": "等身大人偶",
+    "source": "invalid"
+  },
+  "ネフティス": {
+    "en": "Nephthys",
+    "cn": "",
+    "cn_original": "奈芙提斯",
+    "source": "invalid"
+  },
+  "エルステ帝国": {
+    "en": "Erste Empire",
+    "cn": "",
+    "cn_original": "艾尔斯提帝国",
+    "source": "invalid"
+  },
+  "怪物の声": {
+    "en": "monster voice",
+    "cn": "",
+    "cn_original": "怪物的声音",
+    "source": "invalid"
+  },
+  "アバター": {
+    "en": "avatar",
+    "cn": "",
+    "cn_original": "阿凡达",
+    "source": "invalid"
+  },
+  "メタトロン": {
+    "en": "metatron",
+    "cn": "",
+    "cn_original": "梅塔特隆",
+    "source": "invalid"
+  },
+  "アバターの咆哮": {
+    "en": "Avatar的Roar",
+    "cn": "",
+    "cn_original": "阿凡达的咆哮",
+    "source": "invalid"
+  },
+  "プロトバハムート": {
+    "en": "Proto Bahamut",
+    "cn": "原初巴哈姆特",
+    "cn_original": "原初巴哈姆特",
+    "source": "scenario_unverified"
+  },
+  "アバターの残滓": {
+    "en": "remnants of avatar",
+    "cn": "",
+    "cn_original": "阿凡达的残渣",
+    "source": "invalid"
+  },
+  "アーミラ": {
+    "en": "Armila",
+    "cn": "阿米拉",
+    "cn_original": "阿米拉",
+    "source": "valid"
+  },
+  "謎の咆哮": {
+    "en": "mysterious roar",
+    "cn": "",
+    "cn_original": "迷之咆哮",
+    "source": "invalid"
+  },
+  "ジェシカ": {
+    "en": "jessica",
+    "cn": "杰西卡",
+    "cn_original": "杰西卡",
+    "source": "valid"
+  },
+  "ゴーレム": {
+    "en": "golem",
+    "cn": "魔偶",
+    "cn_original": "魔偶",
+    "source": "scenario_unverified"
+  },
+  "サリエル": {
+    "en": "Sariel",
+    "cn": "沙利叶",
+    "cn_original": "沙利叶",
+    "source": "valid"
+  },
+  "アズラエル": {
+    "en": "Azrael",
+    "cn": "亚兹拉尔",
+    "cn_original": "亚兹拉尔",
+    "source": "scenario_unverified"
+  },
+  "イスラフィル": {
+    "en": "Israfil",
+    "cn": "伊斯拉非尔",
+    "cn_original": "伊斯拉非尔",
+    "source": "scenario_unverified"
+  },
+  "星晶獣": {
+    "en": "star beast",
+    "cn": "",
+    "cn_original": "星晶兽",
+    "source": "invalid"
+  },
+  "オリヴィエ": {
+    "en": "Olivier",
+    "cn": "奥莉薇尔",
+    "cn_original": "奥莉薇尔",
+    "source": "valid"
+  },
+  "ケルブ": {
+    "en": "cherub",
+    "cn": "基路伯",
+    "cn_original": "基路伯",
+    "source": "scenario_unverified"
+  },
+  "エグリゴリ": {
+    "en": "Egrigori",
+    "cn": "艾古利格利",
+    "cn_original": "艾古利格利",
+    "source": "scenario_unverified"
+  },
+  "ノイシュ": {
+    "en": "Neusch",
+    "cn": "诺伊修",
+    "cn_original": "诺伊修",
+    "source": "valid"
+  },
+  "街の女性": {
+    "en": "city ​​woman",
+    "cn": "",
+    "cn_original": "女性居民",
+    "source": "invalid"
+  },
+  "幽世の尖兵": {
+    "en": "Ghost Soldier",
+    "cn": "",
+    "cn_original": "幽世的尖兵",
+    "source": "invalid"
+  },
+  "幽世の門番": {
+    "en": "Gatekeeper of the ghostly world",
+    "cn": "",
+    "cn_original": "幽世的守门人",
+    "source": "invalid"
+  },
+  "マルキアレス": {
+    "en": "Marchiares",
+    "cn": "马尔基亚雷斯",
+    "cn_original": "马尔基亚雷斯",
+    "source": "scenario_unverified"
+  },
+  "パラケルスス": {
+    "en": "paracelsus",
+    "cn": "帕拉塞尔苏斯",
+    "cn_original": "帕拉塞尔苏斯",
+    "source": "scenario_unverified"
+  },
+  "ゼシード": {
+    "en": "Zeseed",
+    "cn": "泽西德",
+    "cn_original": "泽西德",
+    "source": "scenario_unverified"
+  },
+  "デリフォード": {
+    "en": "derriford",
+    "cn": "德里福德",
+    "cn_original": "德里福德",
+    "source": "scenario_unverified"
+  },
+  "錬金術師": {
+    "en": "alchemist",
+    "cn": "",
+    "cn_original": "炼金术师",
+    "source": "invalid"
+  },
+  "ハロルド": {
+    "en": "harold",
+    "cn": "哈罗德",
+    "cn_original": "哈罗德",
+    "source": "scenario_unverified"
+  },
+  "プロメティア": {
+    "en": "Promethea",
+    "cn": "普洛美缇娅",
+    "cn_original": "普洛美缇娅",
+    "source": "scenario_unverified"
+  },
+  "ユエル": {
+    "en": "Yuel",
+    "cn": "尤艾尔",
+    "cn_original": "尤艾尔",
+    "source": "valid"
+  },
+  "骨董鑑定士": {
+    "en": "antique appraiser",
+    "cn": "",
+    "cn_original": "古董鉴定师",
+    "source": "invalid"
+  },
+  "鑑定士テレサ": {
+    "en": "appraiser teresa",
+    "cn": "鉴定师特蕾莎と出会う",
+    "cn_original": "鉴定师特蕾莎",
+    "source": "scenario_unverified"
+  },
+  "マリア・テレサ": {
+    "en": "maria teresa",
+    "cn": "玛利亚・特蕾莎",
+    "cn_original": "玛利亚・特蕾莎",
+    "source": "scenario_unverified"
+  },
+  "ジャスティス": {
+    "en": "justice",
+    "cn": "阿露夏",
+    "cn_original": "Justice",
+    "source": "scenario_unverified"
+  },
+  "ユージン公": {
+    "en": "Duke Eugene",
+    "cn": "",
+    "cn_original": "尤金公",
+    "source": "invalid"
+  },
+  "貴族の青年": {
+    "en": "aristocratic youth",
+    "cn": "",
+    "cn_original": "贵族的青年",
+    "source": "invalid"
+  },
+  "幼いマリア・テレサ": {
+    "en": "young maria teresa",
+    "cn": "玛丽",
+    "cn_original": "少女玛利亚・特蕾莎",
+    "source": "scenario"
+  },
+  "マリア・テレサの母": {
+    "en": "maria teresa的mother",
+    "cn": "玛丽",
+    "cn_original": "玛利亚・特蕾莎的母亲",
+    "source": "scenario"
+  },
+  "エウロペ": {
+    "en": "europe",
+    "cn": "欧罗巴",
+    "cn_original": "欧罗巴",
+    "source": "valid"
+  },
+  "ガンダルヴァ": {
+    "en": "gandharva",
+    "cn": "健达缚",
+    "cn_original": "健达缚",
+    "source": "scenario_unverified"
+  },
+  "隊長": {
+    "en": "Captain",
+    "cn": "",
+    "cn_original": "队长",
+    "source": "invalid"
+  },
+  "ウロボロス": {
+    "en": "ouroboros",
+    "cn": "",
+    "cn_original": "衔尾蛇",
+    "source": "invalid"
+  },
+  "館長": {
+    "en": "Director",
+    "cn": "",
+    "cn_original": "馆长",
+    "source": "invalid"
+  },
+  "グリフォン": {
+    "en": "gryphon",
+    "cn": "狮鹫",
+    "cn_original": "狮鹫",
+    "source": "scenario_unverified"
+  },
+  "コウ": {
+    "en": "Kou",
+    "cn": "蔻",
+    "cn_original": "蔻",
+    "source": "valid"
+  },
+  "エリン": {
+    "en": "Erin",
+    "cn": "艾琳",
+    "cn_original": "艾琳",
+    "source": "valid"
+  },
+  "ティア": {
+    "en": "Tia",
+    "cn": "缇娅",
+    "cn_original": "缇娅",
+    "source": "scenario_unverified"
+  },
+  "ユピウピ": {
+    "en": "Yupiupi",
+    "cn": "花鱼兽",
+    "cn_original": "花鱼兽",
+    "source": "scenario_unverified"
+  },
+  "ユピウピのトレーナー": {
+    "en": "Yupiupi trainer",
+    "cn": "花鱼兽的训练员",
+    "cn_original": "花鱼兽的训练员",
+    "source": "scenario_unverified"
+  },
+  "エムディナ": {
+    "en": "Mdina",
+    "cn": "巫兔",
+    "cn_original": "巫兔",
+    "source": "scenario_unverified"
+  },
+  "エムディナ達": {
+    "en": "Mdina and others",
+    "cn": "巫兔",
+    "cn_original": "巫兔们",
+    "source": "scenario_unverified"
+  },
+  "アキノの商人": {
+    "en": "Aquino的merchant",
+    "cn": "",
+    "cn_original": "阿基诺的商人",
+    "source": "invalid"
+  },
+  "アキノの老人": {
+    "en": "old man aquino",
+    "cn": "",
+    "cn_original": "阿基诺的老人",
+    "source": "invalid"
+  },
+  "通りすがりの住民": {
+    "en": "Residents passing by",
+    "cn": "",
+    "cn_original": "路过的居民",
+    "source": "invalid"
+  },
+  "老いた店主": {
+    "en": "old shopkeeper",
+    "cn": "",
+    "cn_original": "老店主",
+    "source": "invalid"
+  },
+  "イモヤロウ": {
+    "en": "Imoyaro",
+    "cn": "红薯不良",
+    "cn_original": "大红薯",
+    "source": "scenario_unverified"
+  },
+  "ボケナス": {
+    "en": "Bokenasu",
+    "cn": "",
+    "cn_original": "烂茄子",
+    "source": "invalid"
+  },
+  "ラスティナ": {
+    "en": "Rustina",
+    "cn": "拉丝缇娜",
+    "cn_original": "拉丝缇娜",
+    "source": "valid"
+  },
+  "エジェリー": {
+    "en": "Egérie",
+    "cn": "艾洁丽",
+    "cn_original": "艾洁丽",
+    "source": "valid"
+  },
+  "マナリア男子生徒": {
+    "en": "manaria male student",
+    "cn": "露莉亚",
+    "cn_original": "马纳利亚男学生",
+    "source": "scenario"
+  },
+  "組長": {
+    "en": "boss",
+    "cn": "",
+    "cn_original": "组长",
+    "source": "invalid"
+  },
+  "ロザミア": {
+    "en": "Rosamia",
+    "cn": "萝莎米娅",
+    "cn_original": "萝莎米娅",
+    "source": "valid"
+  },
+  "アンスリア": {
+    "en": "Ansuria",
+    "cn": "安苏莉娅",
+    "cn_original": "安苏莉娅",
+    "source": "valid"
+  },
+  "クロエ": {
+    "en": "chloe",
+    "cn": "库洛尔",
+    "cn_original": "库洛尔",
+    "source": "valid"
+  },
+  "トラジロウ": {
+    "en": "Torajiro",
+    "cn": "",
+    "cn_original": "虎次郎",
+    "source": "invalid"
+  },
+  "ガラの悪い猫": {
+    "en": "rude cat",
+    "cn": "",
+    "cn_original": "凶恶的猫",
+    "source": "invalid"
+  },
+  "若い猫": {
+    "en": "young cat",
+    "cn": "",
+    "cn_original": "年轻的猫",
+    "source": "invalid"
+  },
+  "ムクタ": {
+    "en": "Mukta",
+    "cn": "木库塔",
+    "cn_original": "木库塔",
+    "source": "scenario_unverified"
+  },
+  "古株の猫": {
+    "en": "old cat",
+    "cn": "",
+    "cn_original": "资历老的猫",
+    "source": "invalid"
+  },
+  "毛の長い猫": {
+    "en": "long hair cat",
+    "cn": "",
+    "cn_original": "长毛猫",
+    "source": "invalid"
+  },
+  "セン": {
+    "en": "Sen",
+    "cn": "千",
+    "cn_original": "千",
+    "source": "valid"
+  },
+  "ヴァパウス": {
+    "en": "Vapaus",
+    "cn": "巴帕乌斯",
+    "cn_original": "巴帕乌斯",
+    "source": "scenario_unverified"
+  },
+  "アファカ": {
+    "en": "Afaka",
+    "cn": "阿法卡",
+    "cn_original": "阿法卡",
+    "source": "scenario_unverified"
+  },
+  "ダーント": {
+    "en": "Dirnt",
+    "cn": "旦特",
+    "cn_original": "旦特",
+    "source": "scenario_unverified"
+  },
+  "杖をついた老婆": {
+    "en": "old woman with a cane",
+    "cn": "",
+    "cn_original": "拄拐杖的老妇人",
+    "source": "invalid"
+  },
+  "ＮＹＡ‐ＯＮ": {
+    "en": "NYA-ON",
+    "cn": "",
+    "cn_original": "NYA-ON",
+    "source": "invalid"
+  },
+  "リベラ": {
+    "en": "Rivera",
+    "cn": "利贝拉",
+    "cn_original": "利贝拉",
+    "source": "scenario_unverified"
+  },
+  "エレフセリア": {
+    "en": "Eleftheria",
+    "cn": "艾勒夫赛利亚",
+    "cn_original": "艾勒夫赛利亚",
+    "source": "scenario_unverified"
+  },
+  "赤毛の猫": {
+    "en": "red-haired cat",
+    "cn": "",
+    "cn_original": "红毛猫",
+    "source": "invalid"
+  },
+  "痩せた猫": {
+    "en": "skinny cat",
+    "cn": "",
+    "cn_original": "消瘦的猫",
+    "source": "invalid"
+  },
+  "みぅちゃん": {
+    "en": "Miu-chan",
+    "cn": "",
+    "cn_original": "咪呜",
+    "source": "invalid"
+  },
+  "母親": {
+    "en": "mother",
+    "cn": "",
+    "cn_original": "母亲",
+    "source": "invalid"
+  },
+  "島の人": {
+    "en": "island people",
+    "cn": "",
+    "cn_original": "岛民",
+    "source": "invalid"
+  },
+  "シルフ": {
+    "en": "sylph",
+    "cn": "西尔芙",
+    "cn_original": "西尔芙",
+    "source": "scenario_unverified"
+  },
+  "護衛騎士": {
+    "en": "escort knight",
+    "cn": "",
+    "cn_original": "护卫骑士",
+    "source": "invalid"
+  },
+  "ファフニール": {
+    "en": "Fafnir",
+    "cn": "法夫纳",
+    "cn_original": "法夫纳",
+    "source": "scenario_unverified"
+  },
+  "乗客": {
+    "en": "passenger",
+    "cn": "",
+    "cn_original": "乘客",
+    "source": "invalid"
+  },
+  "ソフィア": {
+    "en": "sophia",
+    "cn": "索菲娅",
+    "cn_original": "索菲娅",
+    "source": "scenario_unverified"
+  },
+  "白竜騎士団員達": {
+    "en": "White Dragon Knights members",
+    "cn": "",
+    "cn_original": "白龙骑士团员们",
+    "source": "invalid"
+  },
+  "飛竜達": {
+    "en": "Flying dragons",
+    "cn": "",
+    "cn_original": "飞龙群",
+    "source": "invalid"
+  },
+  "ミニゴブ": {
+    "en": "mini gob",
+    "cn": "迷你哥布",
+    "cn_original": "迷你哥布",
+    "source": "valid"
+  },
+  "憲兵": {
+    "en": "military police",
+    "cn": "",
+    "cn_original": "宪兵",
+    "source": "invalid"
+  },
+  "兄妹の母親": {
+    "en": "mother of siblings",
+    "cn": "",
+    "cn_original": "兄妹的母亲",
+    "source": "invalid"
+  },
+  "リリィ": {
+    "en": "Lily",
+    "cn": "莉莉",
+    "cn_original": "莉莉",
+    "source": "valid"
+  },
+  "アリエ": {
+    "en": "Arie",
+    "cn": "",
+    "cn_original": "阿丽耶",
+    "source": "invalid"
+  },
+  "ギンタ": {
+    "en": "Ginta",
+    "cn": "",
+    "cn_original": "格塔",
+    "source": "invalid"
+  },
+  "ガイル": {
+    "en": "Guile",
+    "cn": "",
+    "cn_original": "盖尔",
+    "source": "invalid"
+  },
+  "偵察兵": {
+    "en": "scout",
+    "cn": "",
+    "cn_original": "侦察兵",
+    "source": "invalid"
+  },
+  "ゲルラ": {
+    "en": "Gerla",
+    "cn": "",
+    "cn_original": "盖尔拉",
+    "source": "invalid"
+  },
+  "ライナス": {
+    "en": "linus",
+    "cn": "",
+    "cn_original": "莱纳斯",
+    "source": "invalid"
+  },
+  "狙撃兵": {
+    "en": "sniper",
+    "cn": "",
+    "cn_original": "狙击兵",
+    "source": "invalid"
+  },
+  "将軍": {
+    "en": "general",
+    "cn": "",
+    "cn_original": "将军",
+    "source": "invalid"
+  },
+  "店長": {
+    "en": "Manager",
+    "cn": "",
+    "cn_original": "店长",
+    "source": "invalid"
+  },
+  "常連客": {
+    "en": "regular customer",
+    "cn": "",
+    "cn_original": "常客",
+    "source": "invalid"
+  },
+  "スヴァルの民": {
+    "en": "people of sval",
+    "cn": "",
+    "cn_original": "斯瓦尔之民",
+    "source": "invalid"
+  },
+  "クリスタリアの民": {
+    "en": "people of crystallia",
+    "cn": "露莉亚",
+    "cn_original": "克里斯塔利亚之民",
+    "source": "scenario"
+  },
+  "スヴァルの副官": {
+    "en": "Sval的lieutenant",
+    "cn": "",
+    "cn_original": "斯瓦尔副官",
+    "source": "invalid"
+  },
+  "スヴァルの尖兵": {
+    "en": "Svalu的Vanguard",
+    "cn": "",
+    "cn_original": "斯瓦尔尖兵",
+    "source": "invalid"
+  },
+  "メドゥーサ": {
+    "en": "medusa",
+    "cn": "美杜莎",
+    "cn_original": "美杜莎",
+    "source": "valid"
+  },
+  "ジオ": {
+    "en": "geo",
+    "cn": "吉欧",
+    "cn_original": "吉欧",
+    "source": "scenario_unverified"
+  },
+  "ナタク": {
+    "en": "Nataku",
+    "cn": "哪吒",
+    "cn_original": "哪吒",
+    "source": "valid"
+  },
+  "バアル": {
+    "en": "baal",
+    "cn": "巴尔",
+    "cn_original": "巴尔",
+    "source": "valid"
+  },
+  "ステンノ": {
+    "en": "Stenno",
+    "cn": "斯忒诺",
+    "cn_original": "斯忒诺",
+    "source": "scenario_unverified"
+  },
+  "サテュロス": {
+    "en": "satyr",
+    "cn": "萨提洛斯",
+    "cn_original": "萨提洛斯",
+    "source": "scenario_unverified"
+  },
+  "エウリュアレー": {
+    "en": "Euryale",
+    "cn": "尤瑞艾莉",
+    "cn_original": "尤瑞艾莉",
+    "source": "scenario_unverified"
+  },
+  "フレイ": {
+    "en": "Frey",
+    "cn": "弗雷",
+    "cn_original": "弗雷",
+    "source": "valid"
+  },
+  "ザオシェン": {
+    "en": "Zaoshen",
+    "cn": "灶神",
+    "cn_original": "灶神",
+    "source": "scenario_unverified"
+  },
+  "スノウホワイト": {
+    "en": "snow white",
+    "cn": "白雪",
+    "cn_original": "白雪",
+    "source": "scenario_unverified"
+  },
+  "キュベレー": {
+    "en": "Cybele",
+    "cn": "库柏勒",
+    "cn_original": "库柏勒",
+    "source": "scenario_unverified"
+  },
+  "サテュロスとナタク": {
+    "en": "Satyr and Nataku",
+    "cn": "哪吒",
+    "cn_original": "萨提洛斯和哪吒",
+    "source": "scenario"
+  },
+  "ルルーシュ・ランペルージ": {
+    "en": "Lelouch Lamperouge",
+    "cn": "鲁鲁修",
+    "cn_original": "鲁鲁修·兰佩路基",
+    "source": "scenario_unverified"
+  },
+  "ルルーシュ": {
+    "en": "lelouch",
+    "cn": "鲁鲁修",
+    "cn_original": "鲁鲁修",
+    "source": "scenario_unverified"
+  },
+  "枢木スザク": {
+    "en": "Suzaku Kururugi",
+    "cn": "枢木朱雀",
+    "cn_original": "枢木朱雀",
+    "source": "valid"
+  },
+  "紅月カレン": {
+    "en": "Akatsuki Karen",
+    "cn": "卡莲",
+    "cn_original": "红月卡莲",
+    "source": "scenario"
+  },
+  "紅蓮弐式": {
+    "en": "Guren 2nd type",
+    "cn": "",
+    "cn_original": "红莲贰式",
+    "source": "invalid"
+  },
+  "ランスロット・エアキャヴァルリー": {
+    "en": "lancelot air cavalry",
+    "cn": "兰斯洛特",
+    "cn_original": "兰斯洛特·空战骑兵",
+    "source": "scenario"
+  },
+  "サザーランド": {
+    "en": "sutherland",
+    "cn": "",
+    "cn_original": "萨瑟兰",
+    "source": "invalid"
+  },
+  "ナナリー": {
+    "en": "Nunnally",
+    "cn": "娜娜莉",
+    "cn_original": "娜娜莉",
+    "source": "scenario_unverified"
+  },
+  "ジェレミア": {
+    "en": "jeremiah",
+    "cn": "杰雷米亚",
+    "cn_original": "杰雷米亚",
+    "source": "scenario_unverified"
+  },
+  "星晶獣マグネシア": {
+    "en": "Star Beast Magnesia",
+    "cn": "星晶兽玛格涅西亚",
+    "cn_original": "星晶兽玛格涅西亚",
+    "source": "scenario_unverified"
+  },
+  "カルメン": {
+    "en": "carmen",
+    "cn": "卡门",
+    "cn_original": "卡门",
+    "source": "scenario_unverified"
+  },
+  "デルフィナ": {
+    "en": "Delfina",
+    "cn": "黛尔菲娜",
+    "cn_original": "黛尔菲娜",
+    "source": "scenario_unverified"
+  },
+  "船長": {
+    "en": "captain",
+    "cn": "",
+    "cn_original": "船长",
+    "source": "invalid"
+  },
+  "観光客の悲鳴": {
+    "en": "tourists' screams",
+    "cn": "",
+    "cn_original": "游客的惨叫",
+    "source": "invalid"
+  },
+  "マーティン": {
+    "en": "martin",
+    "cn": "",
+    "cn_original": "马汀",
+    "source": "invalid"
+  },
+  "エレン": {
+    "en": "Ellen",
+    "cn": "",
+    "cn_original": "艾莲",
+    "source": "invalid"
+  },
+  "ブルース": {
+    "en": "blues",
+    "cn": "布鲁斯",
+    "cn_original": "布鲁斯",
+    "source": "scenario_unverified"
+  },
+  "サメハンター": {
+    "en": "shark hunter",
+    "cn": "鲨鱼猎人",
+    "cn_original": "鲨鱼猎人",
+    "source": "scenario_unverified"
+  },
+  "ルシオのファン": {
+    "en": "Lucio的fan",
+    "cn": "路西欧",
+    "cn_original": "路西欧的粉丝",
+    "source": "scenario"
+  },
+  "ルシオの古参ファン": {
+    "en": "Lucio的veteran fan",
+    "cn": "路西欧",
+    "cn_original": "路西欧的资深粉丝",
+    "source": "scenario"
+  },
+  "レストラン店員": {
+    "en": "restaurant clerk",
+    "cn": "",
+    "cn_original": "餐馆店员",
+    "source": "invalid"
+  },
+  "サメ": {
+    "en": "shark",
+    "cn": "鲨鱼",
+    "cn_original": "鲨鱼",
+    "source": "scenario_unverified"
+  },
+  "繁華街の商人": {
+    "en": "downtown merchant",
+    "cn": "",
+    "cn_original": "繁华街的商人",
+    "source": "invalid"
+  },
+  "ファン達": {
+    "en": "fans",
+    "cn": "路西欧的粉丝",
+    "cn_original": "粉丝们",
+    "source": "scenario_unverified"
+  },
+  "宿屋街の商人": {
+    "en": "Inn town merchant",
+    "cn": "",
+    "cn_original": "旅店街的商人",
+    "source": "invalid"
+  },
+  "ショップ店員": {
+    "en": "shop clerk",
+    "cn": "",
+    "cn_original": "商店店员",
+    "source": "invalid"
+  },
+  "サメーズ": {
+    "en": "Samees",
+    "cn": "鲨鱼",
+    "cn_original": "鲨鱼群",
+    "source": "scenario_unverified"
+  },
+  "若い女性客": {
+    "en": "young female customer",
+    "cn": "",
+    "cn_original": "年轻女性客人",
+    "source": "invalid"
+  },
+  "別の屋台の店員": {
+    "en": "another stall worker",
+    "cn": "",
+    "cn_original": "其他摊位的店员",
+    "source": "invalid"
+  },
+  "派手な女性客": {
+    "en": "flashy female customer",
+    "cn": "",
+    "cn_original": "艳丽的女顾客",
+    "source": "invalid"
+  },
+  "彼女": {
+    "en": "she",
+    "cn": "",
+    "cn_original": "女朋友",
+    "source": "invalid"
+  },
+  "彼氏": {
+    "en": "boyfriend",
+    "cn": "",
+    "cn_original": "男朋友",
+    "source": "invalid"
+  },
+  "女性客の子供": {
+    "en": "female customer的child",
+    "cn": "",
+    "cn_original": "女顾客的孩子",
+    "source": "invalid"
+  },
+  "子連れの女性客": {
+    "en": "Female customers with children",
+    "cn": "",
+    "cn_original": "带孩子的女顾客",
+    "source": "invalid"
+  },
+  "ボーマン": {
+    "en": "bowman",
+    "cn": "波曼",
+    "cn_original": "波曼",
+    "source": "valid"
+  },
+  "リヴァイ": {
+    "en": "Levi",
+    "cn": "利威尔",
+    "cn_original": "利威尔",
+    "source": "valid"
+  },
+  "エルヴィン": {
+    "en": "Erwin",
+    "cn": "",
+    "cn_original": "埃尔文",
+    "source": "invalid"
+  },
+  "山の主": {
+    "en": "lord of the mountain",
+    "cn": "",
+    "cn_original": "山之主",
+    "source": "invalid"
+  },
+  "店主": {
+    "en": "shopkeeper",
+    "cn": "",
+    "cn_original": "店长",
+    "source": "invalid"
+  },
+  "ボス": {
+    "en": "boss",
+    "cn": "暴徒的首领",
+    "cn_original": "BOSS",
+    "source": "scenario_unverified"
+  },
+  "にこ": {
+    "en": "Nico",
+    "cn": "",
+    "cn_original": "妮可",
+    "source": "invalid"
+  },
+  "ことり": {
+    "en": "Kotori",
+    "cn": "",
+    "cn_original": "小鸟",
+    "source": "invalid"
+  },
+  "町長": {
+    "en": "mayor",
+    "cn": "",
+    "cn_original": "镇长",
+    "source": "invalid"
+  },
+  "観客達": {
+    "en": "audience",
+    "cn": "",
+    "cn_original": "观众们",
+    "source": "invalid"
+  },
+  "メイド": {
+    "en": "maid",
+    "cn": "女仆",
+    "cn_original": "女仆",
+    "source": "scenario_unverified"
+  },
+  "女性達": {
+    "en": "women",
+    "cn": "",
+    "cn_original": "女性们",
+    "source": "invalid"
+  },
+  "絵里": {
+    "en": "Eri",
+    "cn": "",
+    "cn_original": "绘里",
+    "source": "invalid"
+  },
+  "花陽": {
+    "en": "Hanayo",
+    "cn": "",
+    "cn_original": "花阳",
+    "source": "invalid"
+  },
+  "アイナ": {
+    "en": "Aina",
+    "cn": "爱娜",
+    "cn_original": "爱娜",
+    "source": "scenario_unverified"
+  },
+  "アテナ": {
+    "en": "athena",
+    "cn": "雅典娜",
+    "cn_original": "雅典娜",
+    "source": "valid"
+  },
+  "ルーマシーの人々": {
+    "en": "people of rumashi",
+    "cn": "",
+    "cn_original": "露玛西的人们",
+    "source": "invalid"
+  },
+  "メドゥシアナ": {
+    "en": "medusiana",
+    "cn": "美杜希安娜",
+    "cn_original": "美杜希安娜",
+    "source": "scenario_unverified"
+  },
+  "異界の魔物": {
+    "en": "monster of another world",
+    "cn": "",
+    "cn_original": "异界的魔物",
+    "source": "invalid"
+  },
+  "巨大な魔物": {
+    "en": "huge monster",
+    "cn": "",
+    "cn_original": "巨大的魔物",
+    "source": "invalid"
+  },
+  "ベオバクター": {
+    "en": "Beobacter",
+    "cn": "贝欧巴克塔",
+    "cn_original": "贝欧巴克塔",
+    "source": "scenario_unverified"
+  },
+  "異界の偶像": {
+    "en": "idol of another world",
+    "cn": "",
+    "cn_original": "异界的偶像",
+    "source": "invalid"
+  },
+  "少女の幻影": {
+    "en": "girl的illusion",
+    "cn": "",
+    "cn_original": "少女的幻影",
+    "source": "invalid"
+  },
+  "町の住人": {
+    "en": "town resident",
+    "cn": "",
+    "cn_original": "街上住民",
+    "source": "invalid"
+  },
+  "マキュラ・マリウス": {
+    "en": "Macula Marius",
+    "cn": "玛裘拉·玛利乌斯",
+    "cn_original": "玛裘拉·玛利乌斯",
+    "source": "valid"
+  },
+  "誘拐団": {
+    "en": "kidnapping group",
+    "cn": "",
+    "cn_original": "诱拐团",
+    "source": "invalid"
+  },
+  "誘拐団の首領": {
+    "en": "leader of kidnapping group",
+    "cn": "",
+    "cn_original": "诱拐团的首领",
+    "source": "invalid"
+  },
+  "貴族の娘": {
+    "en": "daughter of a nobleman",
+    "cn": "",
+    "cn_original": "贵族女性",
+    "source": "invalid"
+  },
+  "アヴィザ": {
+    "en": "Avisa",
+    "cn": "阿维萨",
+    "cn_original": "阿维萨",
+    "source": "scenario_unverified"
+  },
+  "使用人": {
+    "en": "servant",
+    "cn": "",
+    "cn_original": "佣人",
+    "source": "invalid"
+  },
+  "アーテファ": {
+    "en": "Artefa",
+    "cn": "阿提法",
+    "cn_original": "阿提法",
+    "source": "scenario_unverified"
+  },
+  "タヴィーナ": {
+    "en": "Tavina",
+    "cn": "塔薇娜",
+    "cn_original": "塔薇娜",
+    "source": "scenario_unverified"
+  },
+  "タヴィーナの侍女": {
+    "en": "Tavina的maid",
+    "cn": "塔薇娜",
+    "cn_original": "塔薇娜的女佣",
+    "source": "scenario_unverified"
+  },
+  "ケッタギア": {
+    "en": "Ketta Gear",
+    "cn": "自动车",
+    "cn_original": "自动车",
+    "source": "scenario_unverified"
+  },
+  "ケッタギア・燭台": {
+    "en": "Ketta Gear Candelabra",
+    "cn": "自动车",
+    "cn_original": "自动车·烛台",
+    "source": "scenario_unverified"
+  },
+  "アリシア": {
+    "en": "Alicia",
+    "cn": "阿莉西亚",
+    "cn_original": "阿莉西亚",
+    "source": "scenario_unverified"
+  },
+  "ニーア": {
+    "en": "NieR",
+    "cn": "尼娅",
+    "cn_original": "尼娅",
+    "source": "valid"
+  },
+  "グンター": {
+    "en": "gunther",
+    "cn": "古达",
+    "cn_original": "古达",
+    "source": "scenario_unverified"
+  },
+  "クリームヒルト": {
+    "en": "cream hilt",
+    "cn": "克琳希德",
+    "cn_original": "克琳希德",
+    "source": "scenario_unverified"
+  },
+  "ヨゼフ王": {
+    "en": "king joseph",
+    "cn": "约瑟夫",
+    "cn_original": "约瑟夫王",
+    "source": "scenario_unverified"
+  },
+  "ヨゼフ": {
+    "en": "Joseph",
+    "cn": "约瑟夫",
+    "cn_original": "约瑟夫",
+    "source": "scenario_unverified"
+  },
+  "ハーゲン": {
+    "en": "hagen",
+    "cn": "哈根",
+    "cn_original": "哈根",
+    "source": "scenario_unverified"
+  },
+  "リヒト": {
+    "en": "Licht",
+    "cn": "",
+    "cn_original": "里希德",
+    "source": "invalid"
+  },
+  "アグロヴァル": {
+    "en": "Agroval",
+    "cn": "阿古罗瓦尔",
+    "cn_original": "阿古罗瓦尔",
+    "source": "valid"
+  },
+  "ディニリシア": {
+    "en": "Dinilicia",
+    "cn": "恐蛇",
+    "cn_original": "恐蛇",
+    "source": "scenario_unverified"
+  },
+  "ガイゼンボーガ": {
+    "en": "Geisenboga",
+    "cn": "盖森伯格",
+    "cn_original": "盖森伯格",
+    "source": "valid"
+  },
+  "ザ・スター": {
+    "en": "The Star",
+    "cn": "",
+    "cn_original": "The・Star",
+    "source": "invalid"
+  },
+  "兵士": {
+    "en": "soldier",
+    "cn": "",
+    "cn_original": "士兵",
+    "source": "invalid"
+  },
+  "男の子": {
+    "en": "boy",
+    "cn": "",
+    "cn_original": "男孩",
+    "source": "invalid"
+  },
+  "夫": {
+    "en": "husband",
+    "cn": "",
+    "cn_original": "丈夫",
+    "source": "invalid"
+  },
+  "妻": {
+    "en": "wife",
+    "cn": "",
+    "cn_original": "妻子",
+    "source": "invalid"
+  },
+  "役人": {
+    "en": "official",
+    "cn": "",
+    "cn_original": "官员",
+    "source": "invalid"
+  },
+  "怪我を負った男": {
+    "en": "injured man",
+    "cn": "",
+    "cn_original": "受伤的男子",
+    "source": "invalid"
+  },
+  "天険の主": {
+    "en": "Lord of natural disasters",
+    "cn": "",
+    "cn_original": "天险之主",
+    "source": "invalid"
+  },
+  "ガリア隊": {
+    "en": "Gallia squad",
+    "cn": "加利亚",
+    "cn_original": "加利亚兵",
+    "source": "scenario_unverified"
+  },
+  "過激派の民衆": {
+    "en": "extremist people",
+    "cn": "",
+    "cn_original": "过激派的民众",
+    "source": "invalid"
+  },
+  "ガリア隊の隊長": {
+    "en": "Captain of Gallia",
+    "cn": "加利亚",
+    "cn_original": "加利亚兵队长",
+    "source": "scenario_unverified"
+  },
+  "ガリア隊の隊員": {
+    "en": "Gallia squad member",
+    "cn": "加利亚",
+    "cn_original": "加利亚兵队员",
+    "source": "scenario_unverified"
+  },
+  "過激派の男": {
+    "en": "extremist man",
+    "cn": "",
+    "cn_original": "过激派的男人",
+    "source": "invalid"
+  },
+  "ガリア": {
+    "en": "Gaul",
+    "cn": "加利亚",
+    "cn_original": "加利亚",
+    "source": "scenario_unverified"
+  },
+  "集まった民衆": {
+    "en": "people gathered",
+    "cn": "",
+    "cn_original": "聚集起来的民众",
+    "source": "invalid"
+  },
+  "マウロ": {
+    "en": "Mauro",
+    "cn": "毛洛",
+    "cn_original": "毛洛",
+    "source": "scenario_unverified"
+  },
+  "ドルザ・レム": {
+    "en": "Dorza Rem",
+    "cn": "伊尔莎",
+    "cn_original": "多尔扎·雷姆",
+    "source": "scenario"
+  },
+  "イスタバイオン王国兵": {
+    "en": "Istabaion Kingdom Soldier",
+    "cn": "伊欧",
+    "cn_original": "伊斯塔拜恩王国兵",
+    "source": "scenario"
+  },
+  "イデルバ王国民": {
+    "en": "Idelba Kingdom Nation",
+    "cn": "",
+    "cn_original": "伊迪尔瓦国民",
+    "source": "invalid"
+  },
+  "イデルバの将軍": {
+    "en": "General of Idelba",
+    "cn": "",
+    "cn_original": "伊迪尔瓦将军",
+    "source": "invalid"
+  },
+  "レジスタンス": {
+    "en": "resistance",
+    "cn": "斯坦",
+    "cn_original": "抵抗运动",
+    "source": "scenario"
+  },
+  "レム王国兵": {
+    "en": "Rem Kingdom Soldier",
+    "cn": "",
+    "cn_original": "雷姆王国兵",
+    "source": "invalid"
+  },
+  "ギルベルト": {
+    "en": "gilbert",
+    "cn": "吉尔伯特",
+    "cn_original": "吉尔伯特",
+    "source": "scenario_unverified"
+  },
+  "イスタバイオン兵": {
+    "en": "Istabaion soldiers",
+    "cn": "伊欧",
+    "cn_original": "伊斯塔拜恩兵",
+    "source": "scenario"
+  },
+  "アニシダ": {
+    "en": "Anishida",
+    "cn": "阿尼希妲",
+    "cn_original": "阿尼希妲",
+    "source": "scenario_unverified"
+  },
+  "ハイラック": {
+    "en": "high rack",
+    "cn": "海拉克",
+    "cn_original": "海拉克",
+    "source": "scenario_unverified"
+  },
+  "ガネーシャ": {
+    "en": "ganesha",
+    "cn": "阿露夏",
+    "cn_original": "迦尼萨",
+    "source": "scenario_unverified"
+  },
+  "エキドナ": {
+    "en": "Echidna",
+    "cn": "艾奇多娜",
+    "cn_original": "艾奇多娜",
+    "source": "scenario_unverified"
+  },
+  "コロッサス": {
+    "en": "colossus",
+    "cn": "科罗萨斯",
+    "cn_original": "科罗萨斯",
+    "source": "valid"
+  },
+  "緋色の騎士": {
+    "en": "scarlet knight",
+    "cn": "",
+    "cn_original": "绯色骑士",
+    "source": "invalid"
+  },
+  "ヨウ": {
+    "en": "You",
+    "cn": "容",
+    "cn_original": "容",
+    "source": "valid"
+  },
+  "フラウ": {
+    "en": "Frau",
+    "cn": "芙劳",
+    "cn_original": "芙劳",
+    "source": "valid"
+  },
+  "レスター": {
+    "en": "leicester",
+    "cn": "莱斯特",
+    "cn_original": "莱斯特",
+    "source": "scenario_unverified"
+  },
+  "黒い星晶獣": {
+    "en": "black star beast",
+    "cn": "",
+    "cn_original": "黑色的星晶兽",
+    "source": "invalid"
+  },
+  "若い騎空士": {
+    "en": "young cavalryman",
+    "cn": "",
+    "cn_original": "年轻的骑空士",
+    "source": "invalid"
+  },
+  "魔術医": {
+    "en": "witch doctor",
+    "cn": "",
+    "cn_original": "魔术医师",
+    "source": "invalid"
+  },
+  "レナ": {
+    "en": "Lena",
+    "cn": "蕾娜",
+    "cn_original": "蕾娜",
+    "source": "valid"
+  },
+  "ジョイ": {
+    "en": "joy",
+    "cn": "乔伊",
+    "cn_original": "乔伊",
+    "source": "valid"
+  },
+  "ビカラ": {
+    "en": "Vikara",
+    "cn": "碧卡拉",
+    "cn_original": "碧卡拉",
+    "source": "valid"
+  },
+  "ドゥーベ": {
+    "en": "Dube",
+    "cn": "梅路",
+    "cn_original": "杜贝",
+    "source": "scenario"
+  },
+  "メラク": {
+    "en": "Meraku",
+    "cn": "",
+    "cn_original": "梅拉库",
+    "source": "invalid"
+  },
+  "フェグダ": {
+    "en": "Fegda",
+    "cn": "",
+    "cn_original": "菲古达",
+    "source": "invalid"
+  },
+  "メグレズ": {
+    "en": "Megrez",
+    "cn": "梅格",
+    "cn_original": "梅古雷兹",
+    "source": "scenario"
+  },
+  "アリオト": {
+    "en": "Arioto",
+    "cn": "路西欧",
+    "cn_original": "艾利欧特",
+    "source": "scenario"
+  },
+  "ミザール": {
+    "en": "Mizar",
+    "cn": "",
+    "cn_original": "米扎尔",
+    "source": "invalid"
+  },
+  "アルカイド": {
+    "en": "alkaide",
+    "cn": "",
+    "cn_original": "阿尔凯多",
+    "source": "invalid"
+  },
+  "商人の男の子": {
+    "en": "merchant boy",
+    "cn": "",
+    "cn_original": "商人的男孩子",
+    "source": "invalid"
+  },
+  "商人の子": {
+    "en": "merchant的child",
+    "cn": "",
+    "cn_original": "商人的孩子",
+    "source": "invalid"
+  },
+  "店員の女の子": {
+    "en": "clerk girl",
+    "cn": "",
+    "cn_original": "店员的女孩子",
+    "source": "invalid"
+  },
+  "魔物の主": {
+    "en": "lord of monsters",
+    "cn": "",
+    "cn_original": "魔物的主人",
+    "source": "invalid"
+  },
+  "ヴァルフリート": {
+    "en": "Valfleet",
+    "cn": "瓦尔弗利德",
+    "cn_original": "瓦尔弗利德",
+    "source": "scenario_unverified"
+  },
+  "ゼエン": {
+    "en": "Zeen",
+    "cn": "",
+    "cn_original": "泽恩",
+    "source": "invalid"
+  },
+  "孤児１": {
+    "en": "orphan 1",
+    "cn": "",
+    "cn_original": "孤儿1",
+    "source": "invalid"
+  },
+  "孤児２": {
+    "en": "orphan 2",
+    "cn": "",
+    "cn_original": "孤儿2",
+    "source": "invalid"
+  },
+  "マフィア": {
+    "en": "mafia",
+    "cn": "",
+    "cn_original": "黑手党",
+    "source": "invalid"
+  },
+  "傷ついた子供": {
+    "en": "hurt child",
+    "cn": "",
+    "cn_original": "受伤的孩子",
+    "source": "invalid"
+  },
+  "グリームニル": {
+    "en": "Grimnir",
+    "cn": "格里姆尼尔",
+    "cn_original": "格里姆尼尔",
+    "source": "valid"
+  },
+  "生徒": {
+    "en": "student",
+    "cn": "",
+    "cn_original": "学生",
+    "source": "invalid"
+  },
+  "チョコレートの精": {
+    "en": "chocolate spirit",
+    "cn": "艾尔莫特",
+    "cn_original": "巧克力精灵",
+    "source": "scenario"
+  },
+  "秩序の騎空団伝令": {
+    "en": "Cavalry Messenger of Order",
+    "cn": "",
+    "cn_original": "秩序骑空团传令员",
+    "source": "invalid"
+  },
+  "秩序の騎空団団員": {
+    "en": "Orderly Cavalry Corps Member",
+    "cn": "",
+    "cn_original": "秩序骑空团团员",
+    "source": "invalid"
+  },
+  "活発な女の子": {
+    "en": "lively girl",
+    "cn": "",
+    "cn_original": "活泼的女孩子",
+    "source": "invalid"
+  },
+  "冷静な男の子": {
+    "en": "calm boy",
+    "cn": "",
+    "cn_original": "冷静的男孩子",
+    "source": "invalid"
+  },
+  "おませな女の子": {
+    "en": "Omase girl",
+    "cn": "",
+    "cn_original": "早熟的女孩子",
+    "source": "invalid"
+  },
+  "ムゲン": {
+    "en": "Mugen",
+    "cn": "无限",
+    "cn_original": "无限",
+    "source": "valid"
+  },
+  "ネハン": {
+    "en": "Nehan",
+    "cn": "涅槃",
+    "cn_original": "涅槃",
+    "source": "valid"
+  },
+  "レイ": {
+    "en": "Ray",
+    "cn": "零",
+    "cn_original": "零",
+    "source": "valid"
+  },
+  "アシャ": {
+    "en": "Asha",
+    "cn": "阿霞",
+    "cn_original": "阿霞",
+    "source": "scenario_unverified"
+  },
+  "マガザン幹部": {
+    "en": "magazin executives",
+    "cn": "",
+    "cn_original": "玛格森干部",
+    "source": "invalid"
+  },
+  "マガザンの荒くれ者達": {
+    "en": "Magazin的Rogues",
+    "cn": "",
+    "cn_original": "玛格森的流氓们",
+    "source": "invalid"
+  },
+  "マガザンの下っ端": {
+    "en": "The bottom of Magazin",
+    "cn": "",
+    "cn_original": "玛格森的小喽啰",
+    "source": "invalid"
+  },
+  "アオイドス": {
+    "en": "Aoides",
+    "cn": "亚欧伊多斯",
+    "cn_original": "亚欧伊多斯",
+    "source": "valid"
+  },
+  "アルタイル": {
+    "en": "altair",
+    "cn": "阿尔泰尔",
+    "cn_original": "阿尔泰尔",
+    "source": "valid"
+  },
+  "幼いスツルム": {
+    "en": "young Sturm",
+    "cn": "斯特姆",
+    "cn_original": "幼年斯特姆",
+    "source": "scenario"
+  },
+  "へレル·ベン·シャレム": {
+    "en": "Helel ben Shalem",
+    "cn": "赫莱尔·本·夏蕾姆",
+    "cn_original": "赫莱尔·本·夏蕾姆",
+    "source": "valid"
+  },
+  "キャラバン隊の男": {
+    "en": "caravan man",
+    "cn": "阿露夏",
+    "cn_original": "商队男子",
+    "source": "scenario_unverified"
+  },
+  "やんちゃな男の子": {
+    "en": "naughty boy",
+    "cn": "",
+    "cn_original": "调皮的男孩子",
+    "source": "invalid"
+  },
+  "ザウラ": {
+    "en": "Zaura",
+    "cn": "扎乌拉",
+    "cn_original": "扎乌拉",
+    "source": "scenario_unverified"
+  },
+  "シュラ": {
+    "en": "Shura",
+    "cn": "秋罗",
+    "cn_original": "秋罗",
+    "source": "valid"
+  },
+  "ポラリス": {
+    "en": "Polaris",
+    "cn": "珀拉莉丝",
+    "cn_original": "珀拉莉丝",
+    "source": "scenario_unverified"
+  },
+  "レオニス": {
+    "en": "Leonis",
+    "cn": "雷欧尼斯",
+    "cn_original": "雷欧尼斯",
+    "source": "scenario_unverified"
+  },
+  "ロウファ": {
+    "en": "Loufa",
+    "cn": "罗法",
+    "cn_original": "罗法",
+    "source": "scenario_unverified"
+  },
+  "ランファ": {
+    "en": "Ranpha",
+    "cn": "兰华",
+    "cn_original": "兰华",
+    "source": "scenario_unverified"
+  },
+  "エリク": {
+    "en": "Eric",
+    "cn": "埃里克",
+    "cn_original": "埃里克",
+    "source": "scenario_unverified"
+  },
+  "ヴィターリー": {
+    "en": "Vitali",
+    "cn": "维塔利",
+    "cn_original": "维塔利",
+    "source": "scenario_unverified"
+  },
+  "ドラフの男": {
+    "en": "draft man",
+    "cn": "",
+    "cn_original": "多拉夫族男性",
+    "source": "invalid"
+  },
+  "ユラントスク兵": {
+    "en": "Yurantsk soldiers",
+    "cn": "",
+    "cn_original": "尤兰托斯克士兵",
+    "source": "invalid"
+  },
+  "ユラントスク兵１": {
+    "en": "Yurantsk soldier 1",
+    "cn": "",
+    "cn_original": "尤兰托斯克士兵1",
+    "source": "invalid"
+  },
+  "ユラントスク兵２": {
+    "en": "Yurantsk soldier 2",
+    "cn": "",
+    "cn_original": "尤兰托斯克士兵2",
+    "source": "invalid"
+  },
+  "ユラントスク兵３": {
+    "en": "Yurantsk soldier 3",
+    "cn": "",
+    "cn_original": "尤兰托斯克士兵3",
+    "source": "invalid"
+  },
+  "ユラントスク兵４": {
+    "en": "Yurantsk soldier 4",
+    "cn": "",
+    "cn_original": "尤兰托斯克士兵4",
+    "source": "invalid"
+  },
+  "ユラントスク兵５": {
+    "en": "Yurantsk soldier 5",
+    "cn": "",
+    "cn_original": "尤兰托斯克士兵5",
+    "source": "invalid"
+  },
+  "エルデニ伝令兵１": {
+    "en": "Erdeni Messenger 1",
+    "cn": "",
+    "cn_original": "埃尔德尼传令兵1",
+    "source": "invalid"
+  },
+  "エルデニ伝令兵２": {
+    "en": "Erdeni Messenger 2",
+    "cn": "",
+    "cn_original": "埃尔德尼传令兵2",
+    "source": "invalid"
+  },
+  "エルデニ伝令兵３": {
+    "en": "Erdeni Messenger 3",
+    "cn": "",
+    "cn_original": "埃尔德尼传令兵3",
+    "source": "invalid"
+  },
+  "エルデニ兵１": {
+    "en": "Erdeni soldier 1",
+    "cn": "",
+    "cn_original": "埃尔德尼士兵1",
+    "source": "invalid"
+  },
+  "エルデニ兵２": {
+    "en": "Erdeni soldier 2",
+    "cn": "",
+    "cn_original": "埃尔德尼士兵2",
+    "source": "invalid"
+  },
+  "エルデニ兵３": {
+    "en": "Erdeni soldier 3",
+    "cn": "",
+    "cn_original": "埃尔德尼士兵3",
+    "source": "invalid"
+  },
+  "エルデニ兵４": {
+    "en": "Erdeni soldier 4",
+    "cn": "",
+    "cn_original": "埃尔德尼士兵4",
+    "source": "invalid"
+  },
+  "エルデニ兵５": {
+    "en": "Erdeni soldier 5",
+    "cn": "",
+    "cn_original": "埃尔德尼士兵5",
+    "source": "invalid"
+  },
+  "エルデニ兵６": {
+    "en": "Erdeni soldier 6",
+    "cn": "",
+    "cn_original": "埃尔德尼士兵6",
+    "source": "invalid"
+  },
+  "エルデニ兵７": {
+    "en": "Erdeni soldier 7",
+    "cn": "",
+    "cn_original": "埃尔德尼士兵7",
+    "source": "invalid"
+  },
+  "側近らしき男": {
+    "en": "A man who seems to be an aide",
+    "cn": "",
+    "cn_original": "亲信模样的男人",
+    "source": "invalid"
+  },
+  "エルデニ官僚": {
+    "en": "Erdeni bureaucracy",
+    "cn": "",
+    "cn_original": "埃尔德尼官僚",
+    "source": "invalid"
+  },
+  "エルデニ大臣": {
+    "en": "Minister Erdeni",
+    "cn": "",
+    "cn_original": "埃尔德尼大臣",
+    "source": "invalid"
+  },
+  "エルデニ兵達": {
+    "en": "Erdeni soldiers",
+    "cn": "",
+    "cn_original": "埃尔德尼士兵们",
+    "source": "invalid"
+  },
+  "ユラントスク上等兵": {
+    "en": "Private First Class Yurantsk",
+    "cn": "",
+    "cn_original": "尤兰托斯克上等兵",
+    "source": "invalid"
+  },
+  "ユラントスク軍中佐": {
+    "en": "Lieutenant Colonel of Yurantsk Army",
+    "cn": "",
+    "cn_original": "尤兰托斯克军中校",
+    "source": "invalid"
+  },
+  "エルデニ兵": {
+    "en": "Erdeni soldiers",
+    "cn": "",
+    "cn_original": "埃尔德尼士兵",
+    "source": "invalid"
+  },
+  "エルデニ伝令兵": {
+    "en": "Erdeni Messenger",
+    "cn": "",
+    "cn_original": "埃尔德尼传令兵",
+    "source": "invalid"
+  },
+  "ユラントスク王": {
+    "en": "King of Yurantsk",
+    "cn": "",
+    "cn_original": "尤兰托斯克国王",
+    "source": "invalid"
+  },
+  "ユラントスク文官の声": {
+    "en": "Yurantsk Civilian的Voice",
+    "cn": "",
+    "cn_original": "尤兰托斯克文官的声音",
+    "source": "invalid"
+  },
+  "身なりの良い男": {
+    "en": "well-dressed man",
+    "cn": "",
+    "cn_original": "穿着华贵的男人",
+    "source": "invalid"
+  },
+  "ロウファの母親": {
+    "en": "Loufa的mother",
+    "cn": "罗法",
+    "cn_original": "罗法的母亲",
+    "source": "scenario_unverified"
+  },
+  "ロウファの父親": {
+    "en": "Roufa的father",
+    "cn": "罗法",
+    "cn_original": "罗法的父亲",
+    "source": "scenario_unverified"
+  },
+  "ロウファの妹": {
+    "en": "Loufa的sister",
+    "cn": "罗法",
+    "cn_original": "罗法的妹妹",
+    "source": "scenario_unverified"
+  },
+  "カノプス": {
+    "en": "canopus",
+    "cn": "",
+    "cn_original": "卡诺普斯",
+    "source": "invalid"
+  },
+  "奇妙なユラントスク兵": {
+    "en": "Strange Yulantsk Soldier",
+    "cn": "",
+    "cn_original": "奇怪的尤兰托斯克士兵",
+    "source": "invalid"
+  },
+  "怯えるユラントスク兵": {
+    "en": "Frightened Yulansk soldiers",
+    "cn": "",
+    "cn_original": "害怕的尤兰托斯克士兵",
+    "source": "invalid"
+  },
+  "星晶獣セキトバ": {
+    "en": "Star Crystal Beast Sekitoba",
+    "cn": "",
+    "cn_original": "星晶兽赤兔马",
+    "source": "invalid"
+  },
+  "飛将軍": {
+    "en": "Flying General",
+    "cn": "",
+    "cn_original": "飞将军",
+    "source": "invalid"
+  },
+  "楓": {
+    "en": "Kaede",
+    "cn": "",
+    "cn_original": "枫",
+    "source": "invalid"
+  },
+  "小柄な青年": {
+    "en": "small young man",
+    "cn": "",
+    "cn_original": "矮小的青年",
+    "source": "invalid"
+  },
+  "包帯姿の男": {
+    "en": "man in bandages",
+    "cn": "",
+    "cn_original": "缠绷带的男人",
+    "source": "invalid"
+  },
+  "マネージャー": {
+    "en": "manager",
+    "cn": "经纪人",
+    "cn_original": "经纪人",
+    "source": "scenario_unverified"
+  },
+  "ドラマー": {
+    "en": "drummer",
+    "cn": "鼓手",
+    "cn_original": "鼓手",
+    "source": "scenario_unverified"
+  },
+  "フェス運営者": {
+    "en": "Festival operator",
+    "cn": "",
+    "cn_original": "音乐节主办方",
+    "source": "invalid"
+  },
+  "ジャスティン": {
+    "en": "justin",
+    "cn": "贾斯汀",
+    "cn_original": "贾斯汀",
+    "source": "scenario_unverified"
+  },
+  "ベンジャミン": {
+    "en": "benjamin",
+    "cn": "本杰明",
+    "cn_original": "本杰明",
+    "source": "valid"
+  },
+  "バレンティン": {
+    "en": "Valentin",
+    "cn": "瓦伦汀",
+    "cn_original": "瓦伦汀",
+    "source": "scenario_unverified"
+  },
+  "偽ジャスティン": {
+    "en": "fake justin",
+    "cn": "阿露夏",
+    "cn_original": "冒牌贾斯汀",
+    "source": "scenario_unverified"
+  },
+  "偽バレンティン": {
+    "en": "fake valentine",
+    "cn": "瓦伦汀",
+    "cn_original": "冒牌瓦伦汀",
+    "source": "scenario_unverified"
+  },
+  "ネズミ": {
+    "en": "rat",
+    "cn": "老鼠",
+    "cn_original": "老鼠",
+    "source": "scenario_unverified"
+  },
+  "幼少期のマネージャー": {
+    "en": "childhood manager",
+    "cn": "阿露夏",
+    "cn_original": "小时候的经纪人",
+    "source": "scenario_unverified"
+  },
+  "DOSSファンの女性": {
+    "en": "DOSS fan woman",
+    "cn": "路西欧的粉丝",
+    "cn_original": "DOSS的女粉丝",
+    "source": "scenario_unverified"
+  },
+  "DOSSファンの男性": {
+    "en": "Male DOSS fan",
+    "cn": "路西欧的粉丝",
+    "cn_original": "DOSS的男粉丝",
+    "source": "scenario_unverified"
+  },
+  "残虐三兄弟のファン男": {
+    "en": "Fan of Three Cruel Brothers",
+    "cn": "路西欧的粉丝",
+    "cn_original": "残虐三兄弟的男粉丝",
+    "source": "scenario_unverified"
+  },
+  "フェス運営": {
+    "en": "Festival management",
+    "cn": "",
+    "cn_original": "音乐节主办方",
+    "source": "invalid"
+  },
+  "DOSSファン達": {
+    "en": "DOSS fans",
+    "cn": "路西欧的粉丝",
+    "cn_original": "DOSS粉丝",
+    "source": "scenario_unverified"
+  },
+  "幼少期のベンジャミン": {
+    "en": "benjamin as a child",
+    "cn": "阿露夏",
+    "cn_original": "小时候的本杰明",
+    "source": "scenario_unverified"
+  },
+  "ベンジャミンの母": {
+    "en": "benjamin的mother",
+    "cn": "阿露夏",
+    "cn_original": "本杰明的母亲",
+    "source": "scenario_unverified"
+  },
+  "ベンジャミンの父": {
+    "en": "benjamin的father",
+    "cn": "阿露夏",
+    "cn_original": "本杰明的父亲",
+    "source": "scenario_unverified"
+  },
+  "ネズミの声": {
+    "en": "mouse voice",
+    "cn": "老鼠",
+    "cn_original": "老鼠的声音",
+    "source": "scenario_unverified"
+  },
+  "仮面の男": {
+    "en": "masked man",
+    "cn": "",
+    "cn_original": "面具男",
+    "source": "invalid"
+  },
+  "仮面の２人組": {
+    "en": "masked duo",
+    "cn": "",
+    "cn_original": "面具2人组",
+    "source": "invalid"
+  },
+  "ミュージシャン達": {
+    "en": "musicians",
+    "cn": "阿露夏",
+    "cn_original": "音乐人",
+    "source": "scenario_unverified"
+  },
+  "ヴォーカル": {
+    "en": "vocal",
+    "cn": "",
+    "cn_original": "主唱",
+    "source": "invalid"
+  },
+  "ギタリスト": {
+    "en": "guitarist",
+    "cn": "",
+    "cn_original": "吉他手",
+    "source": "invalid"
+  },
+  "ベーシスト": {
+    "en": "bassist",
+    "cn": "贝斯手",
+    "cn_original": "贝斯手",
+    "source": "scenario_unverified"
+  },
+  "ベンジャミンの幻影": {
+    "en": "Benjamin的vision",
+    "cn": "阿露夏",
+    "cn_original": "本杰明的幻影",
+    "source": "scenario_unverified"
+  },
+  "謎のギターガイ": {
+    "en": "mysterious guitar guy",
+    "cn": "神秘吉他手",
+    "cn_original": "神秘吉他手",
+    "source": "scenario_unverified"
+  },
+  "郵便屋": {
+    "en": "postman",
+    "cn": "",
+    "cn_original": "邮递员",
+    "source": "invalid"
+  },
+  "ヘレル・ベン・サハル": {
+    "en": "Helel Ben Sahar",
+    "cn": "赫莱尔·本·沙哈尔",
+    "cn_original": "赫莱尔·本·沙哈尔",
+    "source": "scenario_unverified"
+  },
+  "ヘレル・ベン・シャレム": {
+    "en": "Helel Ben Shalem",
+    "cn": "赫莱尔·本·夏蕾姆",
+    "cn_original": "赫莱尔·本·夏蕾姆",
+    "source": "valid"
+  },
+  "ベルゼバブ": {
+    "en": "beelzebub",
+    "cn": "别西卜",
+    "cn_original": "别西卜",
+    "source": "scenario_unverified"
+  },
+  "幽世の軍勢": {
+    "en": "army of ghosts",
+    "cn": "",
+    "cn_original": "幽世的军队",
+    "source": "invalid"
+  },
+  "ガチャピン": {
+    "en": "Gachapin",
+    "cn": "扭蛋平",
+    "cn_original": "扭蛋平",
+    "source": "valid"
+  },
+  "ロボミ": {
+    "en": "Robomi",
+    "cn": "萝伯美",
+    "cn_original": "萝伯美",
+    "source": "valid"
+  },
+  "レヴィオン国民１": {
+    "en": "Levion Nation 1",
+    "cn": "路西欧",
+    "cn_original": "雷维翁国民1",
+    "source": "scenario"
+  },
+  "レヴィオン国民２": {
+    "en": "Levion Nation 2",
+    "cn": "路西欧",
+    "cn_original": "雷维翁国民2",
+    "source": "scenario"
+  },
+  "諸侯１": {
+    "en": "Lords 1",
+    "cn": "",
+    "cn_original": "诸侯1",
+    "source": "invalid"
+  },
+  "諸侯２": {
+    "en": "Lords 2",
+    "cn": "",
+    "cn_original": "诸侯2",
+    "source": "invalid"
+  },
+  "テラちゃん": {
+    "en": "Terra-chan",
+    "cn": "",
+    "cn_original": "特拉酱",
+    "source": "invalid"
+  },
+  "十天衆": {
+    "en": "ten gods",
+    "cn": "",
+    "cn_original": "十天众",
+    "source": "invalid"
+  },
+  "レッドラック": {
+    "en": "red rack",
+    "cn": "雷德拉克",
+    "cn_original": "雷德拉克",
+    "source": "scenario_unverified"
+  },
+  "カキフライ": {
+    "en": "fried oysters",
+    "cn": "飞蚝",
+    "cn_original": "飞蚝",
+    "source": "scenario_unverified"
+  },
+  "コルル": {
+    "en": "Koruru",
+    "cn": "可露露",
+    "cn_original": "可露露",
+    "source": "scenario_unverified"
+  },
+  "マッシュ": {
+    "en": "mash",
+    "cn": "",
+    "cn_original": "马修",
+    "source": "invalid"
+  },
+  "セワスチアン": {
+    "en": "sewastian",
+    "cn": "塞瓦斯蒂安",
+    "cn_original": "塞瓦斯蒂安",
+    "source": "valid"
+  },
+  "司会者": {
+    "en": "moderator",
+    "cn": "",
+    "cn_original": "主持人",
+    "source": "invalid"
+  },
+  "マリー": {
+    "en": "marie",
+    "cn": "玛丽",
+    "cn_original": "玛丽",
+    "source": "valid"
+  },
+  "メグ": {
+    "en": "meg",
+    "cn": "梅格",
+    "cn_original": "梅格",
+    "source": "valid"
+  },
+  "マライア": {
+    "en": "Mariah",
+    "cn": "玛丽亚",
+    "cn_original": "玛丽亚",
+    "source": "valid"
+  },
+  "観光客の男性": {
+    "en": "tourist man",
+    "cn": "",
+    "cn_original": "男性游客",
+    "source": "invalid"
+  },
+  "観光客の男の子": {
+    "en": "tourist boy",
+    "cn": "",
+    "cn_original": "男孩子游客",
+    "source": "invalid"
+  },
+  "観光客の女性": {
+    "en": "tourist woman",
+    "cn": "",
+    "cn_original": "女性游客",
+    "source": "invalid"
+  },
+  "大会参加者の男性１": {
+    "en": "Male tournament participant 1",
+    "cn": "",
+    "cn_original": "男性参赛者1",
+    "source": "invalid"
+  },
+  "大会参加者の男性２": {
+    "en": "Male tournament participant 2",
+    "cn": "",
+    "cn_original": "男性参赛者2",
+    "source": "invalid"
+  },
+  "荒々しい声": {
+    "en": "rough voice",
+    "cn": "",
+    "cn_original": "粗暴的声音",
+    "source": "invalid"
+  },
+  "樹クラゲの集団": {
+    "en": "group of tree jellyfish",
+    "cn": "",
+    "cn_original": "树水母的集群",
+    "source": "invalid"
+  },
+  "アラナン": {
+    "en": "Alanan",
+    "cn": "阿拉南",
+    "cn_original": "阿拉南",
+    "source": "valid"
+  },
+  "アギエルバ": {
+    "en": "Agielba",
+    "cn": "艾奇尔巴",
+    "cn_original": "艾奇尔巴",
+    "source": "valid"
+  },
+  "アルルメイヤ": {
+    "en": "Arremeia",
+    "cn": "阿露露梅娅",
+    "cn_original": "阿露露梅娅",
+    "source": "valid"
+  },
+  "アレーティア": {
+    "en": "Aretia",
+    "cn": "阿雷提亚",
+    "cn_original": "阿雷提亚",
+    "source": "valid"
+  },
+  "アンリエット": {
+    "en": "Henriette",
+    "cn": "安丽特",
+    "cn_original": "安丽特",
+    "source": "valid"
+  },
+  "イルノート": {
+    "en": "ILNOTE",
+    "cn": "伊尔诺特",
+    "cn_original": "伊尔诺特",
+    "source": "valid"
+  },
+  "エスタリオラ": {
+    "en": "Estariola",
+    "cn": "埃斯塔利奥拉",
+    "cn_original": "埃斯塔利奥拉",
+    "source": "valid"
+  },
+  "カイム": {
+    "en": "caim",
+    "cn": "凯姆",
+    "cn_original": "凯姆",
+    "source": "valid"
+  },
+  "キャサリン": {
+    "en": "catherine",
+    "cn": "凯瑟琳",
+    "cn_original": "凯瑟琳",
+    "source": "valid"
+  },
+  "クリスティーナ": {
+    "en": "Christina",
+    "cn": "克里斯提娜",
+    "cn_original": "克里斯提娜",
+    "source": "scenario_unverified"
+  },
+  "スカーサハ": {
+    "en": "Scathach",
+    "cn": "斯卡哈",
+    "cn_original": "斯卡哈",
+    "source": "valid"
+  },
+  "ダヌア": {
+    "en": "Danua",
+    "cn": "妲奴亚",
+    "cn_original": "妲奴亚",
+    "source": "valid"
+  },
+  "ネツァワルピリ": {
+    "en": "netzahualpiri",
+    "cn": "聂查瓦尔皮利",
+    "cn_original": "聂查瓦尔皮利",
+    "source": "valid"
+  },
+  "ファスティバ": {
+    "en": "Fastiva",
+    "cn": "法斯提瓦",
+    "cn_original": "法斯提瓦",
+    "source": "scenario_unverified"
+  },
+  "フォルテ": {
+    "en": "forte",
+    "cn": "法尔提",
+    "cn_original": "法尔提",
+    "source": "valid"
+  },
+  "フーちゃん": {
+    "en": "Fu-chan",
+    "cn": "小芙",
+    "cn_original": "小芙",
+    "source": "valid"
+  },
+  "ペトラ": {
+    "en": "Petra",
+    "cn": "佩特拉",
+    "cn_original": "佩特拉",
+    "source": "valid"
+  },
+  "メルゥ": {
+    "en": "Meru",
+    "cn": "梅路",
+    "cn_original": "梅路",
+    "source": "valid"
+  },
+  "リルル": {
+    "en": "Lilulu",
+    "cn": "莉露露",
+    "cn_original": "莉露露",
+    "source": "valid"
+  },
+  "レディ・グレイ": {
+    "en": "lady gray",
+    "cn": "灰夫人",
+    "cn_original": "灰夫人",
+    "source": "valid"
+  },
+  "ロベリア": {
+    "en": "lobelia",
+    "cn": "洛贝利亚",
+    "cn_original": "洛贝利亚",
+    "source": "valid"
+  },
+  "観客の男性１": {
+    "en": "male audience member 1",
+    "cn": "",
+    "cn_original": "男性观众1",
+    "source": "invalid"
+  },
+  "観客の女性１": {
+    "en": "Female audience member 1",
+    "cn": "",
+    "cn_original": "女性观众1",
+    "source": "invalid"
+  },
+  "観客の男性２": {
+    "en": "male audience member 2",
+    "cn": "",
+    "cn_original": "男性观众2",
+    "source": "invalid"
+  },
+  "観客の女性２": {
+    "en": "female audience member 2",
+    "cn": "",
+    "cn_original": "女性观众2",
+    "source": "invalid"
+  },
+  "柄の悪い男": {
+    "en": "bad-looking man",
+    "cn": "",
+    "cn_original": "人品不好的男人",
+    "source": "invalid"
+  },
+  "マッサージ屋の店員": {
+    "en": "Massage shop clerk",
+    "cn": "",
+    "cn_original": "按摩店店员",
+    "source": "invalid"
+  },
+  "マッサージ屋の店員の声": {
+    "en": "Voice of a massage parlor employee",
+    "cn": "",
+    "cn_original": "按摩店店员的声音",
+    "source": "invalid"
+  },
+  "お店のおかみさん": {
+    "en": "Shop owner",
+    "cn": "",
+    "cn_original": "酒店老板娘",
+    "source": "invalid"
+  },
+  "ナンパ師": {
+    "en": "pick-up artist",
+    "cn": "",
+    "cn_original": "搭讪师",
+    "source": "invalid"
+  },
+  "ナンパ男": {
+    "en": "pick-up man",
+    "cn": "",
+    "cn_original": "搭讪男",
+    "source": "invalid"
+  },
+  "シャレム": {
+    "en": "Shalem",
+    "cn": "夏蕾姆",
+    "cn_original": "夏蕾姆",
+    "source": "scenario_unverified"
+  },
+  "暁の預言者": {
+    "en": "prophet of dawn",
+    "cn": "",
+    "cn_original": "晓之预言者",
+    "source": "invalid"
+  },
+  "幽世の存在": {
+    "en": "ghostly existence",
+    "cn": "",
+    "cn_original": "幽世的存在",
+    "source": "invalid"
+  },
+  "歴史学者": {
+    "en": "historian",
+    "cn": "",
+    "cn_original": "历史学者",
+    "source": "invalid"
+  },
+  "フロレンス": {
+    "en": "florence",
+    "cn": "芙罗伦斯",
+    "cn_original": "芙罗伦斯",
+    "source": "valid"
+  },
+  "カール国王": {
+    "en": "king karl",
+    "cn": "卡尔",
+    "cn_original": "卡尔国王",
+    "source": "scenario_unverified"
+  },
+  "トー": {
+    "en": "toe",
+    "cn": "奥克托",
+    "cn_original": "拓",
+    "source": "scenario"
+  },
+  "ハイランド公王": {
+    "en": "duke of highland",
+    "cn": "哈伊拉",
+    "cn_original": "海兰德公王",
+    "source": "scenario"
+  },
+  "ガウェイン達": {
+    "en": "gawain and others",
+    "cn": "高文",
+    "cn_original": "高文等人",
+    "source": "scenario"
+  },
+  "ルーソル": {
+    "en": "Rusol",
+    "cn": "卢梭尔",
+    "cn_original": "卢梭尔",
+    "source": "scenario_unverified"
+  },
+  "ピート": {
+    "en": "pete",
+    "cn": "艾尔莫特",
+    "cn_original": "皮特",
+    "source": "scenario"
+  },
+  "ダルモアの民": {
+    "en": "people of dalmore",
+    "cn": "",
+    "cn_original": "达尔摩国民",
+    "source": "invalid"
+  },
+  "泥酔した団員": {
+    "en": "drunk member",
+    "cn": "",
+    "cn_original": "醉酒的团员",
+    "source": "invalid"
+  },
+  "泥酔した団員達": {
+    "en": "drunk members",
+    "cn": "",
+    "cn_original": "醉酒的团员们",
+    "source": "invalid"
+  },
+  "通行人": {
+    "en": "passerby",
+    "cn": "",
+    "cn_original": "行人",
+    "source": "invalid"
+  },
+  "ティボルト": {
+    "en": "Tybalt",
+    "cn": "提伯尔特",
+    "cn_original": "提伯尔特",
+    "source": "scenario_unverified"
+  },
+  "デボラ": {
+    "en": "deborah",
+    "cn": "黛博拉",
+    "cn_original": "黛博拉",
+    "source": "scenario_unverified"
+  },
+  "マキューシオ": {
+    "en": "Mercutio",
+    "cn": "马奎西奥",
+    "cn_original": "马奎西奥",
+    "source": "scenario_unverified"
+  },
+  "サオウ": {
+    "en": "Saou",
+    "cn": "路西欧",
+    "cn_original": "萨欧",
+    "source": "scenario"
+  },
+  "幽世の住人": {
+    "en": "resident of the ghost world",
+    "cn": "",
+    "cn_original": "幽世的居民",
+    "source": "invalid"
+  },
+  "原初獣": {
+    "en": "Primitive beast",
+    "cn": "",
+    "cn_original": "原初兽",
+    "source": "invalid"
+  },
+  "バルサザー": {
+    "en": "balthazar",
+    "cn": "巴尔萨泽",
+    "cn_original": "巴尔萨泽",
+    "source": "scenario_unverified"
+  },
+  "羅生門博士": {
+    "en": "Dr. Rashomon",
+    "cn": "",
+    "cn_original": "罗生门博士",
+    "source": "invalid"
+  },
+  "暴喰壊獣": {
+    "en": "Gourmet Kaiju",
+    "cn": "",
+    "cn_original": "暴啃坏兽",
+    "source": "invalid"
+  },
+  "タツヤ": {
+    "en": "Tatsuya",
+    "cn": "达也",
+    "cn_original": "达也",
+    "source": "scenario_unverified"
+  },
+  "メグミ": {
+    "en": "Megumi",
+    "cn": "梅格",
+    "cn_original": "惠",
+    "source": "scenario"
+  },
+  "ケンジ": {
+    "en": "Kenji",
+    "cn": "健次",
+    "cn_original": "健次",
+    "source": "scenario_unverified"
+  },
+  "民衆": {
+    "en": "people",
+    "cn": "",
+    "cn_original": "民众",
+    "source": "invalid"
+  },
+  "落ち込む国民": {
+    "en": "a depressed nation",
+    "cn": "",
+    "cn_original": "沮丧的国民",
+    "source": "invalid"
+  },
+  "騎士団の面々": {
+    "en": "Members of the Knights",
+    "cn": "",
+    "cn_original": "骑士团的众人",
+    "source": "invalid"
+  },
+  "ショコラティエ": {
+    "en": "chocolatier",
+    "cn": "",
+    "cn_original": "巧克力职人",
+    "source": "invalid"
+  },
+  "チョコレートモンスター": {
+    "en": "chocolate monster",
+    "cn": "艾尔莫特",
+    "cn_original": "巧克力魔物",
+    "source": "scenario"
+  },
+  "アイザック": {
+    "en": "Isaac",
+    "cn": "艾扎克",
+    "cn_original": "艾扎克",
+    "source": "scenario_unverified"
+  },
+  "レイベリィ": {
+    "en": "Lavery",
+    "cn": "雷贝利",
+    "cn_original": "雷贝利",
+    "source": "scenario_unverified"
+  },
+  "組織の兵": {
+    "en": "organization soldiers",
+    "cn": "",
+    "cn_original": "组织士兵",
+    "source": "invalid"
+  },
+  "眼鏡の男": {
+    "en": "man with glasses",
+    "cn": "",
+    "cn_original": "眼镜男",
+    "source": "invalid"
+  },
+  "ムスケル": {
+    "en": "Muskell",
+    "cn": "姆斯盖尔",
+    "cn_original": "姆斯盖尔",
+    "source": "scenario_unverified"
+  },
+  "フィリー": {
+    "en": "Philly",
+    "cn": "芙莉",
+    "cn_original": "芙莉",
+    "source": "scenario_unverified"
+  },
+  "ディジー": {
+    "en": "Dizzy",
+    "cn": "迪西",
+    "cn_original": "迪西",
+    "source": "scenario_unverified"
+  },
+  "アナウンス": {
+    "en": "announcement",
+    "cn": "广播",
+    "cn_original": "播报音",
+    "source": "scenario_unverified"
+  },
+  "オペレータ": {
+    "en": "operator",
+    "cn": "路西欧",
+    "cn_original": "接线员",
+    "source": "scenario"
+  },
+  "ローナン": {
+    "en": "ronan",
+    "cn": "罗南",
+    "cn_original": "罗南",
+    "source": "scenario_unverified"
+  },
+  "機神": {
+    "en": "Kishin",
+    "cn": "",
+    "cn_original": "机神",
+    "source": "invalid"
+  },
+  "屋台の主人": {
+    "en": "stall owner",
+    "cn": "",
+    "cn_original": "摊主",
+    "source": "invalid"
+  },
+  "グロウノス": {
+    "en": "Grounos",
+    "cn": "古洛诺斯",
+    "cn_original": "古洛诺斯",
+    "source": "scenario_unverified"
+  },
+  "組織の兵達": {
+    "en": "organization soldiers",
+    "cn": "",
+    "cn_original": "组织的士兵们",
+    "source": "invalid"
+  },
+  "ハイゼンベルク": {
+    "en": "heisenberg",
+    "cn": "海赞贝克",
+    "cn_original": "海赞贝克",
+    "source": "scenario_unverified"
+  },
+  "ハイゼンベルクの声": {
+    "en": "voice of heisenberg",
+    "cn": "海赞贝克",
+    "cn_original": "海赞贝克的声音",
+    "source": "scenario_unverified"
+  },
+  "幽世の者": {
+    "en": "ghostly person",
+    "cn": "",
+    "cn_original": "幽世之人",
+    "source": "invalid"
+  },
+  "エルド": {
+    "en": "Eld",
+    "cn": "埃尔德",
+    "cn_original": "埃尔德",
+    "source": "scenario_unverified"
+  },
+  "ファナ": {
+    "en": "Fana",
+    "cn": "法娜",
+    "cn_original": "法娜",
+    "source": "scenario_unverified"
+  },
+  "デアン": {
+    "en": "dean",
+    "cn": "迪安",
+    "cn_original": "迪安",
+    "source": "scenario_unverified"
+  },
+  "機械": {
+    "en": "machine",
+    "cn": "",
+    "cn_original": "机械",
+    "source": "invalid"
+  },
+  "門下生達": {
+    "en": "disciples",
+    "cn": "",
+    "cn_original": "弟子们",
+    "source": "invalid"
+  },
+  "グウィン": {
+    "en": "Gwyn",
+    "cn": "古茵",
+    "cn_original": "古茵",
+    "source": "scenario_unverified"
+  },
+  "レンス": {
+    "en": "lenth",
+    "cn": "连斯",
+    "cn_original": "连斯",
+    "source": "scenario_unverified"
+  },
+  "グレイス": {
+    "en": "grace",
+    "cn": "格蕾丝",
+    "cn_original": "格蕾丝",
+    "source": "scenario_unverified"
+  },
+  "姬塔達": {
+    "en": "Yutoda",
+    "cn": "",
+    "cn_original": "姬塔等人",
+    "source": "invalid"
+  },
+  "アリアネンサ": {
+    "en": "arianenza",
+    "cn": "阿利安耐萨",
+    "cn_original": "阿利安耐萨",
+    "source": "scenario_unverified"
+  },
+  "ヨダルラーハ達": {
+    "en": "Yodarraha and others",
+    "cn": "尤达拉哈",
+    "cn_original": "尤达拉哈等人",
+    "source": "scenario"
+  },
+  "門下生": {
+    "en": "disciple",
+    "cn": "",
+    "cn_original": "弟子",
+    "source": "invalid"
+  },
+  "セスラカ": {
+    "en": "Seslaca",
+    "cn": "赛斯拉卡",
+    "cn_original": "赛斯拉卡",
+    "source": "scenario_unverified"
+  },
+  "ミレイユ": {
+    "en": "mireille",
+    "cn": "米雷耶",
+    "cn_original": "米雷耶",
+    "source": "scenario_unverified"
+  },
+  "リゼット": {
+    "en": "Lisette",
+    "cn": "莉塞特",
+    "cn_original": "莉塞特",
+    "source": "scenario_unverified"
+  },
+  "無人機": {
+    "en": "drone",
+    "cn": "",
+    "cn_original": "无人机",
+    "source": "invalid"
+  },
+  "大門博士": {
+    "en": "Dr. Daimon",
+    "cn": "",
+    "cn_original": "大门博士",
+    "source": "invalid"
+  },
+  "機神達": {
+    "en": "machine gods",
+    "cn": "",
+    "cn_original": "机神们",
+    "source": "invalid"
+  },
+  "ウィル": {
+    "en": "Will",
+    "cn": "威尔",
+    "cn_original": "威尔",
+    "source": "valid"
+  },
+  "奇妙なノイズ": {
+    "en": "strange noise",
+    "cn": "",
+    "cn_original": "奇妙的杂音",
+    "source": "invalid"
+  },
+  "小型無人機": {
+    "en": "small drone",
+    "cn": "",
+    "cn_original": "小型无人机",
+    "source": "invalid"
+  },
+  "ヤチマ": {
+    "en": "Yachima",
+    "cn": "雅琪玛",
+    "cn_original": "雅琪玛",
+    "source": "valid"
+  },
+  "カシウス達": {
+    "en": "Cassius and others",
+    "cn": "卡西乌斯",
+    "cn_original": "卡西乌斯等人",
+    "source": "scenario"
+  },
+  "無人機達": {
+    "en": "drones",
+    "cn": "",
+    "cn_original": "无人机们",
+    "source": "invalid"
+  },
+  "ディアスポラ": {
+    "en": "diaspora",
+    "cn": "迪亚斯珀拉",
+    "cn_original": "迪亚斯珀拉",
+    "source": "scenario_unverified"
+  },
+  "街娘": {
+    "en": "town girl",
+    "cn": "",
+    "cn_original": "女路人",
+    "source": "invalid"
+  },
+  "元魔晶研究員": {
+    "en": "Former magic crystal researcher",
+    "cn": "",
+    "cn_original": "原魔晶研究员",
+    "source": "invalid"
+  },
+  "白衣の男": {
+    "en": "man in white coat",
+    "cn": "",
+    "cn_original": "白衣男子",
+    "source": "invalid"
+  },
+  "巨躯の男": {
+    "en": "giant man",
+    "cn": "",
+    "cn_original": "身材庞大的男子",
+    "source": "invalid"
+  },
+  "ジェノ": {
+    "en": "Geno",
+    "cn": "麦姆",
+    "cn_original": "杰诺",
+    "source": "scenario"
+  },
+  "レヴィオン新王": {
+    "en": "New King Levion",
+    "cn": "路西欧",
+    "cn_original": "雷维翁新王",
+    "source": "scenario"
+  },
+  "貴族": {
+    "en": "nobility",
+    "cn": "",
+    "cn_original": "贵族",
+    "source": "invalid"
+  },
+  "天雷剣": {
+    "en": "Tenrai Sword",
+    "cn": "",
+    "cn_original": "天雷剑",
+    "source": "invalid"
+  },
+  "ルリア達": {
+    "en": "Lyria and others",
+    "cn": "露莉亚",
+    "cn_original": "露莉亚等人",
+    "source": "scenario"
+  },
+  "ごっこ遊びをする子供１": {
+    "en": "Child playing pretend 1",
+    "cn": "",
+    "cn_original": "玩游戏的小孩子1",
+    "source": "invalid"
+  },
+  "ごっこ遊びをする子供２": {
+    "en": "Child playing pretend 2",
+    "cn": "",
+    "cn_original": "玩游戏的小孩子2",
+    "source": "invalid"
+  },
+  "ごっこ遊びをする子供３": {
+    "en": "Children playing pretend 3",
+    "cn": "",
+    "cn_original": "玩游戏的小孩子3",
+    "source": "invalid"
+  },
+  "黒服の男１": {
+    "en": "man in black 1",
+    "cn": "",
+    "cn_original": "黑衣服的男子1",
+    "source": "invalid"
+  },
+  "黒服の男２": {
+    "en": "man in black 2",
+    "cn": "",
+    "cn_original": "黑衣服的男子2",
+    "source": "invalid"
+  },
+  "レヴィオン先王": {
+    "en": "King Levion",
+    "cn": "路西欧",
+    "cn_original": "雷维翁先王",
+    "source": "scenario"
+  },
+  "レヴィオンの騎士の声": {
+    "en": "Levion Knight的Voice",
+    "cn": "路西欧",
+    "cn_original": "雷维翁骑士的声音",
+    "source": "scenario"
+  },
+  "レヴィオンの騎士": {
+    "en": "Knight of Levion",
+    "cn": "路西欧",
+    "cn_original": "雷维翁骑士",
+    "source": "scenario"
+  },
+  "対策本部室長": {
+    "en": "Head of task force",
+    "cn": "",
+    "cn_original": "对策本部室长",
+    "source": "invalid"
+  },
+  "謎の男": {
+    "en": "mysterious man",
+    "cn": "",
+    "cn_original": "神秘男人",
+    "source": "invalid"
+  },
+  "謎の女": {
+    "en": "mysterious woman",
+    "cn": "",
+    "cn_original": "神秘女人",
+    "source": "invalid"
+  },
+  "星の民１": {
+    "en": "Star People 1",
+    "cn": "",
+    "cn_original": "星之民1",
+    "source": "invalid"
+  },
+  "星の民２": {
+    "en": "Star People 2",
+    "cn": "",
+    "cn_original": "星之民2",
+    "source": "invalid"
+  },
+  "星の眼": {
+    "en": "star eyes",
+    "cn": "",
+    "cn_original": "星之眼",
+    "source": "invalid"
+  },
+  "物静かな男の子": {
+    "en": "quiet boy",
+    "cn": "",
+    "cn_original": "文静的男孩子",
+    "source": "invalid"
+  },
+  "朗らかな男の子": {
+    "en": "cheerful boy",
+    "cn": "",
+    "cn_original": "爽朗的男孩子",
+    "source": "invalid"
+  },
+  "子供の頃のネハン": {
+    "en": "Nehan as a child",
+    "cn": "涅槃",
+    "cn_original": "孩童时代的涅槃",
+    "source": "scenario"
+  },
+  "小間使いの子供": {
+    "en": "maid的child",
+    "cn": "",
+    "cn_original": "做杂工的小孩",
+    "source": "invalid"
+  },
+  "泥棒": {
+    "en": "thief",
+    "cn": "",
+    "cn_original": "小偷",
+    "source": "invalid"
+  },
+  "男性の悲鳴": {
+    "en": "male scream",
+    "cn": "",
+    "cn_original": "男性尖叫声",
+    "source": "invalid"
+  },
+  "女性の悲鳴": {
+    "en": "woman的scream",
+    "cn": "",
+    "cn_original": "女性尖叫声",
+    "source": "invalid"
+  },
+  "泥棒達": {
+    "en": "thieves",
+    "cn": "",
+    "cn_original": "小偷们",
+    "source": "invalid"
+  },
+  "敵性異分子": {
+    "en": "hostile foreign element",
+    "cn": "",
+    "cn_original": "敌对异分子",
+    "source": "invalid"
+  },
+  "騎士団員１": {
+    "en": "Knight member 1",
+    "cn": "",
+    "cn_original": "骑士团团员1",
+    "source": "invalid"
+  },
+  "騎士団員２": {
+    "en": "Knights member 2",
+    "cn": "",
+    "cn_original": "骑士团团员2",
+    "source": "invalid"
+  },
+  "食堂のおばちゃん": {
+    "en": "Auntie at the restaurant",
+    "cn": "",
+    "cn_original": "餐厅的阿姨",
+    "source": "invalid"
+  },
+  "幼いユーステス": {
+    "en": "young Eustes",
+    "cn": "尤斯缇斯",
+    "cn_original": "幼年尤斯缇斯",
+    "source": "scenario"
+  },
+  "ユーステスの姉": {
+    "en": "Eustace的sister",
+    "cn": "尤斯缇斯",
+    "cn_original": "尤斯缇斯姐姐",
+    "source": "scenario"
+  },
+  "ユーステスの友人": {
+    "en": "Eustace的friend",
+    "cn": "尤斯缇斯",
+    "cn_original": "尤斯缇斯的朋友",
+    "source": "scenario"
+  },
+  "ポート・ブリーズの少女": {
+    "en": "port breeze girl",
+    "cn": "特蕾兹",
+    "cn_original": "波特普利兹的少女",
+    "source": "scenario_unverified"
+  },
+  "ポート・ブリーズの老人": {
+    "en": "old man of port breeze",
+    "cn": "特蕾兹",
+    "cn_original": "波特普利兹的老人",
+    "source": "scenario_unverified"
+  },
+  "ポート・ブリーズの男性": {
+    "en": "port breeze men",
+    "cn": "特蕾兹",
+    "cn_original": "波特普利兹的男性",
+    "source": "scenario_unverified"
+  },
+  "ポート・ブリーズの女性": {
+    "en": "Port Breeze Women",
+    "cn": "特蕾兹",
+    "cn_original": "波特普利兹的女性",
+    "source": "scenario_unverified"
+  },
+  "ローナン配下の兵": {
+    "en": "Soldiers under Ronan",
+    "cn": "罗南",
+    "cn_original": "罗南手下的士兵",
+    "source": "scenario_unverified"
+  },
+  "皿洗い": {
+    "en": "dish-washing",
+    "cn": "",
+    "cn_original": "洗碟工",
+    "source": "invalid"
+  },
+  "仮面の女": {
+    "en": "masked woman",
+    "cn": "",
+    "cn_original": "戴面具的女人",
+    "source": "invalid"
+  },
+  "テュエ": {
+    "en": "Thue",
+    "cn": "",
+    "cn_original": "图耶",
+    "source": "invalid"
+  },
+  "プレデター": {
+    "en": "Predator",
+    "cn": "布列迪塔",
+    "cn_original": "布列迪塔",
+    "source": "valid"
+  },
+  "グウィンの母": {
+    "en": "gwyn的mother",
+    "cn": "古茵",
+    "cn_original": "古茵母亲",
+    "source": "scenario_unverified"
+  },
+  "グウィンの父": {
+    "en": "gwyn的father",
+    "cn": "古茵",
+    "cn_original": "古茵父亲",
+    "source": "scenario_unverified"
+  },
+  "マクスウェル": {
+    "en": "maxwell",
+    "cn": "马克斯威尔",
+    "cn_original": "马克斯威尔",
+    "source": "scenario_unverified"
+  },
+  "ヴィティ": {
+    "en": "Viti",
+    "cn": "",
+    "cn_original": "维蒂",
+    "source": "invalid"
+  },
+  "サウィーニ": {
+    "en": "Sawini",
+    "cn": "",
+    "cn_original": "萨维尼",
+    "source": "invalid"
+  },
+  "ローナン配下の兵達": {
+    "en": "Ronan的soldiers",
+    "cn": "罗南",
+    "cn_original": "罗南手下的士兵们",
+    "source": "scenario_unverified"
+  },
+  "ユーサー": {
+    "en": "Uther",
+    "cn": "尤瑟",
+    "cn_original": "尤瑟",
+    "source": "scenario_unverified"
+  },
+  "ウリエンス": {
+    "en": "uriens",
+    "cn": "乌利艾斯",
+    "cn_original": "乌利艾斯",
+    "source": "scenario_unverified"
+  },
+  "マーリン": {
+    "en": "merlin",
+    "cn": "梅林",
+    "cn_original": "梅林",
+    "source": "scenario_unverified"
+  },
+  "ロウリー": {
+    "en": "lowry",
+    "cn": "罗利",
+    "cn_original": "罗利",
+    "source": "scenario_unverified"
+  },
+  "ラモラック": {
+    "en": "Lamorak",
+    "cn": "拉莫拉克",
+    "cn_original": "拉莫拉克",
+    "source": "valid"
+  },
+  "坂田銀時": {
+    "en": "Gintoki Sakata",
+    "cn": "",
+    "cn_original": "坂田银时",
+    "source": "invalid"
+  },
+  "神楽": {
+    "en": "Kagura",
+    "cn": "",
+    "cn_original": "神乐",
+    "source": "invalid"
+  },
+  "システム音": {
+    "en": "system sound",
+    "cn": "希斯",
+    "cn_original": "系统音",
+    "source": "scenario"
+  },
+  "おじさん": {
+    "en": "uncle",
+    "cn": "",
+    "cn_original": "大叔",
+    "source": "invalid"
+  },
+  "沖田総悟": {
+    "en": "Sougo Okita",
+    "cn": "",
+    "cn_original": "冲田总悟",
+    "source": "invalid"
+  },
+  "銀時の声": {
+    "en": "Gintoki的voice",
+    "cn": "",
+    "cn_original": "银时的声音",
+    "source": "invalid"
+  },
+  "謎の化け物": {
+    "en": "mysterious monster",
+    "cn": "",
+    "cn_original": "神秘怪物",
+    "source": "invalid"
+  },
+  "アナウンサー": {
+    "en": "announcer",
+    "cn": "",
+    "cn_original": "播音员",
+    "source": "invalid"
+  },
+  "バカ": {
+    "en": "fool",
+    "cn": "",
+    "cn_original": "笨蛋",
+    "source": "invalid"
+  },
+  "化け物達": {
+    "en": "monsters",
+    "cn": "",
+    "cn_original": "怪物们",
+    "source": "invalid"
+  },
+  "隊員達": {
+    "en": "members",
+    "cn": "",
+    "cn_original": "队员们",
+    "source": "invalid"
+  },
+  "隊員": {
+    "en": "member",
+    "cn": "",
+    "cn_original": "队员",
+    "source": "invalid"
+  },
+  "坂本辰馬": {
+    "en": "Tatsuma Sakamoto",
+    "cn": "",
+    "cn_original": "坂本辰马",
+    "source": "invalid"
+  },
+  "エリザベス": {
+    "en": "elizabeth",
+    "cn": "",
+    "cn_original": "伊丽莎白",
+    "source": "invalid"
+  },
+  "高杉の協力者": {
+    "en": "Takasugi的collaborator",
+    "cn": "",
+    "cn_original": "高杉的帮手",
+    "source": "invalid"
+  },
+  "コロ": {
+    "en": "Coro",
+    "cn": "科罗萨斯",
+    "cn_original": "可乐",
+    "source": "scenario"
+  },
+  "ハタ皇子": {
+    "en": "Prince Hata",
+    "cn": "",
+    "cn_original": "HATA皇子",
+    "source": "invalid"
+  },
+  "謎の化け物達": {
+    "en": "mysterious monsters",
+    "cn": "",
+    "cn_original": "神秘怪物们",
+    "source": "invalid"
+  },
+  "カタリナ弐号機": {
+    "en": "Catalina 2",
+    "cn": "卡塔莉娜",
+    "cn_original": "卡塔莉娜二号机",
+    "source": "scenario"
+  },
+  "ローアインとカタリナ": {
+    "en": "Loain and Katarina",
+    "cn": "卡塔莉娜",
+    "cn_original": "罗艾因和卡塔莉娜",
+    "source": "scenario"
+  },
+  "ザ・ハングドマン": {
+    "en": "the hung man",
+    "cn": "倒吊男",
+    "cn_original": "The・Hanged Man",
+    "source": "scenario_unverified"
+  },
+  "カッツェリーラ": {
+    "en": "cazzerilla",
+    "cn": "卡兹里拉",
+    "cn_original": "卡兹里拉",
+    "source": "valid"
+  },
+  "ジャッジメント": {
+    "en": "judgment",
+    "cn": "阿露夏",
+    "cn_original": "Judgement",
+    "source": "scenario_unverified"
+  },
+  "アズサ": {
+    "en": "Azusa",
+    "cn": "梓",
+    "cn_original": "梓",
+    "source": "valid"
+  },
+  "エニュオ": {
+    "en": "Anyo",
+    "cn": "厄倪俄",
+    "cn_original": "厄倪俄",
+    "source": "valid"
+  },
+  "シオン": {
+    "en": "Zion",
+    "cn": "紫苑",
+    "cn_original": "紫苑",
+    "source": "valid"
+  },
+  "シトリ": {
+    "en": "Sitri",
+    "cn": "志鸟",
+    "cn_original": "志鸟",
+    "source": "valid"
+  },
+  "シャトラ": {
+    "en": "Shatra",
+    "cn": "夏托拉",
+    "cn_original": "夏托拉",
+    "source": "valid"
+  },
+  "デスロウ": {
+    "en": "death row",
+    "cn": "死郎",
+    "cn_original": "死郎",
+    "source": "scenario_unverified"
+  },
+  "ドラえもん": {
+    "en": "Doraemon",
+    "cn": "哆啦A梦",
+    "cn_original": "哆啦A梦",
+    "source": "valid"
+  },
+  "しずか": {
+    "en": "Shizuka",
+    "cn": "",
+    "cn_original": "静香",
+    "source": "invalid"
+  },
+  "のび太": {
+    "en": "Nobita",
+    "cn": "大雄",
+    "cn_original": "大雄",
+    "source": "valid"
+  },
+  "スネ夫": {
+    "en": "Suneo",
+    "cn": "",
+    "cn_original": "小夫",
+    "source": "invalid"
+  },
+  "ジャイアン": {
+    "en": "Gian",
+    "cn": "胖虎",
+    "cn_original": "胖虎",
+    "source": "scenario_unverified"
+  },
+  "小さなカリオストロ": {
+    "en": "little Cagliostro",
+    "cn": "卡莉奥斯特萝",
+    "cn_original": "小卡莉奥斯特萝",
+    "source": "scenario"
+  },
+  "ランスロット（本物）": {
+    "en": "Lancelot (real)",
+    "cn": "兰斯洛特",
+    "cn_original": "兰斯洛特（本人）",
+    "source": "scenario"
+  },
+  "ランスロットの分身": {
+    "en": "Lancelot的alter ego",
+    "cn": "兰斯洛特",
+    "cn_original": "兰斯洛特的分身",
+    "source": "scenario"
+  },
+  "スペシャルウィーク": {
+    "en": "special week",
+    "cn": "特别周",
+    "cn_original": "特别周",
+    "source": "scenario_unverified"
+  },
+  "サイレンススズカ": {
+    "en": "silence suzuka",
+    "cn": "无声铃鹿",
+    "cn_original": "无声铃鹿",
+    "source": "scenario_unverified"
+  },
+  "トウカイテイオー": {
+    "en": "Tokai Teio",
+    "cn": "东海帝王",
+    "cn_original": "东海帝王",
+    "source": "scenario_unverified"
+  },
+  "メジロマックイーン": {
+    "en": "White-eye McQueen",
+    "cn": "目白麦昆",
+    "cn_original": "目白麦昆",
+    "source": "scenario_unverified"
+  },
+  "ゴールドシップ": {
+    "en": "gold ship",
+    "cn": "黄金船",
+    "cn_original": "黄金船",
+    "source": "scenario_unverified"
+  },
+  "ゴルシファー": {
+    "en": "Golcifer",
+    "cn": "船西法",
+    "cn_original": "船西法",
+    "source": "scenario_unverified"
+  },
+  "謎の声": {
+    "en": "mysterious voice",
+    "cn": "",
+    "cn_original": "迷之声",
+    "source": "invalid"
+  },
+  "巨大鯛焼き": {
+    "en": "Giant Taiyaki",
+    "cn": "",
+    "cn_original": "巨大鲷鱼烧",
+    "source": "invalid"
+  },
+  "エデソ": {
+    "en": "Edeso",
+    "cn": "伊䓒",
+    "cn_original": "伊䓒",
+    "source": "scenario_unverified"
+  },
+  "レース実行委員": {
+    "en": "Race executive committee",
+    "cn": "",
+    "cn_original": "竞赛实行委员",
+    "source": "invalid"
+  },
+  "エデソの声": {
+    "en": "voice of edeso",
+    "cn": "伊䓒",
+    "cn_original": "伊䓒的声音",
+    "source": "scenario_unverified"
+  },
+  "魔術師1": {
+    "en": "magician 1",
+    "cn": "",
+    "cn_original": "魔术师1",
+    "source": "invalid"
+  },
+  "魔術師2": {
+    "en": "magician 2",
+    "cn": "",
+    "cn_original": "魔术师2",
+    "source": "invalid"
+  },
+  "魔術師3": {
+    "en": "magician 3",
+    "cn": "",
+    "cn_original": "魔术师3",
+    "source": "invalid"
+  },
+  "実況": {
+    "en": "Live commentary",
+    "cn": "",
+    "cn_original": "实况",
+    "source": "invalid"
+  },
+  "黄金の槍": {
+    "en": "golden spear",
+    "cn": "",
+    "cn_original": "黄金之枪",
+    "source": "invalid"
+  },
+  "走者": {
+    "en": "runner",
+    "cn": "",
+    "cn_original": "跑者",
+    "source": "invalid"
+  },
+  "カッタクリ": {
+    "en": "Cuttackli",
+    "cn": "卡塔库里",
+    "cn_original": "卡塔库里",
+    "source": "scenario_unverified"
+  },
+  "ダンサー": {
+    "en": "dancer",
+    "cn": "",
+    "cn_original": "舞者",
+    "source": "invalid"
+  },
+  "観客たち": {
+    "en": "audience",
+    "cn": "",
+    "cn_original": "观众们",
+    "source": "invalid"
+  },
+  "観客１": {
+    "en": "Audience 1",
+    "cn": "",
+    "cn_original": "观众1",
+    "source": "invalid"
+  },
+  "観客２": {
+    "en": "Audience 2",
+    "cn": "",
+    "cn_original": "观众2",
+    "source": "invalid"
+  },
+  "アレス": {
+    "en": "Ares",
+    "cn": "马尔基亚雷斯",
+    "cn_original": "阿瑞斯",
+    "source": "scenario_unverified"
+  },
+  "紫の騎士": {
+    "en": "purple knight",
+    "cn": "",
+    "cn_original": "紫骑士",
+    "source": "invalid"
+  },
+  "星晶獣ガネーシャ": {
+    "en": "Star Beast Ganesha",
+    "cn": "阿露夏",
+    "cn_original": "星晶兽伽涅夏",
+    "source": "scenario_unverified"
+  },
+  "ミカボシ": {
+    "en": "Mikaboshi",
+    "cn": "米卡波西",
+    "cn_original": "米卡波西",
+    "source": "scenario_unverified"
+  },
+  "幽世からの使者": {
+    "en": "Messenger from the underworld",
+    "cn": "",
+    "cn_original": "幽世派出的使者",
+    "source": "invalid"
+  },
+  "ツヴァイ": {
+    "en": "Zwei",
+    "cn": "紫薇",
+    "cn_original": "紫薇",
+    "source": "scenario_unverified"
+  },
+  "ロイド": {
+    "en": "Lloyd",
+    "cn": "罗伊德",
+    "cn_original": "罗伊德",
+    "source": "scenario_unverified"
+  },
+  "星晶獣アーカーシャ": {
+    "en": "Star Beast Akasha",
+    "cn": "阿露夏",
+    "cn_original": "星晶兽阿卡夏",
+    "source": "scenario_unverified"
+  },
+  "ネセサリア": {
+    "en": "Necessaria",
+    "cn": "奈瑟萨莉亚",
+    "cn_original": "奈瑟萨莉亚",
+    "source": "scenario_unverified"
+  },
+  "アーロン": {
+    "en": "aaron",
+    "cn": "",
+    "cn_original": "阿隆",
+    "source": "invalid"
+  },
+  "白騎士": {
+    "en": "white knight",
+    "cn": "",
+    "cn_original": "白骑士",
+    "source": "invalid"
+  },
+  "レホス": {
+    "en": "Rejos",
+    "cn": "雷荷斯",
+    "cn_original": "雷荷斯",
+    "source": "scenario_unverified"
+  },
+  "セルカ": {
+    "en": "Selfie",
+    "cn": "赛尔卡",
+    "cn_original": "赛尔卡",
+    "source": "scenario_unverified"
+  },
+  "クラスメイト1": {
+    "en": "classmate 1",
+    "cn": "",
+    "cn_original": "同学1",
+    "source": "invalid"
+  },
+  "クラスメイト2": {
+    "en": "classmate 2",
+    "cn": "",
+    "cn_original": "同学2",
+    "source": "invalid"
+  },
+  "クラスメイト１": {
+    "en": "classmate 1",
+    "cn": "",
+    "cn_original": "同学1",
+    "source": "invalid"
+  },
+  "クラスメイト２": {
+    "en": "classmate 2",
+    "cn": "",
+    "cn_original": "同学2",
+    "source": "invalid"
+  },
+  "蒼の解放戦線メンバー": {
+    "en": "Blue Liberation Front members",
+    "cn": "",
+    "cn_original": "苍蓝解放战线成员",
+    "source": "invalid"
+  },
+  "パティア": {
+    "en": "Patia",
+    "cn": "帕缇亚",
+    "cn_original": "帕缇亚",
+    "source": "scenario_unverified"
+  },
+  "エガニス": {
+    "en": "Eganis",
+    "cn": "艾嘉尼斯",
+    "cn_original": "艾嘉尼斯",
+    "source": "scenario_unverified"
+  },
+  "ザラストラ": {
+    "en": "Zarastra",
+    "cn": "扎拉斯托拉",
+    "cn_original": "扎拉斯托拉",
+    "source": "scenario_unverified"
+  },
+  "ラクレイス": {
+    "en": "Lacreis",
+    "cn": "拉克雷斯",
+    "cn_original": "拉克雷斯",
+    "source": "scenario_unverified"
+  },
+  "クラスメイト１の声": {
+    "en": "Classmate 1的voice",
+    "cn": "",
+    "cn_original": "同学1的声音",
+    "source": "invalid"
+  },
+  "軽音部生徒": {
+    "en": "Light music club student",
+    "cn": "",
+    "cn_original": "轻音部学生",
+    "source": "invalid"
+  },
+  "キティオン": {
+    "en": "Kition",
+    "cn": "基缇昂",
+    "cn_original": "基缇昂",
+    "source": "scenario_unverified"
+  },
+  "ウェイトレス": {
+    "en": "waitress",
+    "cn": "女服务员",
+    "cn_original": "女服务员",
+    "source": "scenario_unverified"
+  },
+  "依頼書": {
+    "en": "request form",
+    "cn": "",
+    "cn_original": "委托书",
+    "source": "invalid"
+  },
+  "スズカ＆テイオー": {
+    "en": "Suzuka & Teio",
+    "cn": "伊欧",
+    "cn_original": "铃鹿＆帝王",
+    "source": "scenario"
+  },
+  "タイガ・リンタロウ": {
+    "en": "Taiga Rintaro",
+    "cn": "鬼角大河",
+    "cn_original": "大河・伦太郎",
+    "source": "scenario_unverified"
+  },
+  "巨大ガニ": {
+    "en": "giant crab",
+    "cn": "巨大螃蟹",
+    "cn_original": "巨型蟹",
+    "source": "scenario_unverified"
+  },
+  "クラスメイト達": {
+    "en": "classmates",
+    "cn": "",
+    "cn_original": "同学们",
+    "source": "invalid"
+  },
+  "バルドル": {
+    "en": "Balder",
+    "cn": "巴德尔",
+    "cn_original": "巴德尔",
+    "source": "scenario_unverified"
+  },
+  "マドル": {
+    "en": "Muddle",
+    "cn": "马德尔",
+    "cn_original": "马德尔",
+    "source": "scenario_unverified"
+  },
+  "コーナ": {
+    "en": "corner",
+    "cn": "蔻娜",
+    "cn_original": "蔻娜",
+    "source": "scenario_unverified"
+  },
+  "マドルの声": {
+    "en": "Madol的voice",
+    "cn": "马德尔",
+    "cn_original": "马德尔的声音",
+    "source": "scenario_unverified"
+  },
+  "ユニ": {
+    "en": "Uni",
+    "cn": "尤妮",
+    "cn_original": "尤妮",
+    "source": "valid"
+  },
+  "アジ・ダハーカ": {
+    "en": "Aj Dahaka",
+    "cn": "",
+    "cn_original": "阿兹·达哈卡",
+    "source": "invalid"
+  },
+  "ガーゴイル": {
+    "en": "gargoyle",
+    "cn": "",
+    "cn_original": "石像鬼",
+    "source": "invalid"
+  },
+  "遠くから呼びかける声": {
+    "en": "a voice calling from afar",
+    "cn": "",
+    "cn_original": "远处传来的喊声",
+    "source": "invalid"
+  },
+  "揺り起こす声": {
+    "en": "a voice that stirs",
+    "cn": "",
+    "cn_original": "唤醒声",
+    "source": "invalid"
+  },
+  "コスモス": {
+    "en": "cosmos",
+    "cn": "科斯莫斯",
+    "cn_original": "科斯莫斯",
+    "source": "valid"
+  },
+  "コーナの母": {
+    "en": "corner的mother",
+    "cn": "蔻娜",
+    "cn_original": "蔻娜之母",
+    "source": "scenario_unverified"
+  },
+  "オードリック": {
+    "en": "audric",
+    "cn": "奥德里克",
+    "cn_original": "奥德里克",
+    "source": "scenario_unverified"
+  },
+  "ヴィクトル": {
+    "en": "victor",
+    "cn": "维克多",
+    "cn_original": "维克多",
+    "source": "scenario_unverified"
+  },
+  "兄弟の父": {
+    "en": "brothers father",
+    "cn": "",
+    "cn_original": "兄弟俩的父亲",
+    "source": "invalid"
+  },
+  "レヴィン・ロック": {
+    "en": "levin rock",
+    "cn": "",
+    "cn_original": "雷维之岩",
+    "source": "invalid"
+  },
+  "湯もみ施設の係員": {
+    "en": "Yumomi facility staff",
+    "cn": "",
+    "cn_original": "揉泉设施的工作人员",
+    "source": "invalid"
+  },
+  "工房の職人": {
+    "en": "craftsman in the workshop",
+    "cn": "",
+    "cn_original": "工房的匠人",
+    "source": "invalid"
+  },
+  "幼少期のオードリック": {
+    "en": "Audric as a child",
+    "cn": "奥德里克",
+    "cn_original": "幼年的奥德里克",
+    "source": "scenario_unverified"
+  },
+  "昔のジェノ": {
+    "en": "old jeno",
+    "cn": "麦姆",
+    "cn_original": "过去的杰诺",
+    "source": "scenario"
+  },
+  "松明を振る男": {
+    "en": "man waving a torch",
+    "cn": "",
+    "cn_original": "举着火把的男人",
+    "source": "invalid"
+  },
+  "男の部下": {
+    "en": "male subordinate",
+    "cn": "",
+    "cn_original": "男性部下",
+    "source": "invalid"
+  },
+  "ガリア隊の副隊長": {
+    "en": "Vice-captain of Gallia Corps",
+    "cn": "加利亚",
+    "cn_original": "加利亚队的副队长",
+    "source": "scenario_unverified"
+  },
+  "温泉まんじゅう屋の店主": {
+    "en": "Owner of a hot spring steamed bun shop",
+    "cn": "",
+    "cn_original": "温泉馒头屋店长",
+    "source": "invalid"
+  },
+  "謎の魔物": {
+    "en": "mysterious monster",
+    "cn": "",
+    "cn_original": "谜之魔物",
+    "source": "invalid"
+  },
+  "旅館の従業員": {
+    "en": "Inn employee",
+    "cn": "",
+    "cn_original": "旅馆的工作人员",
+    "source": "invalid"
+  },
+  "コスモスの御使い": {
+    "en": "messenger of cosmos",
+    "cn": "科斯莫斯",
+    "cn_original": "科斯莫斯的使者",
+    "source": "scenario"
+  },
+  "ルームメイト": {
+    "en": "roommate",
+    "cn": "",
+    "cn_original": "室友",
+    "source": "invalid"
+  },
+  "ディとリィ": {
+    "en": "Di and Lee",
+    "cn": "",
+    "cn_original": "迪和莉",
+    "source": "invalid"
+  },
+  "島の住人": {
+    "en": "resident of the island",
+    "cn": "",
+    "cn_original": "岛上居民",
+    "source": "invalid"
+  },
+  "赤ん坊": {
+    "en": "baby",
+    "cn": "",
+    "cn_original": "婴儿",
+    "source": "invalid"
+  },
+  "小さな村の住人": {
+    "en": "resident of a small village",
+    "cn": "",
+    "cn_original": "小村居民",
+    "source": "invalid"
+  },
+  "隣町の住人": {
+    "en": "resident of the next town",
+    "cn": "",
+    "cn_original": "邻镇居民",
+    "source": "invalid"
+  },
+  "シルフの町の住人": {
+    "en": "Resident of Sylph Town",
+    "cn": "西尔芙",
+    "cn_original": "希尔芙城镇的居民",
+    "source": "scenario_unverified"
+  },
+  "近隣の住人": {
+    "en": "nearby residents",
+    "cn": "",
+    "cn_original": "附近居民",
+    "source": "invalid"
+  },
+  "島の兵士": {
+    "en": "island soldier",
+    "cn": "",
+    "cn_original": "岛上的士兵",
+    "source": "invalid"
+  },
+  "契約者": {
+    "en": "Contractor",
+    "cn": "",
+    "cn_original": "契约者",
+    "source": "invalid"
+  },
+  "アルビオンの権力者": {
+    "en": "ruler of albion",
+    "cn": "路西欧",
+    "cn_original": "阿尔比昂的权力者",
+    "source": "scenario"
+  },
+  "従者": {
+    "en": "servant",
+    "cn": "",
+    "cn_original": "随从",
+    "source": "invalid"
+  },
+  "新しい契約者": {
+    "en": "new contractor",
+    "cn": "",
+    "cn_original": "新的契约者",
+    "source": "invalid"
+  },
+  "コキュートス": {
+    "en": "Cocytus",
+    "cn": "艾尔莫特",
+    "cn_original": "科赛特斯",
+    "source": "scenario"
+  },
+  "イフリート": {
+    "en": "Ifrit",
+    "cn": "艾尔莫特",
+    "cn_original": "伊弗利特",
+    "source": "scenario"
+  },
+  "ディアボロス": {
+    "en": "Diabolos",
+    "cn": "迪亚波罗",
+    "cn_original": "迪亚波罗",
+    "source": "valid"
+  },
+  "ウォフマナフ": {
+    "en": "Wofmanuf",
+    "cn": "",
+    "cn_original": "沃胡摩那",
+    "source": "invalid"
+  },
+  "ゼノ・ウォフマナフ": {
+    "en": "Zeno Wofmanuf",
+    "cn": "",
+    "cn_original": "桀异·沃胡摩那",
+    "source": "invalid"
+  },
+  "ゼノ・コキュートス": {
+    "en": "xeno cocytus",
+    "cn": "艾尔莫特",
+    "cn_original": "桀异·科赛特斯",
+    "source": "scenario"
+  },
+  "男子生徒１": {
+    "en": "male student 1",
+    "cn": "",
+    "cn_original": "男学生1",
+    "source": "invalid"
+  },
+  "男子生徒２": {
+    "en": "male student 2",
+    "cn": "",
+    "cn_original": "男学生2",
+    "source": "invalid"
+  },
+  "蒼人": {
+    "en": "Aojin",
+    "cn": "",
+    "cn_original": "苍人",
+    "source": "invalid"
+  },
+  "ビー": {
+    "en": "Bee",
+    "cn": "",
+    "cn_original": "碧",
+    "source": "invalid"
+  },
+  "丸文字の手紙": {
+    "en": "round letter",
+    "cn": "",
+    "cn_original": "写着圆体字的信纸",
+    "source": "invalid"
+  },
+  "織部": {
+    "en": "Oribe",
+    "cn": "",
+    "cn_original": "织部",
+    "source": "invalid"
+  },
+  "記録係の男子生徒": {
+    "en": "Recorder male student",
+    "cn": "",
+    "cn_original": "记录成绩的男同学",
+    "source": "invalid"
+  },
+  "せんべえ婆": {
+    "en": "senbei old lady",
+    "cn": "",
+    "cn_original": "仙贝奶奶",
+    "source": "invalid"
+  },
+  "クラスの男子１": {
+    "en": "boy 1 in class",
+    "cn": "",
+    "cn_original": "班上的男同学1",
+    "source": "invalid"
+  },
+  "クラスの男子２": {
+    "en": "Class boy 2",
+    "cn": "",
+    "cn_original": "班上的男同学2",
+    "source": "invalid"
+  },
+  "野次馬１": {
+    "en": "Onlookers 1",
+    "cn": "",
+    "cn_original": "看热闹的人1",
+    "source": "invalid"
+  },
+  "野次馬２": {
+    "en": "Onlooker 2",
+    "cn": "",
+    "cn_original": "看热闹的人2",
+    "source": "invalid"
+  },
+  "教師": {
+    "en": "teacher",
+    "cn": "",
+    "cn_original": "教师",
+    "source": "invalid"
+  },
+  "噂好きの女子１": {
+    "en": "Girl who likes rumors 1",
+    "cn": "",
+    "cn_original": "喜欢说闲话的女孩1",
+    "source": "invalid"
+  },
+  "噂好きの女子２": {
+    "en": "Girl who likes rumors 2",
+    "cn": "",
+    "cn_original": "喜欢说闲话的女孩2",
+    "source": "invalid"
+  },
+  "幼い日の蒼人": {
+    "en": "Aoto in his childhood",
+    "cn": "",
+    "cn_original": "幼时的苍人",
+    "source": "invalid"
+  },
+  "黒髪の少女": {
+    "en": "black hair girl",
+    "cn": "",
+    "cn_original": "黑发少女",
+    "source": "invalid"
+  },
+  "幼い日の未来": {
+    "en": "future of childhood",
+    "cn": "",
+    "cn_original": "幼时的未来",
+    "source": "invalid"
+  },
+  "古風な口調の女子生徒": {
+    "en": "A female student with an old-fashioned tone",
+    "cn": "",
+    "cn_original": "说话风格很古风的女学生",
+    "source": "invalid"
+  },
+  "個性的な口調の女子生徒": {
+    "en": "A female student with a unique tone",
+    "cn": "",
+    "cn_original": "说话风格很个性的女学生",
+    "source": "invalid"
+  },
+  "風紀委員": {
+    "en": "Discipline committee",
+    "cn": "",
+    "cn_original": "风纪委员",
+    "source": "invalid"
+  },
+  "保健委員": {
+    "en": "health committee",
+    "cn": "",
+    "cn_original": "保健委员",
+    "source": "invalid"
+  },
+  "星晶獣フロネシス": {
+    "en": "Star Crystal Beast Phronesis",
+    "cn": "希斯",
+    "cn_original": "星晶兽弗洛涅西斯",
+    "source": "scenario"
+  },
+  "レプティ": {
+    "en": "Repti",
+    "cn": "雷弗提",
+    "cn_original": "雷弗提",
+    "source": "scenario_unverified"
+  },
+  "ガハムレット": {
+    "en": "Gahamlet",
+    "cn": "盖默雷特",
+    "cn_original": "盖默雷特",
+    "source": "scenario_unverified"
+  },
+  "キャスパリーグ": {
+    "en": "caspar league",
+    "cn": "凯茜帕鲁格",
+    "cn_original": "凯茜帕鲁格",
+    "source": "scenario_unverified"
+  },
+  "ディンドラン": {
+    "en": "Dhindran",
+    "cn": "丁德兰",
+    "cn_original": "丁德兰",
+    "source": "scenario_unverified"
+  },
+  "アレイス": {
+    "en": "Areis",
+    "cn": "艾蕾丝",
+    "cn_original": "艾蕾丝",
+    "source": "scenario_unverified"
+  },
+  "ヘルツェロイデ": {
+    "en": "Herzleude",
+    "cn": "海瑟萝伊德",
+    "cn_original": "海瑟萝伊德",
+    "source": "scenario_unverified"
+  },
+  "ウェールズ城の衛兵１": {
+    "en": "Welsh castle guard 1",
+    "cn": "",
+    "cn_original": "威尔兹城的卫兵1",
+    "source": "invalid"
+  },
+  "ウェールズ城の衛兵２": {
+    "en": "Welsh castle guard 2",
+    "cn": "",
+    "cn_original": "威尔兹城的卫兵2",
+    "source": "invalid"
+  },
+  "ガレス": {
+    "en": "Gareth",
+    "cn": "加雷斯",
+    "cn_original": "加雷斯",
+    "source": "scenario_unverified"
+  },
+  "アレイスの声": {
+    "en": "voice of areis",
+    "cn": "艾蕾丝",
+    "cn_original": "艾蕾丝的声音",
+    "source": "scenario_unverified"
+  },
+  "白い服の女": {
+    "en": "woman in white clothes",
+    "cn": "",
+    "cn_original": "白衣女子",
+    "source": "invalid"
+  },
+  "アンデッド": {
+    "en": "undead",
+    "cn": "",
+    "cn_original": "亡灵",
+    "source": "invalid"
+  },
+  "港の職員": {
+    "en": "port staff",
+    "cn": "",
+    "cn_original": "港口的工作人员",
+    "source": "invalid"
+  },
+  "カフェの客１": {
+    "en": "cafe customer 1",
+    "cn": "",
+    "cn_original": "咖啡厅的顾客1",
+    "source": "invalid"
+  },
+  "カフェの客２": {
+    "en": "cafe customer 2",
+    "cn": "",
+    "cn_original": "咖啡厅的顾客2",
+    "source": "invalid"
+  },
+  "酔っ払い客": {
+    "en": "drunk customer",
+    "cn": "",
+    "cn_original": "醉酒的客人",
+    "source": "invalid"
+  },
+  "アルバ": {
+    "en": "Aruba",
+    "cn": "阿尔芭",
+    "cn_original": "阿尔芭",
+    "source": "scenario_unverified"
+  },
+  "白銀の獣": {
+    "en": "silver beast",
+    "cn": "",
+    "cn_original": "白银之兽",
+    "source": "invalid"
+  },
+  "イデルバの兵士": {
+    "en": "Soldier of Idelba",
+    "cn": "",
+    "cn_original": "伊德尔瓦的士兵",
+    "source": "invalid"
+  },
+  "スピナー": {
+    "en": "spinner",
+    "cn": "斯平纳",
+    "cn_original": "斯平纳",
+    "source": "valid"
+  },
+  "細身の盗賊": {
+    "en": "slender thief",
+    "cn": "",
+    "cn_original": "瘦子盗贼",
+    "source": "invalid"
+  },
+  "大柄な盗賊": {
+    "en": "big thief",
+    "cn": "",
+    "cn_original": "大块头盗贼",
+    "source": "invalid"
+  },
+  "手紙の文字": {
+    "en": "letter characters",
+    "cn": "",
+    "cn_original": "信上的文字",
+    "source": "invalid"
+  },
+  "マコラ": {
+    "en": "Makola",
+    "cn": "玛蔻拉",
+    "cn_original": "玛蔻拉",
+    "source": "valid"
+  },
+  "溌溂とした女の子": {
+    "en": "lively girl",
+    "cn": "",
+    "cn_original": "活力十足的女孩子",
+    "source": "invalid"
+  },
+  "参拝客１": {
+    "en": "Visitor 1",
+    "cn": "",
+    "cn_original": "参拜客1",
+    "source": "invalid"
+  },
+  "参拝客２の声": {
+    "en": "Voice of worshiper 2",
+    "cn": "",
+    "cn_original": "参拜客2的声音",
+    "source": "invalid"
+  },
+  "参拝客３の声": {
+    "en": "Voice of worshiper 3",
+    "cn": "",
+    "cn_original": "参拜客3的声音",
+    "source": "invalid"
+  },
+  "参拝客達": {
+    "en": "worshipers",
+    "cn": "",
+    "cn_original": "参拜客们",
+    "source": "invalid"
+  },
+  "初代の卯神": {
+    "en": "The first Ugami",
+    "cn": "",
+    "cn_original": "初代卯神",
+    "source": "invalid"
+  },
+  "博徒": {
+    "en": "gambler",
+    "cn": "",
+    "cn_original": "赌徒",
+    "source": "invalid"
+  },
+  "参拝客４": {
+    "en": "worshipers 4",
+    "cn": "",
+    "cn_original": "参拜客4",
+    "source": "invalid"
+  },
+  "三兎と四兎": {
+    "en": "Three rabbits and four rabbits",
+    "cn": "",
+    "cn_original": "三兔和四兔",
+    "source": "invalid"
+  },
+  "一兎": {
+    "en": "One rabbit",
+    "cn": "",
+    "cn_original": "一兔",
+    "source": "invalid"
+  },
+  "二兎": {
+    "en": "Two rabbits",
+    "cn": "",
+    "cn_original": "二兔",
+    "source": "invalid"
+  },
+  "三兎": {
+    "en": "Three rabbits",
+    "cn": "",
+    "cn_original": "三兔",
+    "source": "invalid"
+  },
+  "四兎": {
+    "en": "Four rabbits",
+    "cn": "",
+    "cn_original": "四兔",
+    "source": "invalid"
+  },
+  "ぐうたら夫": {
+    "en": "lazy husband",
+    "cn": "",
+    "cn_original": "无业丈夫",
+    "source": "invalid"
+  },
+  "ボロ屋の男": {
+    "en": "rag shop man",
+    "cn": "",
+    "cn_original": "收破烂的男人",
+    "source": "invalid"
+  },
+  "ウグス": {
+    "en": "Ugus",
+    "cn": "乌格斯",
+    "cn_original": "乌格斯",
+    "source": "scenario_unverified"
+  },
+  "シンシャ": {
+    "en": "Shinsha",
+    "cn": "辛夏",
+    "cn_original": "辛夏",
+    "source": "scenario_unverified"
+  },
+  "クシナ": {
+    "en": "Kushina",
+    "cn": "库西那",
+    "cn_original": "库西那",
+    "source": "scenario_unverified"
+  },
+  "イーウィヤ": {
+    "en": "Ewiyah",
+    "cn": "伊维亚",
+    "cn_original": "伊维亚",
+    "source": "valid"
+  },
+  "ウィルナス": {
+    "en": "Wilnas",
+    "cn": "威尔纳斯",
+    "cn_original": "威尔纳斯",
+    "source": "valid"
+  },
+  "ワムデュス": {
+    "en": "Wamdus",
+    "cn": "瓦姆杜斯",
+    "cn_original": "瓦姆杜斯",
+    "source": "valid"
+  },
+  "ガレヲン": {
+    "en": "Galleon",
+    "cn": "伽莱翁",
+    "cn_original": "伽莱翁",
+    "source": "valid"
+  },
+  "ル・オー": {
+    "en": "Le Haut",
+    "cn": "露·欧",
+    "cn_original": "露·欧",
+    "source": "valid"
+  },
+  "フェディエル": {
+    "en": "Fediel",
+    "cn": "菲迪埃尔",
+    "cn_original": "菲迪埃尔",
+    "source": "valid"
+  },
+  "ドルベイル": {
+    "en": "Dorvale",
+    "cn": "",
+    "cn_original": "多鲁贝鲁",
+    "source": "invalid"
+  },
+  "ヴレッザレク": {
+    "en": "Wrezalek",
+    "cn": "",
+    "cn_original": "瓦雷扎雷克",
+    "source": "invalid"
+  },
+  "ラディス": {
+    "en": "Ladis",
+    "cn": "",
+    "cn_original": "拉迪斯",
+    "source": "invalid"
+  },
+  "ウィリヌス": {
+    "en": "Willinus",
+    "cn": "",
+    "cn_original": "威尔奴斯",
+    "source": "invalid"
+  },
+  "イールシアス": {
+    "en": "Eelsias",
+    "cn": "",
+    "cn_original": "伊鲁希亚斯",
+    "source": "invalid"
+  },
+  "マコラの父": {
+    "en": "Makora的father",
+    "cn": "玛蔻拉",
+    "cn_original": "玛蔻拉的父亲",
+    "source": "scenario"
+  },
+  "男性の声": {
+    "en": "male voice",
+    "cn": "",
+    "cn_original": "男性的声音",
+    "source": "invalid"
+  },
+  "イーヴィル": {
+    "en": "evil",
+    "cn": "",
+    "cn_original": "伊维鲁",
+    "source": "invalid"
+  },
+  "ネクタル": {
+    "en": "nectar",
+    "cn": "奈克塔尔",
+    "cn_original": "奈克塔尔",
+    "source": "valid"
+  },
+  "オロロジャイア": {
+    "en": "Orologia",
+    "cn": "欧罗罗伽亚",
+    "cn_original": "欧罗罗伽亚",
+    "source": "valid"
+  },
+  "シンク": {
+    "en": "sink",
+    "cn": "",
+    "cn_original": "星",
+    "source": "invalid"
+  },
+  "アーロンの母": {
+    "en": "aaron的mother",
+    "cn": "",
+    "cn_original": "亚隆的母亲",
+    "source": "invalid"
+  },
+  "アポロニア": {
+    "en": "Apollonia",
+    "cn": "阿波罗",
+    "cn_original": "阿波罗尼亚",
+    "source": "scenario_unverified"
+  },
+  "ミラオル": {
+    "en": "Miraor",
+    "cn": "米拉奥尔",
+    "cn_original": "米拉奥尔",
+    "source": "valid"
+  },
+  "ザーリリャオー": {
+    "en": "Zariliao",
+    "cn": "扎莉莉亚欧",
+    "cn_original": "扎莉莉亚欧",
+    "source": "valid"
+  },
+  "お婆さん": {
+    "en": "grandmother",
+    "cn": "",
+    "cn_original": "老奶奶",
+    "source": "invalid"
+  },
+  "サリエリア": {
+    "en": "Sari area",
+    "cn": "瑟芮娅",
+    "cn_original": "瑟芮娅",
+    "source": "scenario_unverified"
+  },
+  "パン屋": {
+    "en": "bakery",
+    "cn": "",
+    "cn_original": "面包店老板",
+    "source": "invalid"
+  },
+  "アマール": {
+    "en": "Amar",
+    "cn": "阿玛尔",
+    "cn_original": "阿玛尔",
+    "source": "scenario_unverified"
+  },
+  "医者": {
+    "en": "doctor",
+    "cn": "",
+    "cn_original": "医生",
+    "source": "invalid"
+  },
+  "「仮面」の観光客達": {
+    "en": "\"Masked\" tourists",
+    "cn": "",
+    "cn_original": "戴着“面具”的游客们",
+    "source": "invalid"
+  },
+  "島で働く男": {
+    "en": "man working on the island",
+    "cn": "",
+    "cn_original": "岛上的工作人员",
+    "source": "invalid"
+  },
+  "アニマ・アニムス・コア": {
+    "en": "Anima Animus Core",
+    "cn": "",
+    "cn_original": "阿尼玛·阿尼姆斯·核",
+    "source": "invalid"
+  },
+  "デミウルゴス": {
+    "en": "Demiurge",
+    "cn": "德米乌尔戈斯",
+    "cn_original": "德米乌尔戈斯",
+    "source": "scenario_unverified"
+  },
+  "ゾンビの群れ": {
+    "en": "horde of zombies",
+    "cn": "",
+    "cn_original": "僵尸群",
+    "source": "invalid"
+  },
+  "モモ": {
+    "en": "Momo",
+    "cn": "",
+    "cn_original": "莫莫",
+    "source": "invalid"
+  },
+  "ベッポ": {
+    "en": "beppo",
+    "cn": "贝波",
+    "cn_original": "贝波",
+    "source": "scenario_unverified"
+  },
+  "ペット達": {
+    "en": "pets",
+    "cn": "",
+    "cn_original": "宠物们",
+    "source": "invalid"
+  },
+  "ジジ": {
+    "en": "Gigi",
+    "cn": "",
+    "cn_original": "吉吉",
+    "source": "invalid"
+  },
+  "フージーとニコラ": {
+    "en": "Fusie and Nicola",
+    "cn": "",
+    "cn_original": "弗吉&尼古拉",
+    "source": "invalid"
+  },
+  "獣の魔物": {
+    "en": "beast monster",
+    "cn": "",
+    "cn_original": "野兽型魔物",
+    "source": "invalid"
+  },
+  "獣の魔物達": {
+    "en": "beast monsters",
+    "cn": "",
+    "cn_original": "野兽型魔物群",
+    "source": "invalid"
+  },
+  "長耳の幽霊": {
+    "en": "long-eared ghost",
+    "cn": "",
+    "cn_original": "长耳朵的幽灵",
+    "source": "invalid"
+  },
+  "中年の男": {
+    "en": "middle aged man",
+    "cn": "",
+    "cn_original": "中年男子",
+    "source": "invalid"
+  },
+  "丸い幽霊達": {
+    "en": "round ghosts",
+    "cn": "",
+    "cn_original": "球形幽灵",
+    "source": "invalid"
+  },
+  "廃墟の主": {
+    "en": "lord of ruins",
+    "cn": "",
+    "cn_original": "废墟主人",
+    "source": "invalid"
+  },
+  "幼い少女": {
+    "en": "young girl",
+    "cn": "",
+    "cn_original": "年幼的少女",
+    "source": "invalid"
+  },
+  "フェリの母": {
+    "en": "Feli的mother",
+    "cn": "菲莉",
+    "cn_original": "菲莉的母亲",
+    "source": "scenario"
+  },
+  "フェリの父": {
+    "en": "Feri的father",
+    "cn": "菲莉",
+    "cn_original": "菲莉的父亲",
+    "source": "scenario"
+  },
+  "幼い頃のフェリ": {
+    "en": "Feli when I was young",
+    "cn": "菲莉",
+    "cn_original": "幼年菲莉",
+    "source": "scenario"
+  },
+  "細身のウサギ": {
+    "en": "slender rabbit",
+    "cn": "",
+    "cn_original": "瘦小的兔子",
+    "source": "invalid"
+  },
+  "二本角の魔物": {
+    "en": "two horned monster",
+    "cn": "",
+    "cn_original": "两只角的魔物",
+    "source": "invalid"
+  },
+  "一本角の魔物": {
+    "en": "one horned monster",
+    "cn": "",
+    "cn_original": "一只角的魔物",
+    "source": "invalid"
+  },
+  "フージー": {
+    "en": "Fugee",
+    "cn": "",
+    "cn_original": "弗吉",
+    "source": "invalid"
+  },
+  "ニコラ": {
+    "en": "Nicola",
+    "cn": "",
+    "cn_original": "尼古拉",
+    "source": "invalid"
+  },
+  "細身の犬": {
+    "en": "slender dog",
+    "cn": "",
+    "cn_original": "细长的狗狗",
+    "source": "invalid"
+  },
+  "ベッポとジジ": {
+    "en": "beppo and jiji",
+    "cn": "贝波",
+    "cn_original": "贝波&吉吉",
+    "source": "scenario_unverified"
+  },
+  "ゴブリン": {
+    "en": "goblin",
+    "cn": "哥布林",
+    "cn_original": "哥布林",
+    "source": "scenario_unverified"
+  },
+  "ギヨタ": {
+    "en": "Giyota",
+    "cn": "吉优塔",
+    "cn_original": "吉优塔",
+    "source": "scenario_unverified"
+  },
+  "ドゥアト副王": {
+    "en": "Viceroy Duat",
+    "cn": "梅路",
+    "cn_original": "杜亚特副王",
+    "source": "scenario"
+  },
+  "ルウェイグ": {
+    "en": "Lweig",
+    "cn": "卢威格",
+    "cn_original": "卢威格",
+    "source": "scenario_unverified"
+  },
+  "蒼の解放戦線１": {
+    "en": "Blue Liberation Front 1",
+    "cn": "",
+    "cn_original": "苍蓝解放战线成员1",
+    "source": "invalid"
+  },
+  "ヰロティス": {
+    "en": "Ilotis",
+    "cn": "伊洛缇斯",
+    "cn_original": "伊洛缇斯",
+    "source": "scenario_unverified"
+  },
+  "カロ": {
+    "en": "Karo",
+    "cn": "卡洛",
+    "cn_original": "卡洛",
+    "source": "valid"
+  },
+  "アルテ": {
+    "en": "Arte",
+    "cn": "阿尔特",
+    "cn_original": "阿尔特",
+    "source": "scenario_unverified"
+  },
+  "カンターテ": {
+    "en": "cantate",
+    "cn": "坎妲缇",
+    "cn_original": "坎塔特",
+    "source": "scenario"
+  },
+  "エルタ": {
+    "en": "Elta",
+    "cn": "艾尔塔",
+    "cn_original": "艾尔塔",
+    "source": "valid"
+  },
+  "画家の息子": {
+    "en": "painter的son",
+    "cn": "",
+    "cn_original": "画家的儿子",
+    "source": "invalid"
+  },
+  "画家の男": {
+    "en": "painter man",
+    "cn": "",
+    "cn_original": "画家",
+    "source": "invalid"
+  },
+  "陶芸家の女": {
+    "en": "potter的woman",
+    "cn": "",
+    "cn_original": "陶艺家",
+    "source": "invalid"
+  },
+  "演奏家の女": {
+    "en": "female performer",
+    "cn": "",
+    "cn_original": "演奏家",
+    "source": "invalid"
+  },
+  "楽器職人の男": {
+    "en": "musical instrument craftsman",
+    "cn": "",
+    "cn_original": "乐器工匠",
+    "source": "invalid"
+  },
+  "星の民": {
+    "en": "Star people",
+    "cn": "",
+    "cn_original": "星之民",
+    "source": "invalid"
+  },
+  "ドメニコ": {
+    "en": "domenico",
+    "cn": "",
+    "cn_original": "多梅尼科",
+    "source": "invalid"
+  },
+  "レナッタ": {
+    "en": "Renatta",
+    "cn": "蕾娜",
+    "cn_original": "雷娜塔",
+    "source": "scenario"
+  },
+  "ロレンツォ": {
+    "en": "lorenzo",
+    "cn": "",
+    "cn_original": "洛伦佐",
+    "source": "invalid"
+  },
+  "マントの男": {
+    "en": "man in cloak",
+    "cn": "",
+    "cn_original": "穿斗篷的人",
+    "source": "invalid"
+  },
+  "ナリタ": {
+    "en": "Narita",
+    "cn": "成田",
+    "cn_original": "成田",
+    "source": "scenario_unverified"
+  },
+  "ノビヨ": {
+    "en": "Noviyo",
+    "cn": "植松",
+    "cn_original": "植松",
+    "source": "scenario_unverified"
+  },
+  "ナーヴェ": {
+    "en": "Nave",
+    "cn": "娜维",
+    "cn_original": "娜维",
+    "source": "valid"
+  },
+  "アウフスタ": {
+    "en": "Aufsta",
+    "cn": "奥古斯特",
+    "cn_original": "奥古斯特",
+    "source": "valid"
+  },
+  "ロベルティナ": {
+    "en": "robertina",
+    "cn": "罗贝缇娜",
+    "cn_original": "罗贝缇娜",
+    "source": "valid"
+  },
+  "パメラ": {
+    "en": "pamela",
+    "cn": "帕梅拉",
+    "cn_original": "帕梅拉",
+    "source": "valid"
+  },
+  "セシール": {
+    "en": "Cecile",
+    "cn": "塞希尔",
+    "cn_original": "塞希尔",
+    "source": "valid"
+  },
+  "5人": {
+    "en": "5 people",
+    "cn": "",
+    "cn_original": "五人",
+    "source": "invalid"
+  },
+  "エルタとセレフィラ": {
+    "en": "Elta and Serephira",
+    "cn": "埃尔塔",
+    "cn_original": "艾尔塔・塞尔菲拉",
+    "source": "scenario_unverified"
+  },
+  "女の子の母親": {
+    "en": "girl的mother",
+    "cn": "",
+    "cn_original": "女孩的母亲",
+    "source": "invalid"
+  },
+  "幼いエルタ": {
+    "en": "young elta",
+    "cn": "埃尔塔",
+    "cn_original": "幼年的艾尔塔",
+    "source": "scenario_unverified"
+  },
+  "島民１": {
+    "en": "Islander 1",
+    "cn": "",
+    "cn_original": "岛民１",
+    "source": "invalid"
+  },
+  "島民２": {
+    "en": "Islander 2",
+    "cn": "",
+    "cn_original": "岛民２",
+    "source": "invalid"
+  },
+  "星晶獣アルテ": {
+    "en": "Star Crystal Beast Arte",
+    "cn": "阿尔特",
+    "cn_original": "星晶兽阿尔特",
+    "source": "scenario_unverified"
+  },
+  "2人": {
+    "en": "2 people",
+    "cn": "",
+    "cn_original": "两人",
+    "source": "invalid"
+  },
+  "島民達": {
+    "en": "Islanders",
+    "cn": "",
+    "cn_original": "岛民们",
+    "source": "invalid"
+  },
+  "キハール": {
+    "en": "Kihar",
+    "cn": "齐哈尔",
+    "cn_original": "齐哈尔",
+    "source": "valid"
+  },
+  "キハールの声": {
+    "en": "Kihar的voice",
+    "cn": "齐哈尔",
+    "cn_original": "齐哈尔的声音",
+    "source": "scenario"
+  },
+  "楽器職人の妻": {
+    "en": "instrument maker的wife",
+    "cn": "",
+    "cn_original": "乐器工匠之妻",
+    "source": "invalid"
+  },
+  "楽器屋の女": {
+    "en": "music shop woman",
+    "cn": "",
+    "cn_original": "乐器铺的摊主",
+    "source": "invalid"
+  },
+  "怒っている客": {
+    "en": "angry customer",
+    "cn": "",
+    "cn_original": "愤怒的顾客",
+    "source": "invalid"
+  },
+  "嫌味な少女": {
+    "en": "sarcastic girl",
+    "cn": "",
+    "cn_original": "刻薄的女孩",
+    "source": "invalid"
+  },
+  "幼少期のカンターテ": {
+    "en": "childhood cantate",
+    "cn": "坎妲缇",
+    "cn_original": "小时候的坎塔特",
+    "source": "scenario"
+  },
+  "音楽好きの少女": {
+    "en": "girl who loves music",
+    "cn": "",
+    "cn_original": "喜欢音乐的女孩",
+    "source": "invalid"
+  },
+  "フェルッチオ": {
+    "en": "Ferruccio",
+    "cn": "路西欧",
+    "cn_original": "费尔齐奥",
+    "source": "scenario"
+  },
+  "楽器職人の夫妻": {
+    "en": "Musical instrument craftsman couple",
+    "cn": "",
+    "cn_original": "乐器工匠夫妇",
+    "source": "invalid"
+  },
+  "幼少期のギヨタ": {
+    "en": "Giyota in childhood",
+    "cn": "吉优塔",
+    "cn_original": "小时候的吉优塔",
+    "source": "scenario_unverified"
+  },
+  "ギヨタの両親": {
+    "en": "Giyota的parents",
+    "cn": "吉优塔",
+    "cn_original": "吉优塔的父母",
+    "source": "scenario_unverified"
+  },
+  "妙齢の女性": {
+    "en": "young woman",
+    "cn": "",
+    "cn_original": "妙龄女子",
+    "source": "invalid"
+  },
+  "幽世の河": {
+    "en": "river of ghosts",
+    "cn": "",
+    "cn_original": "幽世之河",
+    "source": "invalid"
+  },
+  "ルリアとカタリナ": {
+    "en": "Luria and Katarina",
+    "cn": "露莉亚",
+    "cn_original": "露莉亚和卡塔莉娜",
+    "source": "scenario"
+  },
+  "漂う糸": {
+    "en": "floating thread",
+    "cn": "",
+    "cn_original": "漂浮的丝线",
+    "source": "invalid"
+  },
+  "埋め尽くす肉塊": {
+    "en": "Filled with meat",
+    "cn": "",
+    "cn_original": "塞满通道的肉块",
+    "source": "invalid"
+  },
+  "処刑場の騎士": {
+    "en": "knight of the execution ground",
+    "cn": "",
+    "cn_original": "刑场的骑士",
+    "source": "invalid"
+  },
+  "小動物達": {
+    "en": "small animals",
+    "cn": "",
+    "cn_original": "小动物们",
+    "source": "invalid"
+  },
+  "楽器達": {
+    "en": "musical instruments",
+    "cn": "",
+    "cn_original": "乐器们",
+    "source": "invalid"
+  },
+  "ボレミア": {
+    "en": "Boremir",
+    "cn": "波蕾米亚",
+    "cn_original": "波蕾米亚",
+    "source": "valid"
+  },
+  "演奏者達": {
+    "en": "performers",
+    "cn": "",
+    "cn_original": "演奏者们",
+    "source": "invalid"
+  },
+  "ミムルメモル": {
+    "en": "mimurmemor",
+    "cn": "米姆露梅莫璐",
+    "cn_original": "米姆露梅莫璐",
+    "source": "valid"
+  },
+  "メアトの天秤": {
+    "en": "Meat的Balance",
+    "cn": "",
+    "cn_original": "梅亚特的天平",
+    "source": "invalid"
+  },
+  "タウルーク": {
+    "en": "Tauruk",
+    "cn": "陶鲁克",
+    "cn_original": "陶鲁克",
+    "source": "scenario_unverified"
+  },
+  "ギヨタとザラストラ": {
+    "en": "Giyota and Sarastra",
+    "cn": "吉优塔",
+    "cn_original": "吉优塔与扎拉斯托拉",
+    "source": "scenario_unverified"
+  },
+  "騎士": {
+    "en": "knight",
+    "cn": "",
+    "cn_original": "骑士",
+    "source": "invalid"
+  },
+  "胎動する世界": {
+    "en": "A moving world",
+    "cn": "",
+    "cn_original": "胎动中的世界",
+    "source": "invalid"
+  },
+  "父親": {
+    "en": "father",
+    "cn": "",
+    "cn_original": "父亲",
+    "source": "invalid"
+  },
+  "クーリエ": {
+    "en": "courier",
+    "cn": "柯莉艾",
+    "cn_original": "柯莉艾",
+    "source": "scenario_unverified"
+  },
+  "クーリエの声": {
+    "en": "courier的voice",
+    "cn": "柯莉艾",
+    "cn_original": "柯莉艾的声音",
+    "source": "scenario_unverified"
+  },
+  "デス": {
+    "en": "death",
+    "cn": "尼娅・Death",
+    "cn_original": "Death",
+    "source": "scenario_unverified"
+  },
+  "デスの声": {
+    "en": "voice of death",
+    "cn": "",
+    "cn_original": "Death的声音",
+    "source": "invalid"
+  },
+  "ビザン": {
+    "en": "Bizan",
+    "cn": "彼赞",
+    "cn_original": "彼赞",
+    "source": "scenario_unverified"
+  },
+  "両親": {
+    "en": "parents",
+    "cn": "",
+    "cn_original": "双亲",
+    "source": "invalid"
+  },
+  "アナマリア": {
+    "en": "anamaria",
+    "cn": "安娜玛丽亚",
+    "cn_original": "安娜玛丽亚",
+    "source": "scenario_unverified"
+  },
+  "オクタヴィア": {
+    "en": "octavia",
+    "cn": "奥克塔维亚",
+    "cn_original": "奥克塔维亚",
+    "source": "scenario_unverified"
+  },
+  "緑の騎士": {
+    "en": "green knight",
+    "cn": "",
+    "cn_original": "绿骑士",
+    "source": "invalid"
+  },
+  "エルバハ": {
+    "en": "El Baha",
+    "cn": "埃尔芭哈",
+    "cn_original": "埃尔芭哈",
+    "source": "scenario_unverified"
+  },
+  "クピタン": {
+    "en": "cupitan",
+    "cn": "库皮碳",
+    "cn_original": "库皮碳",
+    "source": "scenario_unverified"
+  },
+  "トリステット": {
+    "en": "tristed",
+    "cn": "托莉丝缇托",
+    "cn_original": "托莉丝缇托",
+    "source": "scenario_unverified"
+  },
+  "ティコ": {
+    "en": "Tycho",
+    "cn": "缇可",
+    "cn_original": "缇可",
+    "source": "valid"
+  },
+  "トルー": {
+    "en": "True",
+    "cn": "托尔",
+    "cn_original": "托尔",
+    "source": "scenario_unverified"
+  },
+  "フェルディナンド": {
+    "en": "ferdinand",
+    "cn": "菲尔迪南德",
+    "cn_original": "菲尔迪南德",
+    "source": "scenario_unverified"
+  },
+  "フィオリト": {
+    "en": "fiorito",
+    "cn": "菲欧丽特",
+    "cn_original": "菲欧丽特",
+    "source": "scenario_unverified"
+  },
+  "ラヴィリタ": {
+    "en": "La Villita",
+    "cn": "拉比利塔",
+    "cn_original": "拉比利塔",
+    "source": "scenario_unverified"
+  },
+  "ランドル": {
+    "en": "Randall",
+    "cn": "兰德尔",
+    "cn_original": "兰德尔",
+    "source": "valid"
+  },
+  "幼いクピタン": {
+    "en": "young cupitan",
+    "cn": "库皮碳",
+    "cn_original": "幼年库皮碳",
+    "source": "scenario_unverified"
+  },
+  "幼いトリステット": {
+    "en": "young tristedt",
+    "cn": "托莉丝缇托",
+    "cn_original": "幼年托莉丝特托",
+    "source": "scenario_unverified"
+  },
+  "ラガッツォ": {
+    "en": "Ragazzo",
+    "cn": "拉伽佐",
+    "cn_original": "拉伽佐",
+    "source": "scenario_unverified"
+  },
+  "マナマル": {
+    "en": "Manamaru",
+    "cn": "玛娜玛尔",
+    "cn_original": "玛娜玛尔",
+    "source": "valid"
+  },
+  "ネーレウス": {
+    "en": "Nereus",
+    "cn": "涅蕾乌丝",
+    "cn_original": "涅蕾乌丝",
+    "source": "scenario_unverified"
+  },
+  "副王補佐官": {
+    "en": "viceroy的assistant",
+    "cn": "",
+    "cn_original": "副王助理",
+    "source": "invalid"
+  },
+  "ドライアド": {
+    "en": "dryad",
+    "cn": "",
+    "cn_original": "多莱亚德",
+    "source": "invalid"
+  },
+  "建築士": {
+    "en": "architect",
+    "cn": "",
+    "cn_original": "建筑师",
+    "source": "invalid"
+  },
+  "地質学者": {
+    "en": "geologist",
+    "cn": "",
+    "cn_original": "地质学者",
+    "source": "invalid"
+  },
+  "フェリクス": {
+    "en": "felix",
+    "cn": "菲利克斯",
+    "cn_original": "菲利克斯",
+    "source": "scenario_unverified"
+  },
+  "仲間達": {
+    "en": "Friends",
+    "cn": "",
+    "cn_original": "同伴们",
+    "source": "invalid"
+  },
+  "境界の民１": {
+    "en": "border people 1",
+    "cn": "",
+    "cn_original": "境界之民1",
+    "source": "invalid"
+  },
+  "遠く響く声": {
+    "en": "a distant voice",
+    "cn": "",
+    "cn_original": "远处响起的声音",
+    "source": "invalid"
+  },
+  "アルビオンの学生": {
+    "en": "albion student",
+    "cn": "路西欧",
+    "cn_original": "阿尔比昂的学生",
+    "source": "scenario"
+  },
+  "幽世の群れ": {
+    "en": "horde of ghosts",
+    "cn": "",
+    "cn_original": "一众幽世",
+    "source": "invalid"
+  },
+  "ガロンゾの職人１": {
+    "en": "Garonzo craftsman 1",
+    "cn": "",
+    "cn_original": "加隆佐的工匠1",
+    "source": "invalid"
+  },
+  "ガロンゾの職人達": {
+    "en": "Garonzo craftsmen",
+    "cn": "",
+    "cn_original": "加隆佐的工匠们",
+    "source": "invalid"
+  },
+  "ガロンゾの職人２": {
+    "en": "Garonzo craftsman 2",
+    "cn": "",
+    "cn_original": "加隆佐的工匠2",
+    "source": "invalid"
+  },
+  "ラカム達": {
+    "en": "Rakam and others",
+    "cn": "拉卡姆",
+    "cn_original": "拉卡姆等人",
+    "source": "scenario"
+  },
+  "ガロンゾの職人１の声": {
+    "en": "Voice of Garonzo craftsman 1",
+    "cn": "",
+    "cn_original": "加隆佐工匠的声音",
+    "source": "invalid"
+  },
+  "ラカムとオイゲン": {
+    "en": "Rackham and Eugen",
+    "cn": "拉卡姆",
+    "cn_original": "拉卡姆和欧根",
+    "source": "scenario"
+  },
+  "ナターレ商艇の新頭領": {
+    "en": "New head of the Natale merchant fleet",
+    "cn": "",
+    "cn_original": "纳塔勒商艇的新头领",
+    "source": "invalid"
+  },
+  "フィアンセ": {
+    "en": "fiance",
+    "cn": "",
+    "cn_original": "未婚妻",
+    "source": "invalid"
+  },
+  "招待客": {
+    "en": "invited guests",
+    "cn": "",
+    "cn_original": "宾客",
+    "source": "invalid"
+  },
+  "業者の男": {
+    "en": "business man",
+    "cn": "",
+    "cn_original": "修理工",
+    "source": "invalid"
+  },
+  "ナターレ商艇の新頭領達": {
+    "en": "New leaders of the Natale merchant fleet",
+    "cn": "",
+    "cn_original": "纳塔勒商艇新头领等人",
+    "source": "invalid"
+  },
+  "ミハニコス": {
+    "en": "Michanikos",
+    "cn": "",
+    "cn_original": "米哈尼库斯",
+    "source": "invalid"
+  },
+  "ミハニコス達": {
+    "en": "Michanikos",
+    "cn": "",
+    "cn_original": "米哈尼库斯一众",
+    "source": "invalid"
+  },
+  "メネア皇国兵": {
+    "en": "Menea Imperial Soldier",
+    "cn": "",
+    "cn_original": "梅涅亚皇国兵",
+    "source": "invalid"
+  },
+  "ハイエスト": {
+    "en": "Highest",
+    "cn": "",
+    "cn_original": "海耶斯特",
+    "source": "invalid"
+  },
+  "ハイエストの声": {
+    "en": "voice of highest",
+    "cn": "",
+    "cn_original": "海耶斯特的声音",
+    "source": "invalid"
+  },
+  "テンペランス": {
+    "en": "Temperance",
+    "cn": "",
+    "cn_original": "Temperance",
+    "source": "invalid"
+  },
+  "ザ・デビル": {
+    "en": "the devil",
+    "cn": "",
+    "cn_original": "The・Devil",
+    "source": "invalid"
+  },
+  "ザ・タワー": {
+    "en": "The Tower",
+    "cn": "",
+    "cn_original": "The・Tower",
+    "source": "invalid"
+  },
+  "ザ・ムーン": {
+    "en": "the moon",
+    "cn": "",
+    "cn_original": "The・Moon",
+    "source": "invalid"
+  },
+  "ザ・サン": {
+    "en": "The Sun",
+    "cn": "",
+    "cn_original": "The・Sun",
+    "source": "invalid"
+  },
+  "ハーゼリーラ": {
+    "en": "Hazelilla",
+    "cn": "哈泽丽拉",
+    "cn_original": "哈泽丽拉",
+    "source": "valid"
+  },
+  "モニカとビザン": {
+    "en": "Monica and Bizan",
+    "cn": "莫妮卡",
+    "cn_original": "莫妮卡与彼赞",
+    "source": "scenario"
+  },
+  "星晶獣キクリ": {
+    "en": "Star Beast Kikuri",
+    "cn": "",
+    "cn_original": "星晶兽菊理",
+    "source": "invalid"
+  },
+  "ヱビス": {
+    "en": "Yebisu",
+    "cn": "",
+    "cn_original": "惠比寿",
+    "source": "invalid"
+  },
+  "経営者": {
+    "en": "executive",
+    "cn": "",
+    "cn_original": "经营者",
+    "source": "invalid"
+  },
+  "マリネラ": {
+    "en": "marinera",
+    "cn": "玛丽",
+    "cn_original": "玛丽内拉",
+    "source": "scenario"
+  },
+  "レギオン・ヴォイド": {
+    "en": "Legion Void",
+    "cn": "路西欧",
+    "cn_original": "虚空军团",
+    "source": "scenario"
+  },
+  "幽世の繭": {
+    "en": "ghostly cocoon",
+    "cn": "",
+    "cn_original": "幽世之茧",
+    "source": "invalid"
+  },
+  "幽世の竜": {
+    "en": "ghost dragon",
+    "cn": "",
+    "cn_original": "幽世之龙",
+    "source": "invalid"
+  },
+  "島民": {
+    "en": "islanders",
+    "cn": "",
+    "cn_original": "岛民",
+    "source": "invalid"
+  },
+  "クズレ": {
+    "en": "Kuzure",
+    "cn": "",
+    "cn_original": "崩",
+    "source": "invalid"
+  },
+  "スイ": {
+    "en": "Sui",
+    "cn": "翠",
+    "cn_original": "翠",
+    "source": "valid"
+  },
+  "ヒトデナシ": {
+    "en": "starfish pear",
+    "cn": "",
+    "cn_original": "非人之物",
+    "source": "invalid"
+  },
+  "貴婦人": {
+    "en": "lady",
+    "cn": "",
+    "cn_original": "贵妇人",
+    "source": "invalid"
+  },
+  "バイヤー": {
+    "en": "buyer",
+    "cn": "",
+    "cn_original": "收购商",
+    "source": "invalid"
+  },
+  "主催者": {
+    "en": "organizer",
+    "cn": "",
+    "cn_original": "主办者",
+    "source": "invalid"
+  },
+  "フタバ": {
+    "en": "Futaba",
+    "cn": "",
+    "cn_original": "二叶",
+    "source": "invalid"
+  },
+  "ハイラ": {
+    "en": "Hyla",
+    "cn": "哈伊拉",
+    "cn_original": "哈伊拉",
+    "source": "valid"
+  },
+  "フタバの声": {
+    "en": "futaba的voice",
+    "cn": "",
+    "cn_original": "二叶的声音",
+    "source": "invalid"
+  },
+  "依頼主": {
+    "en": "Client",
+    "cn": "",
+    "cn_original": "委托人",
+    "source": "invalid"
+  },
+  "カロ＆カンターテ": {
+    "en": "Caro & Cantate",
+    "cn": "卡洛",
+    "cn_original": "卡洛和坎塔特",
+    "source": "scenario"
+  },
+  "楽団員": {
+    "en": "Orchestra member",
+    "cn": "",
+    "cn_original": "乐团成员",
+    "source": "invalid"
+  },
+  "シスター": {
+    "en": "sister",
+    "cn": "修女前辈の協力も得て、ようやくラムレッダは家に帰る決意を固めるのだった",
+    "cn_original": "修女",
+    "source": "scenario_unverified"
+  },
+  "ひねくれた男の子": {
+    "en": "perverse boy",
+    "cn": "",
+    "cn_original": "乖僻的男孩",
+    "source": "invalid"
+  },
+  "魔物の声": {
+    "en": "voice of monster",
+    "cn": "",
+    "cn_original": "魔物的声音",
+    "source": "invalid"
+  },
+  "ミドガルズオルム": {
+    "en": "Midgardsorm",
+    "cn": "路西欧",
+    "cn_original": "耶梦加得",
+    "source": "scenario"
+  },
+  "ギーヴル": {
+    "en": "Givre",
+    "cn": "",
+    "cn_original": "吉夫尔",
+    "source": "invalid"
+  },
+  "酒場の常連１": {
+    "en": "Bar regular 1",
+    "cn": "",
+    "cn_original": "酒吧常客１",
+    "source": "invalid"
+  },
+  "酒場の常連２": {
+    "en": "Bar regular 2",
+    "cn": "",
+    "cn_original": "酒吧常客２",
+    "source": "invalid"
+  },
+  "酒場の常連3": {
+    "en": "Bar regular 3",
+    "cn": "",
+    "cn_original": "酒吧常客３",
+    "source": "invalid"
+  },
+  "移住者": {
+    "en": "immigrant",
+    "cn": "",
+    "cn_original": "移民",
+    "source": "invalid"
+  },
+  "女性店員": {
+    "en": "female clerk",
+    "cn": "",
+    "cn_original": "女店员",
+    "source": "invalid"
+  },
+  "イベンター": {
+    "en": "eventer",
+    "cn": "",
+    "cn_original": "活动主办人",
+    "source": "invalid"
+  },
+  "男性ファン": {
+    "en": "male fan",
+    "cn": "路西欧的粉丝",
+    "cn_original": "男歌迷",
+    "source": "scenario_unverified"
+  },
+  "女性ファン": {
+    "en": "female fan",
+    "cn": "路西欧的粉丝",
+    "cn_original": "女歌迷",
+    "source": "scenario_unverified"
+  },
+  "近隣の住民": {
+    "en": "nearby residents",
+    "cn": "",
+    "cn_original": "附近的居民",
+    "source": "invalid"
+  },
+  "ガランダ": {
+    "en": "Garanda",
+    "cn": "加兰达",
+    "cn_original": "加兰达",
+    "source": "scenario_unverified"
+  },
+  "リスリサル大司教": {
+    "en": "Archbishop Lisrisal",
+    "cn": "",
+    "cn_original": "里斯里萨尔大主教",
+    "source": "invalid"
+  },
+  "フェニー": {
+    "en": "fenny",
+    "cn": "菲妮",
+    "cn_original": "菲妮",
+    "source": "valid"
+  },
+  "噂好きの女性１": {
+    "en": "Woman who likes rumors 1",
+    "cn": "",
+    "cn_original": "喜欢八卦的女性1",
+    "source": "invalid"
+  },
+  "噂好きの女性２": {
+    "en": "Rumor-loving woman 2",
+    "cn": "",
+    "cn_original": "喜欢八卦的女性2",
+    "source": "invalid"
+  },
+  "暗い顔のお兄さん": {
+    "en": "Brother with a dark face",
+    "cn": "",
+    "cn_original": "脸色阴沉的小哥",
+    "source": "invalid"
+  },
+  "クマがある女性": {
+    "en": "woman with bear",
+    "cn": "",
+    "cn_original": "怀揣心事的女性",
+    "source": "invalid"
+  },
+  "ダエッタ": {
+    "en": "Daetta",
+    "cn": "达尔塔",
+    "cn_original": "达尔塔",
+    "source": "valid"
+  },
+  "怪しい人物": {
+    "en": "suspicious person",
+    "cn": "",
+    "cn_original": "可疑人士",
+    "source": "invalid"
+  },
+  "ライアン": {
+    "en": "ryan",
+    "cn": "莱安",
+    "cn_original": "莱安",
+    "source": "valid"
+  },
+  "サブリナ": {
+    "en": "Sabrina",
+    "cn": "萨布丽娜",
+    "cn_original": "萨布丽娜",
+    "source": "valid"
+  },
+  "インダラ": {
+    "en": "indara",
+    "cn": "茵妲拉",
+    "cn_original": "茵妲拉",
+    "source": "valid"
+  },
+  "バイシュラ": {
+    "en": "Bysula",
+    "cn": "拜修拉",
+    "cn_original": "拜修拉",
+    "source": "scenario_unverified"
+  },
+  "バドラ": {
+    "en": "bhadra",
+    "cn": "巴多拉",
+    "cn_original": "巴多拉",
+    "source": "scenario_unverified"
+  },
+  "サマンタ": {
+    "en": "Samanta",
+    "cn": "",
+    "cn_original": "沙曼达",
+    "source": "invalid"
+  },
+  "マプラ": {
+    "en": "Mapura",
+    "cn": "马普拉",
+    "cn_original": "马普拉",
+    "source": "scenario_unverified"
+  },
+  "アートマン": {
+    "en": "atman",
+    "cn": "阿特曼",
+    "cn_original": "阿特曼",
+    "source": "scenario_unverified"
+  },
+  "ソワカ": {
+    "en": "Sowaka",
+    "cn": "娑婆诃",
+    "cn_original": "娑婆诃",
+    "source": "scenario_unverified"
+  },
+  "サンカラ": {
+    "en": "sankara",
+    "cn": "桑卡拉",
+    "cn_original": "桑卡拉",
+    "source": "scenario_unverified"
+  },
+  "シュクラ": {
+    "en": "Shukla",
+    "cn": "淑库拉",
+    "cn_original": "淑库拉",
+    "source": "valid"
+  },
+  "バサラ": {
+    "en": "Basara",
+    "cn": "巴萨拉",
+    "cn_original": "巴萨拉",
+    "source": "valid"
+  },
+  "シンダラ": {
+    "en": "Sindara",
+    "cn": "辛妲拉",
+    "cn_original": "辛妲拉",
+    "source": "valid"
+  },
+  "スーパーシンダラ": {
+    "en": "super sindara",
+    "cn": "超级辛妲拉",
+    "cn_original": "超级辛妲拉",
+    "source": "scenario_unverified"
+  },
+  "パイ": {
+    "en": "pie",
+    "cn": "",
+    "cn_original": "白",
+    "source": "invalid"
+  },
+  "フアン": {
+    "en": "Juan",
+    "cn": "",
+    "cn_original": "黄",
+    "source": "invalid"
+  },
+  "ドーマウス": {
+    "en": "Dormouse",
+    "cn": "多瑁斯",
+    "cn_original": "多瑁斯",
+    "source": "scenario_unverified"
+  },
+  "みるくちゃん": {
+    "en": "Milk-chan",
+    "cn": "",
+    "cn_original": "小牛奶",
+    "source": "invalid"
+  },
+  "ソワカの声": {
+    "en": "Sowaka的voice",
+    "cn": "娑婆诃",
+    "cn_original": "娑婆诃的声音",
+    "source": "scenario_unverified"
+  },
+  "煩悩星晶体ソワカ": {
+    "en": "Worldly Desire Star Crystal Sowaka",
+    "cn": "娑婆诃",
+    "cn_original": "烦恼星晶体娑婆诃",
+    "source": "scenario_unverified"
+  },
+  "バドラの声": {
+    "en": "voice of badra",
+    "cn": "巴多拉",
+    "cn_original": "巴多拉的声音",
+    "source": "scenario_unverified"
+  },
+  "姬塔の声": {
+    "en": "voice of yuto",
+    "cn": "",
+    "cn_original": "姬塔的声音",
+    "source": "invalid"
+  },
+  "ラオラオ": {
+    "en": "Laolao",
+    "cn": "路西欧",
+    "cn_original": "姥姥",
+    "source": "scenario"
+  },
+  "ガルジャナ": {
+    "en": "Garjana",
+    "cn": "卡鲁加纳",
+    "cn_original": "卡鲁加纳",
+    "source": "scenario_unverified"
+  },
+  "ヒトハ": {
+    "en": "Hitoha",
+    "cn": "",
+    "cn_original": "一叶",
+    "source": "invalid"
+  },
+  "メレアガンス": {
+    "en": "Meleagans",
+    "cn": "梅利甘斯",
+    "cn_original": "梅利甘斯",
+    "source": "valid"
+  },
+  "キラーラビット": {
+    "en": "killer rabbit",
+    "cn": "玛琪拉",
+    "cn_original": "杀手兔",
+    "source": "scenario"
+  },
+  "レル": {
+    "en": "Rel",
+    "cn": "雷尔",
+    "cn_original": "雷尔",
+    "source": "scenario_unverified"
+  },
+  "映し身の鋼体童子": {
+    "en": "Steel body doji mirror",
+    "cn": "",
+    "cn_original": "钢体童子的镜像",
+    "source": "invalid"
+  },
+  "ガラント": {
+    "en": "Gallant",
+    "cn": "格兰特",
+    "cn_original": "格兰特",
+    "source": "scenario_unverified"
+  },
+  "アマテラス": {
+    "en": "Amaterasu",
+    "cn": "",
+    "cn_original": "天照",
+    "source": "invalid"
+  },
+  "リイン": {
+    "en": "rein",
+    "cn": "莉茵",
+    "cn_original": "莉茵",
+    "source": "scenario_unverified"
+  },
+  "ザカ大公": {
+    "en": "Grand Duke Zaka",
+    "cn": "",
+    "cn_original": "扎卡大公",
+    "source": "invalid"
+  },
+  "星晶獣達": {
+    "en": "Star beasts",
+    "cn": "",
+    "cn_original": "星晶兽们",
+    "source": "invalid"
+  },
+  "ルーヴェラ": {
+    "en": "Luvela",
+    "cn": "",
+    "cn_original": "鲁维拉",
+    "source": "invalid"
+  },
+  "スタッフ": {
+    "en": "staff",
+    "cn": "",
+    "cn_original": "服务员",
+    "source": "invalid"
+  },
+  "フラウ・ハーゼリーラ": {
+    "en": "Frau Haselilla",
+    "cn": "芙劳",
+    "cn_original": "芙劳和哈泽丽拉",
+    "source": "scenario"
+  },
+  "<span class='scene-font-1'>フラウ・ハーゼリーラ": {
+    "en": "<span class='scene-font-1'>Frau Haselilla",
+    "cn": "芙劳",
+    "cn_original": "<span class='scene-font-1'>芙劳和哈泽丽拉",
+    "source": "scenario"
+  },
+  "ナンパヤロウ": {
+    "en": "Nampayarou",
+    "cn": "",
+    "cn_original": "搭讪混混",
+    "source": "invalid"
+  },
+  "賢者女性陣": {
+    "en": "wise women group",
+    "cn": "",
+    "cn_original": "女贤者们",
+    "source": "invalid"
+  },
+  "ンミネコ": {
+    "en": "Nmineko",
+    "cn": "",
+    "cn_original": "海猫",
+    "source": "invalid"
+  },
+  "観光客達": {
+    "en": "tourists",
+    "cn": "",
+    "cn_original": "观光客们",
+    "source": "invalid"
+  },
+  "ガイゼンボーガ達": {
+    "en": "Geisenbogas",
+    "cn": "盖森伯格",
+    "cn_original": "盖森伯格们",
+    "source": "scenario"
+  },
+  "言葉失いし者達": {
+    "en": "Those who are speechless",
+    "cn": "",
+    "cn_original": "无语的人",
+    "source": "invalid"
+  },
+  "生け簀": {
+    "en": "Living tank",
+    "cn": "",
+    "cn_original": "养殖池",
+    "source": "invalid"
+  },
+  "寡黙なる吾輩": {
+    "en": "I'm the silent one",
+    "cn": "",
+    "cn_original": "沉默的我",
+    "source": "invalid"
+  },
+  "開花せし吾輩": {
+    "en": "Let me bloom",
+    "cn": "",
+    "cn_original": "才华绽露的我",
+    "source": "invalid"
+  },
+  "乙女達": {
+    "en": "Maidens",
+    "cn": "",
+    "cn_original": "少女们",
+    "source": "invalid"
+  },
+  "施設スタッフ": {
+    "en": "facility staff",
+    "cn": "",
+    "cn_original": "工作人员",
+    "source": "invalid"
+  },
+  "犯人達": {
+    "en": "criminals",
+    "cn": "",
+    "cn_original": "犯人们",
+    "source": "invalid"
+  },
+  "バミオ": {
+    "en": "Bamio",
+    "cn": "路西欧",
+    "cn_original": "巴米奥",
+    "source": "scenario"
+  },
+  "シレナ": {
+    "en": "Sirena",
+    "cn": "蕾娜",
+    "cn_original": "希蕾娜",
+    "source": "scenario"
+  },
+  "ヤロウども": {
+    "en": "Yarrow guys",
+    "cn": "",
+    "cn_original": "混混们",
+    "source": "invalid"
+  },
+  "スター": {
+    "en": "star",
+    "cn": "修女",
+    "cn_original": "Star",
+    "source": "scenario_unverified"
+  },
+  "ニーアとロベリア": {
+    "en": "Nia and Lobelia",
+    "cn": "尼娅",
+    "cn_original": "尼娅和洛贝利亚",
+    "source": "scenario"
+  },
+  "十賢者": {
+    "en": "ten wise men",
+    "cn": "",
+    "cn_original": "十贤者",
+    "source": "invalid"
+  },
+  "男": {
+    "en": "man",
+    "cn": "",
+    "cn_original": "男人",
+    "source": "invalid"
+  },
+  "店員と迷惑客": {
+    "en": "clerk and troublesome customer",
+    "cn": "",
+    "cn_original": "店员与问题顾客",
+    "source": "invalid"
+  },
+  "ビカラとビカラ": {
+    "en": "Vikara and Vikara",
+    "cn": "碧卡拉",
+    "cn_original": "碧卡拉与碧卡拉",
+    "source": "scenario"
+  },
+  "初代薬師": {
+    "en": "First generation pharmacist",
+    "cn": "",
+    "cn_original": "初代药师",
+    "source": "invalid"
+  },
+  "初代普賢": {
+    "en": "First generation Fugen",
+    "cn": "",
+    "cn_original": "初代普贤",
+    "source": "invalid"
+  },
+  "候補者①": {
+    "en": "Candidate ①",
+    "cn": "",
+    "cn_original": "候选人①",
+    "source": "invalid"
+  },
+  "候補者⑤": {
+    "en": "Candidate ⑤",
+    "cn": "",
+    "cn_original": "候选人⑤",
+    "source": "invalid"
+  },
+  "候補者②": {
+    "en": "Candidate ②",
+    "cn": "",
+    "cn_original": "候选人②",
+    "source": "invalid"
+  },
+  "候補者⑨": {
+    "en": "Candidate ⑨",
+    "cn": "",
+    "cn_original": "候选人⑨",
+    "source": "invalid"
+  },
+  "候補者⑩": {
+    "en": "Candidate ⑩",
+    "cn": "",
+    "cn_original": "候选人⑩",
+    "source": "invalid"
+  },
+  "候補者④": {
+    "en": "Candidate ④",
+    "cn": "",
+    "cn_original": "候选人④",
+    "source": "invalid"
+  },
+  "候補者⑫": {
+    "en": "Candidate ⑫",
+    "cn": "",
+    "cn_original": "候选人⑫",
+    "source": "invalid"
+  },
+  "候補者⑥": {
+    "en": "Candidate ⑥",
+    "cn": "",
+    "cn_original": "候选人⑥",
+    "source": "invalid"
+  },
+  "候補者⑧": {
+    "en": "Candidate ⑧",
+    "cn": "",
+    "cn_original": "候选人⑧",
+    "source": "invalid"
+  },
+  "候補者⑪": {
+    "en": "Candidate ⑪",
+    "cn": "",
+    "cn_original": "候选人⑪",
+    "source": "invalid"
+  },
+  "候補者③": {
+    "en": "Candidate ③",
+    "cn": "",
+    "cn_original": "候选人③",
+    "source": "invalid"
+  },
+  "初代を知る者達": {
+    "en": "Those who knew the first generation",
+    "cn": "",
+    "cn_original": "认识初代神将的存在们",
+    "source": "invalid"
+  },
+  "サンカラの娘": {
+    "en": "Sankara的daughter",
+    "cn": "桑卡拉",
+    "cn_original": "桑卡拉的女儿",
+    "source": "scenario_unverified"
+  },
+  "社務": {
+    "en": "Corporate affairs",
+    "cn": "",
+    "cn_original": "社务",
+    "source": "invalid"
+  },
+  "ツクヨミ": {
+    "en": "Tsukuyomi",
+    "cn": "月读",
+    "cn_original": "月读",
+    "source": "valid"
+  },
+  "ビィとクビラ": {
+    "en": "Bee and Kuvira",
+    "cn": "露利亚和碧",
+    "cn_original": "碧与碧卡拉",
+    "source": "scenario_unverified"
+  },
+  "森の魔物": {
+    "en": "monster of the forest",
+    "cn": "",
+    "cn_original": "森林里的魔物",
+    "source": "invalid"
+  },
+  "銀髪の少年": {
+    "en": "silver haired boy",
+    "cn": "",
+    "cn_original": "银发少年",
+    "source": "invalid"
+  },
+  "ゴン": {
+    "en": "Gon",
+    "cn": "小杰",
+    "cn_original": "小杰",
+    "source": "valid"
+  },
+  "キルア": {
+    "en": "Killua",
+    "cn": "奇犽",
+    "cn_original": "奇犽",
+    "source": "valid"
+  },
+  "気の強そうな女性": {
+    "en": "strong-willed woman",
+    "cn": "",
+    "cn_original": "性格强势的女性",
+    "source": "invalid"
+  },
+  "黒コートの青年": {
+    "en": "young man in black coat",
+    "cn": "艾尔莫特",
+    "cn_original": "黑色大衣的青年",
+    "source": "scenario"
+  },
+  "マチ": {
+    "en": "Gusset",
+    "cn": "玛奇",
+    "cn_original": "玛奇",
+    "source": "scenario_unverified"
+  },
+  "クロロ": {
+    "en": "Chrollo",
+    "cn": "库洛洛",
+    "cn_original": "库洛洛",
+    "source": "valid"
+  },
+  "アレク": {
+    "en": "Alec",
+    "cn": "亚历克",
+    "cn_original": "亚历克",
+    "source": "scenario_unverified"
+  },
+  "大柄な男": {
+    "en": "big man",
+    "cn": "",
+    "cn_original": "身材高大的男人",
+    "source": "invalid"
+  },
+  "フェイタン": {
+    "en": "Feitan",
+    "cn": "飞坦",
+    "cn_original": "飞坦",
+    "source": "scenario_unverified"
+  },
+  "ウボォーギン": {
+    "en": "Uvogin",
+    "cn": "窝金",
+    "cn_original": "窝金",
+    "source": "scenario_unverified"
+  },
+  "ノブナガ": {
+    "en": "Nobunaga",
+    "cn": "信长",
+    "cn_original": "信长",
+    "source": "scenario_unverified"
+  },
+  "奇術師風の男": {
+    "en": "magician-like man",
+    "cn": "",
+    "cn_original": "魔术师打扮的男子",
+    "source": "invalid"
+  },
+  "ヒソカ": {
+    "en": "Hisoka",
+    "cn": "西索",
+    "cn_original": "西索",
+    "source": "scenario_unverified"
+  },
+  "クラピカ": {
+    "en": "Kurapika",
+    "cn": "酷拉皮卡",
+    "cn_original": "酷拉皮卡",
+    "source": "valid"
+  },
+  "謎の影": {
+    "en": "mysterious shadow",
+    "cn": "",
+    "cn_original": "神秘的人影",
+    "source": "invalid"
+  },
+  "クビラの悲鳴": {
+    "en": "Kuvira的scream",
+    "cn": "库碧拉",
+    "cn_original": "库碧拉的惨叫",
+    "source": "scenario"
+  },
+  "巨大な星晶獣": {
+    "en": "giant star beast",
+    "cn": "",
+    "cn_original": "巨大星晶兽",
+    "source": "invalid"
+  },
+  "飛び出した影": {
+    "en": "a shadow that jumped out",
+    "cn": "",
+    "cn_original": "挺身而出的影子",
+    "source": "invalid"
+  },
+  "マプラとアートマン": {
+    "en": "Mapra and Atman",
+    "cn": "马普拉",
+    "cn_original": "马普拉和阿特曼",
+    "source": "scenario_unverified"
+  },
+  "候補者": {
+    "en": "candidate",
+    "cn": "",
+    "cn_original": "候选人",
+    "source": "invalid"
+  },
+  "局地型煩悩ジョヤ": {
+    "en": "Local worldly desires Joya",
+    "cn": "除夜",
+    "cn_original": "局地型烦恼除夜",
+    "source": "scenario_unverified"
+  },
+  "ソワカとアートマン": {
+    "en": "Sowaka and Atman",
+    "cn": "娑婆诃",
+    "cn_original": "娑婆诃与阿特曼",
+    "source": "scenario_unverified"
+  },
+  "ビューレイスト": {
+    "en": "View Raist",
+    "cn": "贝莱斯特",
+    "cn_original": "贝莱斯特",
+    "source": "scenario_unverified"
+  },
+  "リリト": {
+    "en": "Lilito",
+    "cn": "",
+    "cn_original": "莉莉特",
+    "source": "invalid"
+  },
+  "パルティータ": {
+    "en": "partita",
+    "cn": "帕尔缇塔",
+    "cn_original": "帕尔缇塔",
+    "source": "scenario_unverified"
+  },
+  "星の神アストロリア": {
+    "en": "Star God Astrolia",
+    "cn": "星之神阿斯特拉莉亚",
+    "cn_original": "星之神阿斯特拉莉亚",
+    "source": "scenario_unverified"
+  },
+  "アストロリア": {
+    "en": "astrolia",
+    "cn": "星之神阿斯特拉莉亚",
+    "cn_original": "阿斯特拉莉亚",
+    "source": "scenario_unverified"
+  },
+  "ヴェルサシア": {
+    "en": "Versacia",
+    "cn": "",
+    "cn_original": "维萨西娅",
+    "source": "invalid"
+  },
+  "パイとハイラ": {
+    "en": "pie and hyra",
+    "cn": "哈伊拉",
+    "cn_original": "白与哈伊拉",
+    "source": "scenario"
+  },
+  "酒場の店員の声": {
+    "en": "Voice of bar clerk",
+    "cn": "",
+    "cn_original": "酒场店员的声音",
+    "source": "invalid"
+  },
+  "マプラが見た店内の様子": {
+    "en": "The inside of the store as seen by Mapura",
+    "cn": "马普拉",
+    "cn_original": "马普拉看到的店内景象",
+    "source": "scenario_unverified"
+  },
+  "誰かの悲鳴": {
+    "en": "someone的scream",
+    "cn": "",
+    "cn_original": "某人的惨叫",
+    "source": "invalid"
+  },
+  "ポポル": {
+    "en": "Popol",
+    "cn": "",
+    "cn_original": "波波尔",
+    "source": "invalid"
+  },
+  "ポロ": {
+    "en": "polo",
+    "cn": "阿波罗",
+    "cn_original": "波洛",
+    "source": "scenario_unverified"
+  },
+  "ルポポ": {
+    "en": "Reportage",
+    "cn": "",
+    "cn_original": "卢波波",
+    "source": "invalid"
+  },
+  "オサム": {
+    "en": "Osamu",
+    "cn": "路西欧",
+    "cn_original": "奥萨姆",
+    "source": "scenario"
+  },
+  "ミルヒーユの暗殺者": {
+    "en": "millefeuille assassin",
+    "cn": "",
+    "cn_original": "米尔黑勒的刺客",
+    "source": "invalid"
+  },
+  "ミルヒーユのスパイ": {
+    "en": "Milchille的Spy",
+    "cn": "",
+    "cn_original": "米尔黑勒的间谍",
+    "source": "invalid"
+  },
+  "ラジエル": {
+    "en": "Raziel",
+    "cn": "拉结尔",
+    "cn_original": "拉结尔",
+    "source": "valid"
+  },
+  "群衆の声": {
+    "en": "crowd voice",
+    "cn": "",
+    "cn_original": "群众的声音",
+    "source": "invalid"
+  },
+  "群衆": {
+    "en": "crowd",
+    "cn": "",
+    "cn_original": "群众",
+    "source": "invalid"
+  },
+  "観客": {
+    "en": "audience",
+    "cn": "",
+    "cn_original": "观众",
+    "source": "invalid"
+  },
+  "ヴォーカリスト": {
+    "en": "vocalist",
+    "cn": "",
+    "cn_original": "歌手",
+    "source": "invalid"
+  },
+  "星晶獣シュヴァリエ": {
+    "en": "Star Beast Chevalier",
+    "cn": "修瓦利耶",
+    "cn_original": "星晶兽修瓦利耶",
+    "source": "scenario_unverified"
+  },
+  "組織の兵３の声": {
+    "en": "Voice of organization soldier 3",
+    "cn": "",
+    "cn_original": "组织士兵3的声音",
+    "source": "invalid"
+  },
+  "組織の兵４の声": {
+    "en": "Voice of organization soldier 4",
+    "cn": "",
+    "cn_original": "组织士兵4的声音",
+    "source": "invalid"
+  },
+  "アンティゴネロス": {
+    "en": "Antigoneros",
+    "cn": "",
+    "cn_original": "安提戈涅洛斯",
+    "source": "invalid"
+  },
+  "創世神": {
+    "en": "creation god",
+    "cn": "",
+    "cn_original": "创世神",
+    "source": "invalid"
+  },
+  "ピィジウ": {
+    "en": "Pijiu",
+    "cn": "啤酒",
+    "cn_original": "啤酒",
+    "source": "valid"
+  },
+  "チチリ": {
+    "en": "Chichiri",
+    "cn": "琪琪莉",
+    "cn_original": "琪琪莉",
+    "source": "valid"
+  },
+  "ウルキ": {
+    "en": "Uruki",
+    "cn": "乌露琪",
+    "cn_original": "乌露琪",
+    "source": "valid"
+  },
+  "アミ": {
+    "en": "Ami",
+    "cn": "阿弥",
+    "cn_original": "阿弥",
+    "source": "valid"
+  },
+  "シュシュク": {
+    "en": "Shushuku",
+    "cn": "秀秀珂",
+    "cn_original": "秀秀珂",
+    "source": "valid"
+  },
+  "コク": {
+    "en": "Rich",
+    "cn": "蔻刻",
+    "cn_original": "蔻刻",
+    "source": "valid"
+  },
+  "ふたりの人外": {
+    "en": "two aliens",
+    "cn": "",
+    "cn_original": "两名非人者",
+    "source": "invalid"
+  },
+  "ウルキの先祖": {
+    "en": "Uruki的ancestor",
+    "cn": "",
+    "cn_original": "乌露琪的祖先",
+    "source": "invalid"
+  },
+  "ジョカ": {
+    "en": "Joca",
+    "cn": "",
+    "cn_original": "女娲",
+    "source": "invalid"
+  },
+  "巨大な棺": {
+    "en": "huge coffin",
+    "cn": "",
+    "cn_original": "巨大棺椁",
+    "source": "invalid"
+  },
+  "やせこけた男": {
+    "en": "skinny man",
+    "cn": "",
+    "cn_original": "瘦削的男人",
+    "source": "invalid"
+  },
+  "狂気に堕ちた星の民": {
+    "en": "Star people who have fallen into madness",
+    "cn": "",
+    "cn_original": "陷入疯狂的星之民",
+    "source": "invalid"
+  },
+  "スェン": {
+    "en": "Suen",
+    "cn": "",
+    "cn_original": "司文",
+    "source": "invalid"
+  },
+  "シュエン": {
+    "en": "Shuen",
+    "cn": "",
+    "cn_original": "叙文",
+    "source": "invalid"
+  },
+  "チチリとウルキ": {
+    "en": "Chichiri and Uruki",
+    "cn": "",
+    "cn_original": "琪琪莉与乌露琪",
+    "source": "invalid"
+  },
+  "チチリとシュシュク": {
+    "en": "chichiri and shushuku",
+    "cn": "",
+    "cn_original": "琪琪莉与秀秀珂",
+    "source": "invalid"
+  },
+  "星の民の研究員": {
+    "en": "Star People Researcher",
+    "cn": "",
+    "cn_original": "星之民研究员",
+    "source": "invalid"
+  },
+  "本の怪物": {
+    "en": "book monster",
+    "cn": "",
+    "cn_original": "书中怪物",
+    "source": "invalid"
+  },
+  "筆冥": {
+    "en": "brushstrokes",
+    "cn": "",
+    "cn_original": "笔冥",
+    "source": "invalid"
+  },
+  "スェンの日記": {
+    "en": "Suen的diary",
+    "cn": "",
+    "cn_original": "司文的日记",
+    "source": "invalid"
+  },
+  "鳥の魔物": {
+    "en": "bird monster",
+    "cn": "",
+    "cn_original": "鸟类魔兽",
+    "source": "invalid"
+  },
+  "マリ": {
+    "en": "mali",
+    "cn": "玛丽",
+    "cn_original": "玛丽",
+    "source": "valid"
+  },
+  "制服姿の少年": {
+    "en": "boy in uniform",
+    "cn": "",
+    "cn_original": "身着校服的少年",
+    "source": "invalid"
+  },
+  "多頭の魔物": {
+    "en": "multi-headed monster",
+    "cn": "",
+    "cn_original": "多头魔兽",
+    "source": "invalid"
+  },
+  "獣の唸り": {
+    "en": "the roar of the beast",
+    "cn": "",
+    "cn_original": "野兽的低吼",
+    "source": "invalid"
+  },
+  "巨熊の魔物": {
+    "en": "giant bear monster",
+    "cn": "",
+    "cn_original": "巨熊魔兽",
+    "source": "invalid"
+  },
+  "シンジ": {
+    "en": "Shinji",
+    "cn": "真嗣",
+    "cn_original": "真嗣",
+    "source": "scenario_unverified"
+  },
+  "リツコ": {
+    "en": "Ritsuko",
+    "cn": "律子",
+    "cn_original": "律子",
+    "source": "scenario_unverified"
+  },
+  "ミサト": {
+    "en": "Misato",
+    "cn": "美里",
+    "cn_original": "美里",
+    "source": "scenario_unverified"
+  },
+  "マヤ": {
+    "en": "maya",
+    "cn": "摩耶",
+    "cn_original": "摩耶",
+    "source": "scenario_unverified"
+  },
+  "アスカ": {
+    "en": "Asuka",
+    "cn": "明日香",
+    "cn_original": "明日香",
+    "source": "scenario_unverified"
+  },
+  "ネプシス": {
+    "en": "Nepsis",
+    "cn": "希斯",
+    "cn_original": "涅普西斯",
+    "source": "scenario"
+  },
+  "町の婦人": {
+    "en": "town lady",
+    "cn": "",
+    "cn_original": "镇上的妇人",
+    "source": "invalid"
+  },
+  "町の子供": {
+    "en": "children in town",
+    "cn": "",
+    "cn_original": "镇上的孩童",
+    "source": "invalid"
+  },
+  "町の大工": {
+    "en": "town carpenter",
+    "cn": "",
+    "cn_original": "镇上的木匠",
+    "source": "invalid"
+  },
+  "様子のおかしいネプシス": {
+    "en": "Nepsis acting weird",
+    "cn": "希斯",
+    "cn_original": "异常的涅普西斯",
+    "source": "scenario"
+  },
+  "ネプシスの群れ": {
+    "en": "flock of nepsis",
+    "cn": "希斯",
+    "cn_original": "成群的涅普西斯",
+    "source": "scenario"
+  },
+  "謎の少年": {
+    "en": "mysterious boy",
+    "cn": "",
+    "cn_original": "神秘少年",
+    "source": "invalid"
+  },
+  "使徒と呼ばれたもの": {
+    "en": "called an apostle",
+    "cn": "",
+    "cn_original": "被称为使徒的存在",
+    "source": "invalid"
+  },
+  "カヲル": {
+    "en": "Kaworu",
+    "cn": "",
+    "cn_original": "薰",
+    "source": "invalid"
+  },
+  "第10の使徒": {
+    "en": "10th apostle",
+    "cn": "",
+    "cn_original": "第10使徒",
+    "source": "invalid"
+  },
+  "黒いネプシスの群れ": {
+    "en": "flock of black nepsis",
+    "cn": "希斯",
+    "cn_original": "成群的黑色涅普西斯",
+    "source": "scenario"
+  },
+  "ハルパクス": {
+    "en": "Harpax",
+    "cn": "哈尔",
+    "cn_original": "哈尔帕克斯",
+    "source": "scenario_unverified"
+  },
+  "スライム": {
+    "en": "slime",
+    "cn": "",
+    "cn_original": "史莱姆",
+    "source": "invalid"
+  },
+  "ヒッポリュトス": {
+    "en": "Hippolytus",
+    "cn": "",
+    "cn_original": "希波吕托斯",
+    "source": "invalid"
+  },
+  "悲しむ女性の声": {
+    "en": "sad woman的voice",
+    "cn": "",
+    "cn_original": "悲伤的女声",
+    "source": "invalid"
+  },
+  "怒れる男の声": {
+    "en": "angry man的voice",
+    "cn": "",
+    "cn_original": "愤怒的男声",
+    "source": "invalid"
+  },
+  "無垢な子供の声": {
+    "en": "the voice of an innocent child",
+    "cn": "",
+    "cn_original": "纯真孩童的声音",
+    "source": "invalid"
+  },
+  "空の民の男": {
+    "en": "man of the sky",
+    "cn": "",
+    "cn_original": "空之民男性",
+    "source": "invalid"
+  },
+  "アキレア": {
+    "en": "Achillea",
+    "cn": "",
+    "cn_original": "阿基雷亚",
+    "source": "invalid"
+  },
+  "ハルパクスの群れ": {
+    "en": "herd of harpax",
+    "cn": "哈尔",
+    "cn_original": "成群的哈尔帕克斯",
+    "source": "scenario_unverified"
+  },
+  "エルピス・アゴニア": {
+    "en": "Elpis Agonia",
+    "cn": "",
+    "cn_original": "厄尔庇斯·阿戈尼亚",
+    "source": "invalid"
+  },
+  "初号機": {
+    "en": "First machine",
+    "cn": "",
+    "cn_original": "初号机",
+    "source": "invalid"
+  },
+  "チャラ男たち": {
+    "en": "Chara men",
+    "cn": "阿露夏",
+    "cn_original": "潮男三人组",
+    "source": "scenario_unverified"
+  },
+  "トリッド王国軍の大隊長": {
+    "en": "Battalion commander of the Torrid Kingdom Army",
+    "cn": "",
+    "cn_original": "特里德王国军大队长",
+    "source": "invalid"
+  },
+  "アベルと少年": {
+    "en": "abel and the boy",
+    "cn": "亚伯",
+    "cn_original": "亚伯与少年",
+    "source": "scenario_unverified"
+  },
+  "パレタ": {
+    "en": "Paleta",
+    "cn": "",
+    "cn_original": "帕雷塔",
+    "source": "invalid"
+  },
+  "イデルバ国民": {
+    "en": "Idelba nation",
+    "cn": "",
+    "cn_original": "伊德尔瓦国民",
+    "source": "invalid"
+  },
+  "ラインハルザとレオナ": {
+    "en": "Reinharza and Leona",
+    "cn": "莱茵哈萨",
+    "cn_original": "莱茵哈萨与蕾欧娜",
+    "source": "scenario_unverified"
+  },
+  "カインとレオナ": {
+    "en": "cain and leona",
+    "cn": "蕾欧娜",
+    "cn_original": "该隐与蕾欧娜",
+    "source": "scenario"
+  },
+  "異形の少年": {
+    "en": "strange boy",
+    "cn": "",
+    "cn_original": "异形少年",
+    "source": "invalid"
+  },
+  "リフノスの指揮官": {
+    "en": "Commander of Rifnos",
+    "cn": "",
+    "cn_original": "利弗诺斯的指挥官",
+    "source": "invalid"
+  },
+  "リフノス": {
+    "en": "Rifnos",
+    "cn": "",
+    "cn_original": "利弗诺斯",
+    "source": "invalid"
+  },
+  "傭兵団リフノス": {
+    "en": "Mercenary group Rifnos",
+    "cn": "",
+    "cn_original": "佣兵团利弗诺斯",
+    "source": "invalid"
+  },
+  "パレタの声": {
+    "en": "Paleta的voice",
+    "cn": "",
+    "cn_original": "帕雷塔的声音",
+    "source": "invalid"
+  },
+  "軍司令部の大佐": {
+    "en": "colonel of military command",
+    "cn": "",
+    "cn_original": "军司令部的上校",
+    "source": "invalid"
+  },
+  "港町のおばちゃん": {
+    "en": "Auntie in the port town",
+    "cn": "",
+    "cn_original": "港口小镇的阿姨",
+    "source": "invalid"
+  },
+  "港町の町長": {
+    "en": "Mayor of a port town",
+    "cn": "",
+    "cn_original": "港口小镇的镇长",
+    "source": "invalid"
+  },
+  "港町の町長夫妻": {
+    "en": "Mayor and wife of a port town",
+    "cn": "",
+    "cn_original": "港口小镇的镇长夫妇",
+    "source": "invalid"
+  },
+  "トリッド王国の軍人": {
+    "en": "Soldier of the Kingdom of Torrid",
+    "cn": "",
+    "cn_original": "特里德王国的军人",
+    "source": "invalid"
+  },
+  "トリッド王国の軍人の声": {
+    "en": "Voices of soldiers from the Kingdom of Torrid",
+    "cn": "",
+    "cn_original": "特里德王国军人的声音",
+    "source": "invalid"
+  },
+  "港町の画材屋": {
+    "en": "Art supply store in port town",
+    "cn": "",
+    "cn_original": "港口小镇的画材商",
+    "source": "invalid"
+  },
+  "トリッド王国の研究者": {
+    "en": "Researcher of the Kingdom of Torrid",
+    "cn": "",
+    "cn_original": "特里德王国的研究者",
+    "source": "invalid"
+  },
+  "耳の遠いおじいちゃん": {
+    "en": "deaf grandpa",
+    "cn": "",
+    "cn_original": "耳背的老人",
+    "source": "invalid"
+  },
+  "陽気なおじいちゃん": {
+    "en": "cheerful grandpa",
+    "cn": "",
+    "cn_original": "开朗的老人",
+    "source": "invalid"
+  },
+  "話好きのおばあちゃん": {
+    "en": "Grandma loves to talk",
+    "cn": "",
+    "cn_original": "爱说话的老妇",
+    "source": "invalid"
+  },
+  "威厳あるおばあちゃん": {
+    "en": "dignified grandma",
+    "cn": "",
+    "cn_original": "颇具威严的老妇",
+    "source": "invalid"
+  },
+  "タオばあ": {
+    "en": "Grandma Tao",
+    "cn": "路西欧",
+    "cn_original": "多绪婆婆",
+    "source": "scenario"
+  },
+  "お年寄り達": {
+    "en": "elderly people",
+    "cn": "",
+    "cn_original": "老人们",
+    "source": "invalid"
+  },
+  "出店の店主": {
+    "en": "store owner",
+    "cn": "",
+    "cn_original": "店铺主人",
+    "source": "invalid"
+  },
+  "男達": {
+    "en": "men",
+    "cn": "",
+    "cn_original": "男人们",
+    "source": "invalid"
+  },
+  "巫女達": {
+    "en": "shrine maidens",
+    "cn": "",
+    "cn_original": "巫女们",
+    "source": "invalid"
+  },
+  "ヨツバ": {
+    "en": "Yotsuba",
+    "cn": "",
+    "cn_original": "四叶",
+    "source": "invalid"
+  },
+  "ミツバ": {
+    "en": "Mitsuba",
+    "cn": "",
+    "cn_original": "三叶",
+    "source": "invalid"
+  },
+  "イツハ": {
+    "en": "Itsuha",
+    "cn": "",
+    "cn_original": "五叶",
+    "source": "invalid"
+  },
+  "トワ": {
+    "en": "Towa",
+    "cn": "",
+    "cn_original": "十和",
+    "source": "invalid"
+  },
+  "賊の首魁": {
+    "en": "leader of the thieves",
+    "cn": "",
+    "cn_original": "盗贼头目",
+    "source": "invalid"
+  },
+  "船大工": {
+    "en": "shipwright",
+    "cn": "",
+    "cn_original": "船匠",
+    "source": "invalid"
+  }
+}

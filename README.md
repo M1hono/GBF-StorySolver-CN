@@ -157,14 +157,16 @@ translation:
   # 翻译模式：prompt（使用提示词，准确）或 replace（直接替换，快速）
   mode: prompt
   
-  # 每次翻译的行数（太大可能导致截断）
-  chunk_size: 120
+  # 每次翻译的行数
+  # 较大的值（如 500）可减少 API 调用次数，降低成本
+  # 较小的值（如 120）对长文件更稳定
+  chunk_size: 500
+  
+  # 每次请求最大 token 数
+  max_tokens: 8192
   
   # Claude 模型选择
   claude_model: claude-sonnet-4-20250514
-  
-  # 翻译超时（秒）
-  timeout: 120
 
 # 提取设置
 extraction:
@@ -376,6 +378,44 @@ python -m lib.extract scenario /path/to/csv/folder story/translated/custom
 **剧情来源**：
 - 自动从 `lib/local_data/blhxfy/scenario/` 读取
 - 运行 `python -m lib.update_blhxfy` 可更新
+
+#### 查找角色本地剧情
+
+智能查找角色在本地翻译数据中的登场活动，支持中文/英文/日文名搜索。
+
+```bash
+# 按中文名查找
+python -m lib.tools.find_character_stories "缇可"
+
+# 按英文名查找（自动转换为中文）
+python -m lib.tools.find_character_stories "Tikoh"
+
+# 显示详细文件列表
+python -m lib.tools.find_character_stories "缇可" -v
+
+# 查找并提取到角色目录
+python -m lib.tools.find_character_stories "缇可" --extract characters/tikoh
+```
+
+**输出示例**：
+```
+Found 2 activities containing '缇可':
+============================================================
+
+📁 活动剧情/金月2
+   (43 files)
+
+📁 活动剧情/金月3
+   (23 files)
+```
+
+**参数说明**：
+| 参数 | 说明 |
+|------|------|
+| `name` | 角色名（中/英/日） |
+| `-v, --verbose` | 显示匹配的文件列表 |
+| `--extract DIR` | 提取到指定目录 |
+| `--no-story-translated` | 不同时复制到 `story/translated/` |
 
 ### 翻译
 

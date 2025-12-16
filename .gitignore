@@ -56,10 +56,11 @@ AI-Translation/
 BLHXFY/
 lib/local_data/.temp/
 
-# But keep the processed blhxfy/etc mapping files
+# BLHXFY local data: sync etc/ (mappings), ignore scenario/ (too large)
 !lib/local_data/blhxfy/
 !lib/local_data/blhxfy/etc/
 !lib/local_data/blhxfy/etc/*.csv
+lib/local_data/blhxfy/scenario/
 
 # Notion sync cache
 .notion_sync_cache.json

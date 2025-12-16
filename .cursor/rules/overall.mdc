@@ -43,10 +43,17 @@ gbf/
 │   ├── translators/            # Translation modules
 │   │   ├── blhxfy.py          # BLHXFY terminology (LOCAL-FIRST)
 │   │   ├── claude.py          # Claude AI translation
+│   │   ├── prompts.py         # Translation prompt builders
+│   │   ├── voice_translator.py # Voice table translation
 │   │   └── caiyun.py          # Caiyun translation
 │   ├── notion/                 # Notion sync modules
 │   │   ├── sync.py            # Sync context & utilities
-│   │   └── content.py         # Content rendering
+│   │   ├── render.py          # Story rendering to blocks
+│   │   ├── parsers.py         # Cast/Voice table parsing
+│   │   ├── database.py        # Database sync (Cast/Voice)
+│   │   └── content.py         # Unified export (backward compat)
+│   ├── tools/                  # Utility tools
+│   │   └── find_character_stories.py  # Find character in local data
 │   ├── utils/                  # Configuration
 │   │   └── config.py
 │   ├── docs/                   # Documentation
@@ -56,6 +63,8 @@ gbf/
 │   │   └── LOCAL_DATA.md
 │   ├── local_data/             # AUTHORITATIVE local data
 │   │   └── blhxfy/
+│   │       ├── scenario/      # Community translated stories (NOT synced to git)
+│   │       └── etc/           # Name/term mappings (synced to git)
 │   ├── extract.py              # Quick extraction CLI
 │   └── translate.py            # Quick translation CLI
 ├── story/                      # Root story content (BLHXFY scenarios)
@@ -102,6 +111,26 @@ python -m lib.translate claude ./raw ./trans
 
 # Translate with Caiyun
 python -m lib.translate caiyun ./raw ./trans
+
+# Batch translate multiple directories
+python -m lib.translate claude dir1/raw dir1/trans && \
+python -m lib.translate claude dir2/raw dir2/trans && \
+python -m lib.translate claude dir3/raw dir3/trans
+```
+
+### Find Character in Local Data
+```bash
+# Search by Chinese name
+python -m lib.tools.find_character_stories "缇可"
+
+# Search by English name (auto-converts to Chinese)
+python -m lib.tools.find_character_stories "Tikoh"
+
+# Show detailed file list
+python -m lib.tools.find_character_stories "缇可" -v
+
+# Find and extract to character folder
+python -m lib.tools.find_character_stories "缇可" --extract characters/tikoh
 ```
 
 ### Programmatic Usage
@@ -294,6 +323,15 @@ python3 notion_upload.py vajra 瓦姬拉
 
 # Upload character's specific event
 python3 notion_upload.py vajra 瓦姬拉 --event zodiacamp
+
+# Upload only voice data
+python3 notion_upload.py vajra 瓦姬拉 --voice-only
+
+# Upload only lore data
+python3 notion_upload.py vajra 瓦姬拉 --lore-only
+
+# Upload voice for all characters
+python3 notion_upload.py --all --voice-only
 
 # Clean and re-upload all
 python3 notion_upload.py --all --clean

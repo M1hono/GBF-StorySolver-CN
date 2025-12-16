@@ -40,13 +40,26 @@ from .voice_translator import (
 
 logger = logging.getLogger(__name__)
 
+# Load configuration from config.yaml
 try:
     from .blhxfy import translator
-    from ..utils.config import CLAUDE_API_KEY, CLAUDE_MODEL
+    from ..utils.config import CLAUDE_API_KEY, CLAUDE_MODEL, Config, REPO_ROOT
+    
+    # Load config.yaml if it exists
+    _config_path = Path(REPO_ROOT) / "config.yaml"
+    _config = Config.load(str(_config_path)) if _config_path.exists() else Config()
+    
+    CHUNK_SIZE = _config.translation.chunk_size
+    MAX_TOKENS = _config.translation.max_tokens
+    DEFAULT_MODE = _config.translation.mode
+    
 except ImportError:
     import os
     CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY", "")
     CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-20250514")
+    CHUNK_SIZE = 120
+    MAX_TOKENS = 8192
+    DEFAULT_MODE = "prompt"
     try:
         from .blhxfy import translator
     except ImportError:
@@ -77,11 +90,8 @@ class DirectoryResult(TypedDict):
     files: List[str]
 
 
-# Configuration
-CHUNK_SIZE = 120
-MAX_TOKENS = 8192
+# Type alias
 TranslationMode = Literal["replace", "prompt"]
-DEFAULT_MODE: TranslationMode = "prompt"
 
 
 # =============================================================================
@@ -94,20 +104,36 @@ def extract_speakers(content: str) -> set:
 
 
 def split_into_chunks(content: str, chunk_size: int = CHUNK_SIZE) -> List[str]:
-    """Split content into chunks at scene boundaries (## headings)."""
+    """
+    Split content into chunks at scene boundaries (## headings).
+    
+    IMPORTANT: Only the first chunk includes the header (# title).
+    Subsequent chunks contain ONLY content, no headers.
+    This prevents duplicate headers and wasted API costs.
+    """
     lines = content.split('\n')
     
     if len(lines) <= chunk_size:
         return [content]
     
-    # Extract header (lines before first ## heading)
+    # Extract header (lines before first ## heading or content)
     header_lines = []
     content_start = 0
     for i, line in enumerate(lines):
-        if line.startswith('## '):
+        if line.startswith('## ') or (line.strip().startswith('*') and not line.strip().startswith('**')):
             content_start = i
             break
         header_lines.append(line)
+    else:
+        # No ## found, look for dialogue or narration
+        for i, line in enumerate(lines):
+            if line.strip().startswith('**') and ':**' in line:
+                content_start = i
+                break
+            if i > 0 and not line.startswith('#'):
+                header_lines = lines[:i]
+                content_start = i
+                break
     
     header = '\n'.join(header_lines)
     content_lines = lines[content_start:]
@@ -115,10 +141,17 @@ def split_into_chunks(content: str, chunk_size: int = CHUNK_SIZE) -> List[str]:
     # Split at scene boundaries
     chunks = []
     current_chunk = []
+    is_first_chunk = True
     
     for line in content_lines:
         if line.startswith('## ') and len(current_chunk) > chunk_size // 2:
-            chunks.append(header + '\n\n' + '\n'.join(current_chunk))
+            # Save current chunk
+            if is_first_chunk:
+                chunks.append(header + '\n\n' + '\n'.join(current_chunk))
+                is_first_chunk = False
+            else:
+                # NO header for subsequent chunks
+                chunks.append('\n'.join(current_chunk))
             current_chunk = [line]
         else:
             current_chunk.append(line)
@@ -130,11 +163,20 @@ def split_into_chunks(content: str, chunk_size: int = CHUNK_SIZE) -> List[str]:
                         break_idx = j
                         break
                 
-                chunks.append(header + '\n\n' + '\n'.join(current_chunk[:break_idx]))
+                if is_first_chunk:
+                    chunks.append(header + '\n\n' + '\n'.join(current_chunk[:break_idx]))
+                    is_first_chunk = False
+                else:
+                    # NO header for subsequent chunks
+                    chunks.append('\n'.join(current_chunk[:break_idx]))
                 current_chunk = current_chunk[break_idx:]
     
     if current_chunk:
-        chunks.append(header + '\n\n' + '\n'.join(current_chunk))
+        if is_first_chunk:
+            chunks.append(header + '\n\n' + '\n'.join(current_chunk))
+        else:
+            # NO header for subsequent chunks
+            chunks.append('\n'.join(current_chunk))
     
     return chunks if chunks else [content]
 
@@ -199,13 +241,25 @@ def translate_story(content: str, mode: TranslationMode = DEFAULT_MODE) -> str:
         print(f"    [{i+1}/{len(chunks)}] Translating...")
         translated = translate_chunk(chunk, prompt)
         
-        # Remove duplicate headers from subsequent chunks
+        # Remove duplicate headers from subsequent chunks (both # and ## headers)
         if i > 0:
             chunk_lines = translated.split('\n')
+            content_start = 0
             for j, line in enumerate(chunk_lines):
-                if line.startswith('## '):
-                    translated = '\n'.join(chunk_lines[j:])
+                # Skip all header lines (# or ##) and empty lines at the beginning
+                stripped = line.strip()
+                if stripped.startswith('# ') or stripped.startswith('## ') or stripped == '':
+                    content_start = j + 1
+                    continue
+                # Found first content line (dialogue, narration, etc.)
+                if stripped.startswith('*') or stripped.startswith('**'):
+                    content_start = j
                     break
+                # Any other non-empty line is also content
+                if stripped:
+                    content_start = j
+                    break
+            translated = '\n'.join(chunk_lines[content_start:])
         
         translated_chunks.append(translated)
     

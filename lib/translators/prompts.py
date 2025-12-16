@@ -54,10 +54,17 @@ def get_relevant_mappings(content: str, speakers: Set[str]) -> Dict[str, str]:
     all_maps = get_all_mappings()
     relevant = {}
     
+    # Add speaker mappings
     for speaker in speakers:
         if speaker in all_maps["en_to_cn"]:
             relevant[speaker] = all_maps["en_to_cn"][speaker]
     
+    # Add ALL character names that appear in content (not just speakers)
+    for en_name, cn_name in all_maps["en_to_cn"].items():
+        if en_name in content or f"{en_name}'s" in content or f"{en_name}'" in content:
+            relevant[en_name] = cn_name
+    
+    # Add nouns/terms
     for en, cn in all_maps["nouns"].items():
         if en in content:
             relevant[en] = cn
@@ -72,11 +79,24 @@ def build_story_prompt_full(content: str, speakers: Set[str]) -> str:
     """
     all_maps = get_all_mappings()
     
-    # Character mappings section
+    # Character mappings section - include ALL names appearing in content
     char_lines = []
+    found_names = set()
+    
+    # First add speakers
     for speaker in sorted(speakers):
-        cn = all_maps["en_to_cn"].get(speaker, speaker)
-        char_lines.append(f"- {speaker} → {cn}")
+        if speaker in all_maps["en_to_cn"]:
+            found_names.add(speaker)
+            char_lines.append(f"- {speaker} → {all_maps['en_to_cn'][speaker]}")
+    
+    # Then add other character names appearing in content (including possessives)
+    for en_name, cn_name in sorted(all_maps["en_to_cn"].items()):
+        if en_name not in found_names:
+            # Check if name appears in content (including possessive forms)
+            if en_name in content or f"{en_name}'s" in content or f"{en_name}'" in content:
+                found_names.add(en_name)
+                char_lines.append(f"- {en_name} → {cn_name}")
+    
     char_section = '\n'.join(char_lines) if char_lines else "（无角色名映射）"
     
     # Noun mappings section (only include terms in content)
@@ -90,6 +110,8 @@ def build_story_prompt_full(content: str, speakers: Set[str]) -> str:
 
 ## 角色名映射（必须严格遵循）
 {char_section}
+
+**注意**: 遇到所有格形式（如 "Fiorito's dad"）应译为 "菲欧丽特的父亲"，不要保留英文名。
 
 ## 术语映射
 {noun_section}

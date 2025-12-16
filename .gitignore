@@ -56,6 +56,11 @@ AI-Translation/
 BLHXFY/
 lib/local_data/.temp/
 
+# But keep the processed blhxfy/etc mapping files
+!lib/local_data/blhxfy/
+!lib/local_data/blhxfy/etc/
+!lib/local_data/blhxfy/etc/*.csv
+
 # Notion sync cache
 .notion_sync_cache.json
 
@@ -76,7 +81,7 @@ story/
 .playwright-mcp/
 
 # Large generated mapping files (can be regenerated)
-lib/tools/jp_to_en_mapping.json
+#lib/tools/jp_to_en_mapping.json
 
 # =============================================================================
 # Configuration & Secrets

@@ -4,19 +4,27 @@
 
 # Translation settings
 translation:
-  # prompt: Include name mappings in AI prompt (recommended, more accurate)
-  # replace: Pre-replace names before translation (faster, may miss some)
+  # Translation mode
+  # - prompt: Include name mappings in AI prompt (recommended, more accurate)
+  # - replace: Pre-replace names before translation (faster, may miss some)
   mode: prompt
   
   # Lines per chunk when translating long files
-  chunk_size: 120
+  # Recommended: 500 for most cases, 300 for very long files
+  chunk_size: 500
   
   # Maximum tokens per API request
   max_tokens: 8192
   
-  # Claude model for translation
-  # Options: claude-sonnet-4-20250514, claude-3-5-sonnet-20241022
-  claude_model: claude-haiku-20240307
+  # Model selection for each engine
+  # Claude: claude-sonnet-4-20250514, claude-3-5-sonnet-20241022, claude-3-haiku-20240307
+  claude_model: claude-sonnet-4-20250514
+  
+  # OpenAI: gpt-4o, gpt-4o-mini, gpt-4.1, gpt-4.1-mini
+  openai_model: gpt-4o-mini
+  
+  # Gemini: gemini-2.0-flash (recommended), gemini-1.5-pro
+  gemini_model: gemini-2.0-flash
 
 # Extraction settings (Playwright)
 extraction:

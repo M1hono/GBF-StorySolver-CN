@@ -43,6 +43,10 @@ gbf/
 │   ├── translators/            # Translation modules
 │   │   ├── blhxfy.py          # BLHXFY terminology (LOCAL-FIRST)
 │   │   ├── claude.py          # Claude AI translation
+│   │   ├── openai_translator.py # OpenAI GPT translation
+│   │   ├── gemini.py          # Google Gemini translation
+│   │   ├── deepl.py           # DeepL translation (with glossary)
+│   │   ├── batch_translator.py # Batch API (50% discount)
 │   │   ├── prompts.py         # Translation prompt builders
 │   │   ├── voice_translator.py # Voice table translation
 │   │   └── caiyun.py          # Caiyun translation
@@ -106,20 +110,47 @@ python -m lib.extract lore Vajra characters/vajra
 ```
 
 ### Translation
+
+**Engine comparison** (130K tokens = 1 event story):
+
+| Engine | Cost | Batch Cost | Quality |
+|--------|------|-----------|---------|
+| Gemini 2.0 Flash | $0.05 | **$0.025** | ✅ Good |
+| OpenAI GPT-4o-mini | $0.10 | $0.05 | ✅ Good |
+| Claude Sonnet 4 | $2.34 | $1.17 | ⭐ Best |
+
+**Recommended**: Gemini for daily use, Claude for important content.
+
 ```bash
 # Lookup character name (LOCAL-FIRST)
 python -m lib.translate lookup "Vajra"
 
-# Translate with Claude
+# Gemini (cheapest, recommended)
+python -m lib.translate gemini ./raw ./trans
+
+# OpenAI GPT-4o-mini (balanced)
+python -m lib.translate openai ./raw ./trans
+
+# Claude (best quality, expensive)
 python -m lib.translate claude ./raw ./trans
 
-# Translate with Caiyun
+# Caiyun (quick preview)
 python -m lib.translate caiyun ./raw ./trans
+```
 
-# Batch translate multiple directories
-python -m lib.translate claude dir1/raw dir1/trans && \
-python -m lib.translate claude dir2/raw dir2/trans && \
-python -m lib.translate claude dir3/raw dir3/trans
+### Batch Translation (50% OFF)
+
+All major APIs support batch mode with 50% discount (24h turnaround):
+
+```bash
+# Submit batch job
+python -m lib.translators.batch_translator submit ./raw --engine openai
+
+# Check status
+python -m lib.translators.batch_translator status <batch_id>
+
+# Download when ready
+python -m lib.translators.batch_translator download <batch_id> ./trans
 ```
 
 ### Find Character in Local Data

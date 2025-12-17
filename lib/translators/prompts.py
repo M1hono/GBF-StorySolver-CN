@@ -9,12 +9,18 @@ Contains specialized prompts for:
 
 from __future__ import annotations
 
+import re
 from typing import Set, Dict
 
 try:
     from .blhxfy import translator
 except ImportError:
     translator = None
+
+
+def extract_speakers(content: str) -> Set[str]:
+    """Extract character names from dialogue format **Name:**."""
+    return set(re.findall(r'\*\*([^*:]+):\*\*', content))
 
 
 def get_all_mappings() -> Dict[str, Dict[str, str]]:

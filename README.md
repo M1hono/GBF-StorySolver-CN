@@ -487,48 +487,108 @@ python -m lib.tools.merge_chapters characters/tikoh/story/*/raw --all
 
 ### 翻译
 
-#### 使用 Claude 翻译（推荐）
+本项目支持多种翻译引擎，可根据需求和预算选择。
 
-Claude 翻译质量最好，推荐用于正式翻译。
+#### 翻译引擎对比
+
+| 引擎 | Input 价格 | Output 价格 | 130K 成本 | 质量 | 术语表 | 推荐 |
+|------|-----------|-------------|----------|------|--------|------|
+| **Gemini 2.0 Flash** | $0.075/1M | $0.30/1M | **$0.05** | ✅ 好 | ✅ Prompt | 🥇 日常 |
+| **OpenAI GPT-4o-mini** | $0.15/1M | $0.60/1M | $0.10 | ✅ 好 | ✅ Prompt | 🥈 平衡 |
+| **Claude Sonnet 4** | $3/1M | $15/1M | $2.34 | ⭐ 最佳 | ✅ Prompt | 精翻 |
+| Claude Haiku 3.5 | $1/1M | $5/1M | $0.78 | ✅ 好 | ✅ Prompt | 性价比 |
+| DeepL Free | 免费 | 免费 | $0 | 一般 | ✅ Native | ⚠️ 格式差 |
+| 彩云 | ¥40/1M | ¥40/1M | ¥0.05 | 一般 | ❌ 无 | 预览 |
+
+**推荐顺序**: Gemini > OpenAI > Haiku > Sonnet
+
+> 💡 详细价格对比见 [lib/docs/TRANSLATION_API_COMPARISON.md](lib/docs/TRANSLATION_API_COMPARISON.md)
+
+#### 使用方法
 
 ```bash
-python -m lib.translate claude {输入目录} {输出目录}
-```
+# 成本估算（翻译前先看看要花多少钱）
+python -m lib.translate cost {输入目录}
 
-**参数说明**：
-- `输入目录`：包含待翻译 `.md` 文件的目录（通常是 `raw/`）
-- `输出目录`：翻译结果输出目录（通常是 `trans/`）
+# Gemini（推荐，最便宜）
+python -m lib.translate gemini {输入目录} {输出目录}
+
+# OpenAI GPT-4o-mini
+python -m lib.translate openai {输入目录} {输出目录}
+
+# Claude（质量最好，但贵）
+python -m lib.translate claude {输入目录} {输出目录}
+
+# 彩云（快速预览）
+python -m lib.translate caiyun {输入目录} {输出目录}
+```
 
 **示例**：
 ```bash
-# 翻译剧情
-python -m lib.translate claude \
+# 先估算成本
+python -m lib.translate cost characters/vajra/story/zodiacamp/raw
+
+# 用 Gemini 翻译（便宜）
+python -m lib.translate gemini \
   characters/vajra/story/zodiacamp/raw \
   characters/vajra/story/zodiacamp/trans
 
-# 翻译语音
-python -m lib.translate claude \
-  characters/vajra/voice/raw \
-  characters/vajra/voice/trans
-
-# 翻译档案
+# 重要内容用 Claude 精翻
 python -m lib.translate claude \
   characters/vajra/lore/raw \
   characters/vajra/lore/trans
 ```
 
 **翻译特点**：
-- 保持对话格式（`**角色名：**` 形式）
-- 自动应用 BLHXFY 术语表
+- 自动加载 BLHXFY 术语表
 - 角色名优先使用本地映射
+- 保持 Markdown 格式
 
-#### 使用彩云翻译
+#### 配置翻译引擎
 
-速度快但质量一般，适合快速预览。
+在 `config.yaml` 中设置模型：
+
+```yaml
+translation:
+  # Claude 模型
+  claude_model: claude-sonnet-4-20250514
+  
+  # OpenAI 模型
+  openai_model: gpt-4o-mini
+  
+  # Gemini 模型
+  gemini_model: gemini-2.0-flash
+```
+
+在 `.env` 中配置 API 密钥：
 
 ```bash
-python -m lib.translate caiyun {输入目录} {输出目录}
+CLAUDE_API_KEY=sk-ant-xxx
+OPENAI_API_KEY=sk-xxx
+GEMINI_API_KEY=xxx
 ```
+
+#### 🔥 批量翻译（50% 折扣）
+
+所有主流 API 都支持批量模式，可节省 50% 成本（24小时内返回）：
+
+```bash
+# 提交批量任务
+python -m lib.translators.batch_translator submit ./raw --engine openai
+
+# 查看状态
+python -m lib.translators.batch_translator status <batch_id>
+
+# 下载结果
+python -m lib.translators.batch_translator download <batch_id> ./trans
+```
+
+| 模式 | 130K 成本 | 返回时间 |
+|------|----------|---------|
+| Gemini 标准 | $0.05 | 即时 |
+| **Gemini 批量** | **$0.025** | 24h |
+| Claude 标准 | $2.34 | 即时 |
+| **Claude 批量** | **$1.17** | 24h |
 
 #### 查询角色名
 

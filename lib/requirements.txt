@@ -21,6 +21,18 @@ requests>=2.31.0
 # Claude AI translation
 anthropic>=0.18.0
 
+# OpenAI GPT translation
+openai>=1.0.0
+
+# Google Gemini translation
+google-generativeai>=0.8.0
+
+# DeepL translation (with glossary support)
+deepl>=1.18.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
 # =============================================================================
 # Notion Integration
 # =============================================================================

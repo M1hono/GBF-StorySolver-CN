@@ -123,3 +123,7 @@ Thumbs.db
 *.bak
 *.backup
 
+
+# Downloaded event scenarios (can be regenerated)
+lib/local_data/HEART*/
+lib/local_data/*.json

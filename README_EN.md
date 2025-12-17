@@ -333,33 +333,75 @@ python -m lib.extract scenario "12.17" story/translated/12.17
 
 ### Translation
 
-#### Using Claude (Recommended)
+This project supports multiple translation engines. Choose based on your needs and budget.
 
-Claude provides the best translation quality.
+#### Translation Engine Comparison
+
+| Engine | Input Price | Output Price | 130K Cost | Quality | Glossary | Recommended |
+|--------|------------|--------------|-----------|---------|----------|-------------|
+| **Gemini 2.0 Flash** | $0.075/1M | $0.30/1M | **$0.05** | ✅ Good | ✅ Prompt | 🥇 Daily |
+| **OpenAI GPT-4o-mini** | $0.15/1M | $0.60/1M | $0.10 | ✅ Good | ✅ Prompt | 🥈 Balanced |
+| **Claude Sonnet 4** | $3/1M | $15/1M | $2.34 | ⭐ Best | ✅ Prompt | Quality |
+| Claude Haiku 3.5 | $1/1M | $5/1M | $0.78 | ✅ Good | ✅ Prompt | Value |
+| DeepL Free | Free | Free | $0 | OK | ✅ Native | ⚠️ Format issues |
+| Caiyun | ¥40/1M | ¥40/1M | ¥0.05 | OK | ❌ No | Preview |
+
+**Recommended order**: Gemini > OpenAI > Haiku > Sonnet
+
+> 💡 Detailed comparison: [lib/docs/TRANSLATION_API_COMPARISON.md](lib/docs/TRANSLATION_API_COMPARISON.md)
+
+#### Usage
 
 ```bash
+# Estimate cost first
+python -m lib.translate cost {input_dir}
+
+# Gemini (recommended, cheapest)
+python -m lib.translate gemini {input_dir} {output_dir}
+
+# OpenAI GPT-4o-mini
+python -m lib.translate openai {input_dir} {output_dir}
+
+# Claude (best quality, expensive)
 python -m lib.translate claude {input_dir} {output_dir}
+
+# Caiyun (quick preview)
+python -m lib.translate caiyun {input_dir} {output_dir}
 ```
 
 **Examples**:
 ```bash
-# Translate story
-python -m lib.translate claude \
+# Check cost first
+python -m lib.translate cost characters/vajra/story/zodiacamp/raw
+
+# Translate with Gemini (cheap)
+python -m lib.translate gemini \
   characters/vajra/story/zodiacamp/raw \
   characters/vajra/story/zodiacamp/trans
 
-# Translate voice
+# Use Claude for important content
 python -m lib.translate claude \
-  characters/vajra/voice/raw \
-  characters/vajra/voice/trans
+  characters/vajra/lore/raw \
+  characters/vajra/lore/trans
 ```
 
-#### Using Caiyun
+#### Configure Translation Engines
 
-Fast but lower quality, suitable for quick preview.
+Set models in `config.yaml`:
+
+```yaml
+translation:
+  claude_model: claude-sonnet-4-20250514
+  openai_model: gpt-4o-mini
+  gemini_model: gemini-2.0-flash
+```
+
+Set API keys in `.env`:
 
 ```bash
-python -m lib.translate caiyun {input_dir} {output_dir}
+CLAUDE_API_KEY=sk-ant-xxx
+OPENAI_API_KEY=sk-xxx
+GEMINI_API_KEY=xxx
 ```
 
 #### Lookup Character Names

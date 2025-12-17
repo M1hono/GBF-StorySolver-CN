@@ -66,9 +66,21 @@ CAIYUN_TOKEN: str = os.environ.get("CAIYUN_TOKEN", "")
 NOTION_API_KEY: str = os.environ.get("NOTION_API_KEY", "")
 NOTION_ROOT_PAGE_ID: str = os.environ.get("NOTION_ROOT_PAGE_ID", "")
 
-# Default model settings (can be overridden in config.yaml)
-CLAUDE_MODEL: str = "claude-sonnet-4-20250514"
-CAIYUN_MODEL: str = "general"
+# Default model settings (loaded from config.yaml if available)
+_config_path = Path(REPO_ROOT) / "config.yaml"
+if _config_path.exists():
+    try:
+        import yaml
+        with open(_config_path, 'r') as f:
+            _cfg = yaml.safe_load(f) or {}
+        CLAUDE_MODEL = _cfg.get('translation', {}).get('claude_model', 'claude-sonnet-4-20250514')
+        CAIYUN_MODEL = _cfg.get('translation', {}).get('caiyun_model', 'general')
+    except:
+        CLAUDE_MODEL = "claude-sonnet-4-20250514"
+        CAIYUN_MODEL = "general"
+else:
+    CLAUDE_MODEL = "claude-sonnet-4-20250514"
+    CAIYUN_MODEL = "general"
 
 
 # =============================================================================

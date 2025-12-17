@@ -120,3 +120,81 @@ def render_story_blocks(content: str) -> list[dict]:
 
     return blocks
 
+
+def render_profile_blocks(content: str) -> list[dict]:
+    """
+    Render profile markdown to Notion blocks.
+    
+    Profile format:
+        **Key**: Value
+    
+    Renders as:
+        Key (bold) + : + Value (normal)
+    """
+    blocks: list[dict] = []
+    title_re = re.compile(r"^(#{1,3})\s+(.+)$")
+    profile_re = re.compile(r"^\*\*(.+?)\*\*:\s*(.*)$")
+    
+    for raw in content.splitlines():
+        s = raw.strip()
+        if not s:
+            continue
+        
+        # Markdown title
+        m = title_re.match(s)
+        if m:
+            level = min(len(m.group(1)), 3)
+            htype = f"heading_{level}"
+            blocks.append({
+                "object": "block",
+                "type": htype,
+                htype: {"rich_text": _rt(m.group(2).strip(), bold=True)}
+            })
+            continue
+        
+        # Data source link
+        if s.startswith("数据源："):
+            blocks.append({
+                "object": "block",
+                "type": "paragraph",
+                "paragraph": {"rich_text": _rt(s, italic=True, color="gray")}
+            })
+            continue
+        
+        # Profile entry: **Key**: Value
+        m = profile_re.match(s)
+        if m:
+            key = m.group(1).strip()
+            value = m.group(2).strip()
+            
+            # Build rich_text with bold key and normal value
+            rich_text = [
+                {
+                    "type": "text",
+                    "text": {"content": key},
+                    "annotations": {"bold": True, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}
+                },
+                {
+                    "type": "text",
+                    "text": {"content": f": {value}"},
+                    "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}
+                }
+            ]
+            
+            blocks.append({
+                "object": "block",
+                "type": "paragraph",
+                "paragraph": {"rich_text": rich_text}
+            })
+            continue
+        
+        # Other lines (description, etc.)
+        if s:
+            blocks.append({
+                "object": "block",
+                "type": "paragraph",
+                "paragraph": {"rich_text": _rt(s)}
+            })
+    
+    return blocks
+

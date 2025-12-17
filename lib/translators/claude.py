@@ -281,37 +281,63 @@ def is_lore_table(content: str) -> bool:
 
 
 def translate_lore_table(content: str) -> str:
-    """Translate JP/EN table by adding Chinese column."""
+    """Translate JP/EN/CN table by filling Chinese column."""
     lines = content.split('\n')
     result = []
     jp_texts = []
     jp_indices = []
     
+    # Check if Chinese column already exists
+    has_chinese = '| Chinese |' in content
+    
+    # Determine column indices
+    col_jp = 1
+    col_cn = 2 if has_chinese else -1
+    col_en = 3 if has_chinese else 2
+    
+    # Collect Japanese texts for translation
     for i, line in enumerate(lines):
         if line.startswith('|') and '---' not in line and 'Japanese' not in line:
             cells = [c.strip() for c in line.split('|')]
-            if len(cells) >= 3 and cells[1]:
-                jp_texts.append(cells[1])
-                jp_indices.append(i)
+            if len(cells) > col_jp and cells[col_jp]:
+                # Only translate if Chinese column is empty
+                if has_chinese:
+                    cn_val = cells[col_cn] if col_cn < len(cells) else ''
+                    if not cn_val:
+                        jp_texts.append(cells[col_jp])
+                        jp_indices.append(i)
+                else:
+                    jp_texts.append(cells[col_jp])
+                    jp_indices.append(i)
     
     translations = batch_translate_jp(client, CLAUDE_MODEL, jp_texts) if jp_texts else {}
     
     jp_idx = 0
     for i, line in enumerate(lines):
         if '| Japanese |' in line:
-            result.append(line.replace('| English |', '| Chinese | English |'))
+            if has_chinese:
+                result.append(line)  # Keep as-is
+            else:
+                result.append(line.replace('| English |', '| Chinese | English |'))
         elif line.startswith('|') and '---' in line:
-            parts = line.split('|')
-            if len(parts) > 3:
-                parts.insert(2, ' --- ')
-            result.append('|'.join(parts))
+            if not has_chinese:
+                parts = line.split('|')
+                if len(parts) > 3:
+                    parts.insert(2, ' --- ')
+                result.append('|'.join(parts))
+            else:
+                result.append(line)
         elif i in jp_indices:
             cells = [c.strip() for c in line.split('|')]
-            if len(cells) >= 3:
-                cn_text = translations.get(jp_idx, '')
+            cn_text = translations.get(jp_idx, '')
+            jp_idx += 1
+            
+            if has_chinese and col_cn < len(cells):
+                cells[col_cn] = cn_text
+            elif not has_chinese:
                 cells.insert(2, cn_text)
-                jp_idx += 1
-            result.append('| ' + ' | '.join(cells[1:-1]) + ' |')
+            
+            result.append('| ' + ' | '.join(cells[1:-1] if cells[-1] == '' else cells[1:]) + ' |')
         else:
             result.append(line)
     

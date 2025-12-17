@@ -27,13 +27,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
 
 from notion.sync import SyncContext
-from notion.content import (
-    render_story_blocks, 
-    parse_cast_table, 
-    sync_cast_database,
-    parse_voice_table,
-    sync_voice_database,
-)
+from notion.render import render_story_blocks, render_profile_blocks
+from notion.parsers import parse_cast_table, parse_voice_table
+from notion.database import sync_cast_database, sync_voice_database
 from utils.config import NOTION_API_KEY, NOTION_ROOT_PAGE_ID
 
 
@@ -90,7 +86,7 @@ def delete_all_children(ctx: SyncContext, parent_id: str) -> int:
 # SYNC UTILITIES
 # =============================================================================
 
-def sync_md_to_page(ctx: SyncContext, parent_id: str, md_file: Path, cache_prefix: str):
+def sync_md_to_page(ctx: SyncContext, parent_id: str, md_file: Path, cache_prefix: str, is_profile: bool = False):
     """Sync a single .md file to Notion."""
     title = md_file.stem
     try:
@@ -105,7 +101,11 @@ def sync_md_to_page(ctx: SyncContext, parent_id: str, md_file: Path, cache_prefi
                 )
                 log(f"    Cast: {len(rows)} entries")
         else:
-            blocks = render_story_blocks(content)
+            # Use profile renderer for profile files
+            if is_profile:
+                blocks = render_profile_blocks(content)
+            else:
+                blocks = render_story_blocks(content)
             cache_key = f"{cache_prefix}:{title}"
 
             if ctx.mode == "force":
@@ -125,8 +125,62 @@ def sync_md_to_page(ctx: SyncContext, parent_id: str, md_file: Path, cache_prefi
         log(f"    {title}: ERROR - {e}")
 
 
+def sync_lore_content(ctx: SyncContext, lore_page_id: str, lore_root: Path, char_folder: str):
+    """
+    Sync lore content with specialized handling for different types.
+    
+    Structure:
+        lore/trans/
+        ├── profile/        → Cards (Age, Height, Race, etc.)
+        ├── fate_episodes/  → Story pages
+        ├── special_cutscenes/ → Story pages
+        └── side_scrolling/
+            └── quotes.md   → Database
+    """
+    for category_dir in sorted(lore_root.iterdir()):
+        if not category_dir.is_dir():
+            continue
+        
+        category_name = category_dir.name
+        category_page_id = ctx.ensure_page(lore_page_id, category_name.replace('_', ' ').title())
+        
+        for item in sorted(category_dir.iterdir()):
+            if item.suffix != ".md":
+                continue
+            
+            # Special handling for quotes (database)
+            if item.stem == "quotes" or "quote" in item.stem.lower():
+                try:
+                    content = item.read_text(encoding='utf-8')
+                    # Parse as voice-style table and create database
+                    from lib.notion.parsers import parse_voice_table
+                    from lib.notion.database import sync_voice_database
+                    
+                    rows = parse_voice_table(content)
+                    if rows:
+                        title = item.stem.replace('_', ' ').title()
+                        sync_voice_database(
+                            ctx.client,
+                            category_page_id,
+                            title,
+                            rows,
+                            mode=ctx.mode
+                        )
+                        log(f"    {item.stem}: {len(rows)} quotes")
+                except Exception as e:
+                    log(f"    {item.stem}: ERROR - {e}")
+            
+            # Profile: special card format with bold keys
+            elif category_name == "profile":
+                sync_md_to_page(ctx, category_page_id, item, f"lore:{char_folder}:profile", is_profile=True)
+            
+            # Fate episodes and special cutscenes: story format
+            else:
+                sync_md_to_page(ctx, category_page_id, item, f"lore:{char_folder}:{category_name}")
+
+
 def sync_folder_recursive(ctx: SyncContext, parent_id: str, folder: Path, cache_prefix: str):
-    """Recursively sync folder contents."""
+    """Recursively sync folder contents (deprecated, use specialized functions)."""
     for item in sorted(folder.iterdir()):
         if item.is_dir():
             sub_page_id = ctx.ensure_page(parent_id, item.name)
@@ -242,7 +296,7 @@ def sync_character(ctx: SyncContext, char_section_id: str, char_folder: str, dis
         if lore_root.exists():
             log("\n  [Lore]")
             lore_page_id = ctx.ensure_page(char_page_id, "Lore")
-            sync_folder_recursive(ctx, lore_page_id, lore_root, f"lore:{char_folder}")
+            sync_lore_content(ctx, lore_page_id, lore_root, char_folder)
         else:
             log(f"  No lore folder: {lore_root}")
         return
@@ -264,7 +318,7 @@ def sync_character(ctx: SyncContext, char_section_id: str, char_folder: str, dis
     if lore_root.exists():
         log("\n  [Lore]")
         lore_page_id = ctx.ensure_page(char_page_id, "Lore")
-        sync_folder_recursive(ctx, lore_page_id, lore_root, f"lore:{char_folder}")
+        sync_lore_content(ctx, lore_page_id, lore_root, char_folder)
 
     # Voice - sync as databases
     voice_root = content_root / "voice" / "trans"

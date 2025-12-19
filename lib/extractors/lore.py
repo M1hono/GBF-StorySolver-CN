@@ -50,7 +50,7 @@ class LoreExtractor:
     
     def extract(self, character_slug: str, character_dir: str) -> Dict[str, Any]:
         result = {"success": False, "files": [], "structure": {}, "character": character_slug}
-        base = Path(character_dir) / "lore" / "raw"
+        base = Path(character_dir) / "lore" / "raw" / _slugify(character_slug)
         
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=self.headless)

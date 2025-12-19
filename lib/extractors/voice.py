@@ -49,7 +49,7 @@ class VoiceExtractor:
             "toc": [],
         }
         
-        base = Path(character_dir) / "voice" / "raw"
+        base = Path(character_dir) / "voice" / "raw" / _slugify(character_slug)
         
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=self.headless)

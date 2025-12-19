@@ -228,6 +228,7 @@ class ScenarioExtractor:
             if not combined and lines:
                 md = self._to_markdown(lines)
                 out = output_path / f"{csv_file.stem}.md"
+                out.parent.mkdir(parents=True, exist_ok=True)
                 out.write_text(md, encoding='utf-8')
             
             all_lines.extend(lines)

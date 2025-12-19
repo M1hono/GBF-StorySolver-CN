@@ -139,9 +139,14 @@ def search_scenarios(search_names: List[str], scenario_dir: str) -> Dict[str, Li
             # Check if any search name is in the content
             for name in search_names:
                 if name in content:
-                    activity = parts[1] if len(parts) > 2 else parts[0]
+                    # activity is everything between category and the filename
+                    if len(parts) > 2:
+                        activity = '/'.join(parts[1:-1])
+                    else:
+                        activity = parts[0]
+                    
                     activity_key = f"{category}/{activity}"
-                    file_rel = '/'.join(parts[2:]) if len(parts) > 2 else parts[-1]
+                    file_rel = parts[-1]
                     results[activity_key].append(file_rel)
                     break
                     

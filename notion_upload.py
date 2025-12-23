@@ -128,55 +128,57 @@ def sync_md_to_page(ctx: SyncContext, parent_id: str, md_file: Path, cache_prefi
 def sync_lore_content(ctx: SyncContext, lore_page_id: str, lore_root: Path, char_folder: str):
     """
     Sync lore content with specialized handling for different types.
-    
-    Structure:
-        lore/trans/
-        ├── profile/        → Cards (Age, Height, Race, etc.)
-        ├── fate_episodes/  → Story pages
-        ├── special_cutscenes/ → Story pages
-        └── side_scrolling/
-            └── quotes.md   → Database
+    Supports nested directories (e.g., versioned folders).
     """
-    for category_dir in sorted(lore_root.iterdir()):
-        if not category_dir.is_dir():
-            continue
-        
-        category_name = category_dir.name
-        category_page_id = ctx.ensure_page(lore_page_id, category_name.replace('_', ' ').title())
-        
-        for item in sorted(category_dir.iterdir()):
-            if item.suffix != ".md":
-                continue
+    for item in sorted(lore_root.iterdir()):
+        if item.is_dir():
+            # Create a subpage for the directory
+            category_name = item.name.replace('_', ' ').title()
+            category_page_id = ctx.ensure_page(lore_page_id, category_name)
             
-            # Special handling for quotes (database)
-            if item.stem == "quotes" or "quote" in item.stem.lower():
-                try:
-                    content = item.read_text(encoding='utf-8')
-                    # Parse as voice-style table and create database
-                    from lib.notion.parsers import parse_voice_table
-                    from lib.notion.database import sync_voice_database
-                    
-                    rows = parse_voice_table(content)
-                    if rows:
-                        title = item.stem.replace('_', ' ').title()
-                        sync_voice_database(
-                            ctx.client,
-                            category_page_id,
-                            title,
-                            rows,
-                            mode=ctx.mode
-                        )
-                        log(f"    {item.stem}: {len(rows)} quotes")
-                except Exception as e:
-                    log(f"    {item.stem}: ERROR - {e}")
+            # Check if this directory contains further directories or just files
+            has_subdirs = any(child.is_dir() for child in item.iterdir())
             
-            # Profile: special card format with bold keys
-            elif category_name == "profile":
-                sync_md_to_page(ctx, category_page_id, item, f"lore:{char_folder}:profile", is_profile=True)
-            
-            # Fate episodes and special cutscenes: story format
+            if has_subdirs:
+                # Recurse into subdirectories
+                sync_lore_content(ctx, category_page_id, item, char_folder)
             else:
-                sync_md_to_page(ctx, category_page_id, item, f"lore:{char_folder}:{category_name}")
+                # Process files in this directory
+                for file_item in sorted(item.iterdir()):
+                    if file_item.suffix != ".md":
+                        continue
+                    
+                    # Special handling for quotes (database)
+                    if file_item.stem == "quotes" or "quote" in file_item.stem.lower():
+                        try:
+                            content = file_item.read_text(encoding='utf-8')
+                            from lib.notion.parsers import parse_voice_table
+                            from lib.notion.database import sync_voice_database
+                            
+                            rows = parse_voice_table(content)
+                            if rows:
+                                title = file_item.stem.replace('_', ' ').title()
+                                sync_voice_database(
+                                    ctx.client,
+                                    category_page_id,
+                                    title,
+                                    rows,
+                                    mode=ctx.mode
+                                )
+                                log(f"    {file_item.stem}: {len(rows)} quotes")
+                        except Exception as e:
+                            log(f"    {file_item.stem}: ERROR - {e}")
+                    
+                    # Profile: special card format
+                    elif item.name == "profile":
+                        sync_md_to_page(ctx, category_page_id, file_item, f"lore:{char_folder}:{item.name}", is_profile=True)
+                    
+                    # Others: story format
+                    else:
+                        sync_md_to_page(ctx, category_page_id, file_item, f"lore:{char_folder}:{item.name}")
+        elif item.suffix == ".md":
+            # Files in the root lore folder
+            sync_md_to_page(ctx, lore_page_id, item, f"lore:{char_folder}:root")
 
 
 def sync_folder_recursive(ctx: SyncContext, parent_id: str, folder: Path, cache_prefix: str):

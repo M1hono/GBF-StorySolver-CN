@@ -59,7 +59,7 @@ class VoiceExtractor:
             try:
                 url = f"https://gbf.wiki/{character_slug}/Voice"
                 print(f"Navigating to: {url}")
-                page.goto(url, wait_until="networkidle", timeout=60000)
+                self._safe_goto(page, url)
                 time.sleep(2)
                 
                 # 1. Parse TOC to understand page structure
@@ -85,6 +85,17 @@ class VoiceExtractor:
                 browser.close()
         
         return result
+
+    def _safe_goto(self, page: Page, url: str) -> None:
+        """
+        GBF Wiki pages may keep async requests alive indefinitely, so waiting
+        for `networkidle` is fragile. Prefer `load`, then fall back to
+        `domcontentloaded` for extraction-ready HTML.
+        """
+        try:
+            page.goto(url, wait_until="load", timeout=60000)
+        except Exception:
+            page.goto(url, wait_until="domcontentloaded", timeout=60000)
     
     def _parse_toc(self, page: Page) -> List[Dict]:
         """

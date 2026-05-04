@@ -310,6 +310,10 @@ def sync_character(ctx: SyncContext, char_section_id: str, char_folder: str, dis
         story_page_id = ctx.ensure_page(char_page_id, "Story")
         sync_character_stories(ctx, story_page_id, story_root, char_folder, event_filter)
 
+    # Top-level markdown notes (e.g. digest / writing guides)
+    if not event_filter:
+        sync_character_notes(ctx, char_page_id, content_root, char_folder)
+
     # Skip Lore and Voice if specific event is requested
     if event_filter:
         log(f"\n  (Skipping Lore/Voice - event filter active)")
@@ -348,6 +352,40 @@ def sync_character_stories(ctx: SyncContext, story_page_id: str, story_root: Pat
 
         for md_file in sorted(trans_path.glob("*.md")):
             sync_md_to_page(ctx, event_page_id, md_file, f"char_story:{char_folder}:{event_dir.name}")
+
+
+def sync_character_notes(ctx: SyncContext, char_page_id: str, content_root: Path, char_folder: str):
+    """Sync top-level character markdown notes directly under the character page."""
+    note_files = sorted(content_root.glob("*.md"))
+    if not note_files:
+        return
+
+    title_map = {
+        "laruna_story_digest": ("Digest", f"digest:{char_folder}"),
+        "laruna_words": ("Words", f"guide:{char_folder}:words"),
+        "laruna_act_react_guide": ("Act React Guide", f"guide:{char_folder}:act_react"),
+    }
+
+    log("\n  [Notes]")
+
+    for md_file in note_files:
+        if md_file.name.upper() == "README.MD":
+            continue
+
+        title, cache_key = title_map.get(
+            md_file.stem,
+            (md_file.stem.replace("_", " ").title(), f"char_note:{char_folder}:{md_file.stem}"),
+        )
+
+        try:
+            content = md_file.read_text(encoding="utf-8", errors="ignore").strip()
+            blocks = render_story_blocks(content)
+            page_id = ctx.ensure_page(char_page_id, title)
+            updated = ctx.sync_page_blocks(page_id, blocks, cache_key)
+            status = "updated" if updated else "skipped"
+            log(f"    {title}: {status}")
+        except Exception as e:
+            log(f"    {title}: ERROR - {e}")
 
 
 # =============================================================================

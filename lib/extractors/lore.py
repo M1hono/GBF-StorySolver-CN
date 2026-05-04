@@ -60,7 +60,7 @@ class LoreExtractor:
             try:
                 url = f"https://gbf.wiki/{character_slug}/Lore"
                 print(f"Navigating to: {url}")
-                page.goto(url, wait_until="networkidle", timeout=90000)
+                self._safe_goto(page, url)
                 time.sleep(2)
                 
                 files = []
@@ -105,6 +105,17 @@ class LoreExtractor:
                 browser.close()
         
         return result
+
+    def _safe_goto(self, page: Page, url: str) -> None:
+        """
+        GBF Wiki pages often keep background requests alive long enough that
+        Playwright's `networkidle` never fires. Prefer `load`, then fall back
+        to `domcontentloaded` so extraction can proceed on static page content.
+        """
+        try:
+            page.goto(url, wait_until="load", timeout=90000)
+        except Exception:
+            page.goto(url, wait_until="domcontentloaded", timeout=90000)
     
     def _extract_profile(self, page: Page, base: Path, char: str, url: str) -> List[str]:
         """Extract Official Profile tabs (English/Japanese only)."""
